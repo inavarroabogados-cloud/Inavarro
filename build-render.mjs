@@ -28,3 +28,8 @@ const linksHtml=`<!doctype html><html lang="es"><head><meta charset="utf-8"><met
 for(const pathname of ['enlaces','instagram']){fs.mkdirSync('dist/'+pathname,{recursive:true});fs.writeFileSync('dist/'+pathname+'/index.html',linksHtml);}
 const mapFile='dist/sitemap.xml';let map=fs.readFileSync(mapFile,'utf8');if(!map.includes(linkOrigin+'/enlaces/'))map=map.replace('</urlset>','<url><loc>'+linkOrigin+'/enlaces/</loc></url></urlset>');fs.writeFileSync(mapFile,map);
 
+
+// Use the approved standalone iN isotipo with a new URL to refresh browser caches.
+fs.copyFileSync('assets/marca.png','dist/isotipo-inavarro-20261012.png');
+for(const pathname of ['enlaces','instagram']){const file='dist/'+pathname+'/index.html';fs.writeFileSync(file,fs.readFileSync(file,'utf8').replaceAll('/marca.png','/isotipo-inavarro-20261012.png'));}
+
