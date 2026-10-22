@@ -1,0 +1,10 @@
+portal/node_modules/
+portal/dist/
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+**/oauth-credentials.json
+**/google-token.json
