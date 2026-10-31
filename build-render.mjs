@@ -142,3 +142,6 @@ fs.mkdirSync('dist/social/extranjeria-20261012',{recursive:true});
 for(const [name,data] of Object.entries(carouselImages))fs.writeFileSync('dist/social/extranjeria-20261012/'+name,Buffer.from(data,'base64'));
 
 await import('./portal-release.mjs');
+
+// Keep the tool in both supported Render build entrypoints.
+await import('./install-orientador.mjs');
