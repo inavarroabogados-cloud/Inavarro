@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Edición privada · ¿ESTO ES LEGAL?</title>
+    <link rel="stylesheet" href="/editor.css" />
+    <script type="module" src="/editor.js"></script>
+  </head>
+  <body>
+    <header>
+      <strong>iNAVARRO <span>ESTUDIO EDITORIAL</span></strong
+      ><span>Local · Acceso restringido · Sin publicación automática</span
+      ><button id="logout" hidden>Cerrar sesión</button>
+    </header>
+    <main>
+      <section id="login">
+        <p class="eyebrow">¿ESTO ES LEGAL? / CONTENIDO</p>
+        <h1>Primero, el criterio.</h1>
+        <p>
+          Acceso al banco privado de preguntas. No introduzcas información de
+          clientes.
+        </p>
+        <form id="login-form">
+          <label for="password">Contraseña del entorno local</label
+          ><input
+            id="password"
+            type="password"
+            autocomplete="current-password"
+            required
+            minlength="16"
+            maxlength="1024"
+          /><button type="submit">Entrar al estudio</button>
+        </form>
+      </section>
+      <section id="workspace" hidden>
+        <div class="heading">
+          <div>
+            <p class="eyebrow">BANCO EDITORIAL</p>
+            <h1>Preguntas con fundamento.</h1>
+          </div>
+          <a href="/api/export" download>Exportar copia JSON</a>
+        </div>
+        <p class="notice">
+          Guardar un contraste registra una declaración del revisor; no verifica
+          automáticamente fuentes ni conecta con vLex Vincent. Ningún borrador
+          se incorpora al juego público.
+        </p>
+        <div class="layout">
+          <aside>
+            <button id="new-question">＋ Nueva pregunta</button>
+            <ul id="draft-list"></ul>
+          </aside>
+          <form id="question-form" novalidate>
+            <h2 id="form-title">Nueva pregunta</h2>
+            <label for="title">Título interno</label
+            ><input id="title" maxlength="140" required /><label
+              for="jurisdiction"
+              >Jurisdicción y ámbito</label
+            ><input
+              id="jurisdiction"
+              maxlength="150"
+              required
+              placeholder="Indica el ámbito; no se deduce por el idioma"
+            /><label for="prompt">Enunciado</label
+            ><textarea id="prompt" maxlength="700" required></textarea>
+            <div class="row">
+              <div>
+                <label for="level">Nivel</label
+                ><select id="level">
+                  <option value="1">1 · Primeras pistas</option>
+                  <option value="2">2 · Doble lectura</option>
+                  <option value="3">3 · El matiz</option>
+                </select>
+              </div>
+              <div>
+                <label for="scene">Escenario</label
+                ><select id="scene">
+                  <option value="plaza">Plaza</option>
+                  <option value="biblioteca">Biblioteca</option>
+                  <option value="jardin">Jardín</option>
+                </select>
+              </div>
+            </div>
+            <fieldset>
+              <legend>Respuestas · Selecciona la correcta</legend>
+              <div class="option">
+                <input
+                  type="radio"
+                  name="correct"
+                  value="0"
+                  aria-label="Respuesta A correcta"
+                  required
+                /><label for="option-0">A</label
+                ><input id="option-0" maxlength="250" required />
+              </div>
+              <div class="option">
+                <input
+                  type="radio"
+                  name="correct"
+                  value="1"
+                  aria-label="Respuesta B correcta"
+                /><label for="option-1">B</label
+                ><input id="option-1" maxlength="250" required />
+              </div>
+              <div class="option">
+                <input
+                  type="radio"
+                  name="correct"
+                  value="2"
+                  aria-label="Respuesta C correcta"
+                /><label for="option-2">C</label
+                ><input id="option-2" maxlength="250" required />
+              </div>
+            </fieldset>
+            <label for="explanation">Explicación didáctica</label
+            ><textarea id="explanation" maxlength="1600" required></textarea
+            ><label for="hint">Pista de Aura</label
+            ><input id="hint" maxlength="250" required />
+            <fieldset>
+              <legend>Fuentes contrastadas</legend>
+              <p>
+                Referencias exactas y enlaces HTTPS. No inventar sentencias ni
+                ECLI.
+              </p>
+              <label for="law-title">Legislación · título</label
+              ><input id="law-title" maxlength="200" /><label for="law-ref"
+                >Artículo y referencia</label
+              ><input id="law-ref" maxlength="200" /><label for="law-url"
+                >Enlace a legislación</label
+              ><input id="law-url" type="url" maxlength="600" /><label
+                for="case-title"
+                >Jurisprudencia · órgano y resolución (opcional)</label
+              ><input id="case-title" maxlength="200" /><label for="case-ref"
+                >ECLI / referencia exacta (si existe)</label
+              ><input id="case-ref" maxlength="200" /><label for="case-url"
+                >Enlace a resolución</label
+              ><input id="case-url" type="url" maxlength="600" />
+            </fieldset>
+            <fieldset>
+              <legend>Revisión humana</legend>
+              <label for="reviewer">Identificación del revisor</label
+              ><input id="reviewer" maxlength="150" /><label for="reviewDate"
+                >Fecha de revisión</label
+              ><input id="reviewDate" type="date" /><label for="reviewNotes"
+                >Notas de contraste, vigencia y matices</label
+              ><textarea id="reviewNotes" maxlength="1600"></textarea
+              ><label class="check"
+                ><input id="vincentReviewed" type="checkbox" /> Declaro haber
+                contrastado estas referencias con vLex Vincent y sus textos
+                originales.</label
+              >
+            </fieldset>
+            <div id="field-errors" role="alert"></div>
+            <button type="submit" id="save">Guardar borrador privado</button>
+          </form>
+        </div>
+      </section>
+      <p id="status" role="status" aria-live="polite"></p>
+    </main>
+    <footer>
+      Solo ficción y contenido editorial general. No incorporar expedientes ni
+      datos personales. El juego público sigue usando únicamente preguntas de
+      demostración.
+    </footer>
+  </body>
+</html>

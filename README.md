@@ -19,3 +19,7 @@ Consulta [DEPLOYMENT.md](DEPLOYMENT.md) para configurar el secreto de Render de 
 ## Elenco «¿ESTO ES LEGAL?»
 
 La galería se instala en `/esto-es-legal/` durante ambas compilaciones y se enlaza desde portada y enlaces sociales. Recursos editables en `web/esto-es-legal/`. Ver [integración y comprobaciones](docs/ELENCO-WEB.md). Prueba: `node --test tests/test_personajes.mjs` después de compilar el portal.
+
+## Videojuego jugable «¿ESTO ES LEGAL?»
+
+La ruta `/esto-es-legal/` ahora contiene partidas de cinco preguntas ficticias, tres niveles, música original sintetizada, recompensas y tarjetas compartibles. La galería original permanece en `/esto-es-legal/personajes/`. [Instrucciones de prueba local y resultados](docs/game/README.md). [Panel editorial privado local](game-editor/README.md), fuera de la compilación pública. No desplegado.

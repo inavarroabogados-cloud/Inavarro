@@ -1,3 +1,7 @@
 __pycache__/
 .env
 .env.*
+# Local game editorial data and generated portal output
+/game-editor/data/
+/dist/
+/assets/

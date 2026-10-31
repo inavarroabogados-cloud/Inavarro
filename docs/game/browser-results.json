@@ -1,0 +1,130 @@
+{
+  "viewports": [
+    {
+      "name": "home",
+      "width": 360,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "name": "home",
+      "width": 390,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "name": "home",
+      "width": 768,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "name": "home",
+      "width": 1440,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "name": "feedback",
+      "width": 360,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "name": "feedback",
+      "width": 390,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "name": "feedback",
+      "width": 768,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "name": "feedback",
+      "width": 1440,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "name": "result",
+      "width": 360,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "name": "result",
+      "width": 390,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "name": "result",
+      "width": 768,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "name": "result",
+      "width": 1440,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "name": "editor",
+      "width": 390,
+      "overflow": false,
+      "violations": []
+    }
+  ],
+  "flows": [
+    "five correct + hint = 570; reward; generic PNG download; local share protection",
+    "card asset failure shows error and re-enables download control",
+    "five incorrect = 0; supportive reward; restart clears state",
+    "sprint pause/resume and timeout show explanation",
+    "simulated pagehide/pageshow preserves paused sprint time",
+    "exit confirmation preserves or clears round",
+    "reduced motion applies to CSS and mascot reactions",
+    "Web Audio enabled only after gesture; independent music/effect switches",
+    "keyboard skip link and programmatic question/feedback focus",
+    "unsupported Web Share + denied clipboard exposes clean selectable URL",
+    "WhatsApp generic text; native share success, cancellation and error without external messaging",
+    "private editor login, field errors, fictional draft persistence and logout",
+    "game requests contain no answers or scores; no persistent browser storage"
+  ],
+  "errors": [],
+  "requests": [
+    "http://local-preview/esto-es-legal/",
+    "http://local-preview/esto-es-legal/game.css",
+    "http://local-preview/esto-es-legal/game.js",
+    "http://local-preview/esto-es-legal/mascot.js",
+    "http://local-preview/esto-es-legal/questions.js",
+    "http://local-preview/esto-es-legal/game-core.js",
+    "http://local-preview/esto-es-legal/audio.js",
+    "http://local-preview/esto-es-legal/mascot.css",
+    "http://local-preview/esto-es-legal/svg/don-lex/alegria.svg",
+    "http://local-preview/esto-es-legal/svg/trampin/duda.svg",
+    "http://local-preview/esto-es-legal/svg/lexi/alegria.svg",
+    "http://local-preview/esto-es-legal/svg/trampin/alegria.svg",
+    "http://local-preview/esto-es-legal/svg/brinco/alegria.svg",
+    "http://local-preview/esto-es-legal/svg/lumina/alegria.svg",
+    "http://local-preview/esto-es-legal/svg/aura/alegria.svg",
+    "http://local-preview/esto-es-legal/svg/elion/alegria.svg",
+    "http://local-preview/esto-es-legal/svg/lexi/celebracion.svg",
+    "http://local-preview/esto-es-legal/svg/trampin/sorpresa.svg",
+    "http://local-preview/esto-es-legal/svg/don-lex/celebracion.svg",
+    "http://local-preview/esto-es-legal/svg/aura/celebracion.svg",
+    "http://local-preview/esto-es-legal/svg/lumina/victoria.svg",
+    "http://local-preview/esto-es-legal/svg/don-lex/victoria.svg",
+    "http://local-preview/esto-es-legal/svg/lexi/duda.svg",
+    "http://local-preview/",
+    "http://local-preview/editor.css",
+    "http://local-preview/editor.js",
+    "http://local-preview/api/session",
+    "http://local-preview/api/login",
+    "http://local-preview/api/questions",
+    "http://local-preview/api/logout"
+  ]
+}
