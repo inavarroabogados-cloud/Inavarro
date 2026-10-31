@@ -15,3 +15,7 @@ Dominio externo confirmado por el titular: https://inavarro-abogados.onrender.co
 ## Ciclo completo de publicación
 
 Consulta [DEPLOYMENT.md](DEPLOYMENT.md) para configurar el secreto de Render de forma segura, verificar el servicio real y publicar con seguimiento de estado, registros y pruebas HTTP mediante `ops/render.py`. No declarar una publicación por el mero hecho de hacer push. No ejecutar `deploy` sin autorización del titular.
+
+## Elenco «¿ESTO ES LEGAL?»
+
+La galería se instala en `/esto-es-legal/` durante ambas compilaciones y se enlaza desde portada y enlaces sociales. Recursos editables en `web/esto-es-legal/`. Ver [integración y comprobaciones](docs/ELENCO-WEB.md). Prueba: `node --test tests/test_personajes.mjs` después de compilar el portal.

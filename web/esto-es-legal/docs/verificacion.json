@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "width": 360,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "statesTested": 42,
+  "animationCompleted": true,
+  "reducedMotionRespected": true,
+  "pngCards": 21
+}

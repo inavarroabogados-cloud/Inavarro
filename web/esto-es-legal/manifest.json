@@ -1,0 +1,127 @@
+{
+  "universe": "¿ESTO ES LEGAL?",
+  "version": "1.0.0",
+  "viewBox": "0 0 320 320",
+  "expressions": {
+    "alegria": "Alegría",
+    "duda": "Duda",
+    "sorpresa": "Sorpresa",
+    "celebracion": "Celebración",
+    "desacuerdo": "Desacuerdo",
+    "victoria": "Victoria"
+  },
+  "characters": [
+    {
+      "id": "don-lex",
+      "name": "Don Lex",
+      "role": "Búho juez · Presenta los retos",
+      "accent": "#D6A16A",
+      "background": "#EDE5D7",
+      "voice": "Autoridad amable, escucha y criterio.",
+      "assets": {
+        "alegria": "svg/don-lex/alegria.svg",
+        "duda": "svg/don-lex/duda.svg",
+        "sorpresa": "svg/don-lex/sorpresa.svg",
+        "celebracion": "svg/don-lex/celebracion.svg",
+        "desacuerdo": "svg/don-lex/desacuerdo.svg",
+        "victoria": "svg/don-lex/victoria.svg"
+      }
+    },
+    {
+      "id": "trampin",
+      "name": "Trampín",
+      "role": "Zorro travieso · Pone a prueba los mitos",
+      "accent": "#D67C49",
+      "background": "#F4E2CF",
+      "voice": "Ingenio cómico. Equivocarse es parte de aprender.",
+      "assets": {
+        "alegria": "svg/trampin/alegria.svg",
+        "duda": "svg/trampin/duda.svg",
+        "sorpresa": "svg/trampin/sorpresa.svg",
+        "celebracion": "svg/trampin/celebracion.svg",
+        "desacuerdo": "svg/trampin/desacuerdo.svg",
+        "victoria": "svg/trampin/victoria.svg"
+      }
+    },
+    {
+      "id": "lexi",
+      "name": "Lexi",
+      "role": "Robot asistente · Explica y guía",
+      "accent": "#72ADA7",
+      "background": "#DEEBE8",
+      "voice": "Claridad paciente, sin conclusiones jurídicas automáticas.",
+      "assets": {
+        "alegria": "svg/lexi/alegria.svg",
+        "duda": "svg/lexi/duda.svg",
+        "sorpresa": "svg/lexi/sorpresa.svg",
+        "celebracion": "svg/lexi/celebracion.svg",
+        "desacuerdo": "svg/lexi/desacuerdo.svg",
+        "victoria": "svg/lexi/victoria.svg"
+      }
+    },
+    {
+      "id": "brinco",
+      "name": "Brinco",
+      "role": "Conejo enérgico · Activa los bonus",
+      "accent": "#7AABB8",
+      "background": "#E3ECEC",
+      "voice": "Entusiasmo ligero: la velocidad nunca sustituye al criterio.",
+      "assets": {
+        "alegria": "svg/brinco/alegria.svg",
+        "duda": "svg/brinco/duda.svg",
+        "sorpresa": "svg/brinco/sorpresa.svg",
+        "celebracion": "svg/brinco/celebracion.svg",
+        "desacuerdo": "svg/brinco/desacuerdo.svg",
+        "victoria": "svg/brinco/victoria.svg"
+      }
+    },
+    {
+      "id": "lumina",
+      "name": "Lúmina",
+      "role": "Unicornio · Celebra los logros",
+      "accent": "#A48BC9",
+      "background": "#EDE6F3",
+      "voice": "Reconoce el progreso, no promete resultados legales.",
+      "assets": {
+        "alegria": "svg/lumina/alegria.svg",
+        "duda": "svg/lumina/duda.svg",
+        "sorpresa": "svg/lumina/sorpresa.svg",
+        "celebracion": "svg/lumina/celebracion.svg",
+        "desacuerdo": "svg/lumina/desacuerdo.svg",
+        "victoria": "svg/lumina/victoria.svg"
+      }
+    },
+    {
+      "id": "aura",
+      "name": "Aura",
+      "role": "Hada amable · Ofrece pistas",
+      "accent": "#7FA889",
+      "background": "#E4EDE1",
+      "voice": "Ayuda sin juzgar y anima a intentarlo de nuevo.",
+      "assets": {
+        "alegria": "svg/aura/alegria.svg",
+        "duda": "svg/aura/duda.svg",
+        "sorpresa": "svg/aura/sorpresa.svg",
+        "celebracion": "svg/aura/celebracion.svg",
+        "desacuerdo": "svg/aura/desacuerdo.svg",
+        "victoria": "svg/aura/victoria.svg"
+      }
+    },
+    {
+      "id": "elion",
+      "name": "Elion",
+      "role": "Elfo estratega · Introduce los matices",
+      "accent": "#789080",
+      "background": "#E6E9DF",
+      "voice": "Curiosidad y razonamiento para preguntas más complejas.",
+      "assets": {
+        "alegria": "svg/elion/alegria.svg",
+        "duda": "svg/elion/duda.svg",
+        "sorpresa": "svg/elion/sorpresa.svg",
+        "celebracion": "svg/elion/celebracion.svg",
+        "desacuerdo": "svg/elion/desacuerdo.svg",
+        "victoria": "svg/elion/victoria.svg"
+      }
+    }
+  ]
+}

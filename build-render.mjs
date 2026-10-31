@@ -152,3 +152,7 @@ await import('./install-orientador.mjs');
 const releaseCommit=process.env.RENDER_GIT_COMMIT||execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();
 if(!/^[a-f0-9]{40}$/.test(releaseCommit))throw new Error('Invalid release commit');
 fs.writeFileSync('dist/deployment.json',JSON.stringify({commit:releaseCommit,service:'inavarro-abogados'})+'\n');
+
+// Reapply after Render-specific link-in-bio pages have been generated.
+const {installCharacters}=await import('./install-personajes.mjs');
+installCharacters();
