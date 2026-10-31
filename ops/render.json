@@ -1,0 +1,15 @@
+{
+  "service_name": "inavarro-abogados",
+  "expected_repository": "https://github.com/inavarroabogados-cloud/Inavarro",
+  "expected_branch": "main",
+  "public_origin": "https://inavarro-abogados.onrender.com",
+  "expected_type": "static_site",
+  "expected_publish_path": "dist",
+  "accepted_build_commands": ["node deploy.mjs", "node build-render.mjs"],
+  "checks": {
+    "/": "iNavarro",
+    "/y-ahora-que/": "ponerlo en claro",
+    "/y-ahora-que/orientador/": "¿Sobre qué tema quieres consultar?",
+    "/y-ahora-que/guias/preparar-consulta/": "Qué preparar antes de consultar con un abogado"
+  }
+}

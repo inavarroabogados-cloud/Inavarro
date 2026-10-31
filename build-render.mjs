@@ -1,5 +1,7 @@
 import fs from 'node:fs';
 import {execFileSync} from 'node:child_process';
+// Support direct builds in a fresh Render checkout, not only the deploy wrapper.
+if(!fs.existsSync('assets'))execFileSync('tar',['-xzf','assets.tar.gz'],{stdio:'inherit'});
 const origin=process.env.SITE_ORIGIN||process.env.RENDER_EXTERNAL_URL;
 if(!origin)throw new Error('Set SITE_ORIGIN to the confirmed HTTPS deployment URL');
 const url=new URL(origin);if(url.protocol!=='https:')throw new Error('HTTPS required');
@@ -145,3 +147,8 @@ await import('./portal-release.mjs');
 
 // Keep the tool in both supported Render build entrypoints.
 await import('./install-orientador.mjs');
+
+// Public, non-secret release marker for CDN/version verification.
+const releaseCommit=process.env.RENDER_GIT_COMMIT||execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();
+if(!/^[a-f0-9]{40}$/.test(releaseCommit))throw new Error('Invalid release commit');
+fs.writeFileSync('dist/deployment.json',JSON.stringify({commit:releaseCommit,service:'inavarro-abogados'})+'\n');
