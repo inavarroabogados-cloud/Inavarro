@@ -1,0 +1,35 @@
+{
+  "tool": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "advisories": []
+  },
+  "client": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 1,
+      "critical": 0,
+      "total": 1
+    },
+    "advisories": [
+      {
+        "name": "vite",
+        "severity": "high",
+        "range": "8.0.0 - 8.1.5",
+        "fixAvailable": {
+          "name": "vite",
+          "version": "8.3.5",
+          "isSemVerMajor": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "width": 360,
+    "path": "/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 360,
+    "path": "/contacto/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 360,
+    "path": "/clientes/acceso/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 360,
+    "path": "/administracion/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 360,
+    "path": "/y-ahora-que/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 360,
+    "path": "/y-ahora-que/orientador/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 390,
+    "path": "/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 390,
+    "path": "/contacto/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 390,
+    "path": "/clientes/acceso/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 390,
+    "path": "/administracion/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 390,
+    "path": "/y-ahora-que/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 390,
+    "path": "/y-ahora-que/orientador/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 768,
+    "path": "/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 768,
+    "path": "/contacto/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 768,
+    "path": "/clientes/acceso/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 768,
+    "path": "/administracion/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 768,
+    "path": "/y-ahora-que/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 768,
+    "path": "/y-ahora-que/orientador/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "path": "/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "path": "/contacto/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "path": "/clientes/acceso/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "path": "/administracion/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "path": "/y-ahora-que/",
+    "horizontal": false,
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "path": "/y-ahora-que/orientador/",
+    "horizontal": false,
+    "violations": []
+  }
+]

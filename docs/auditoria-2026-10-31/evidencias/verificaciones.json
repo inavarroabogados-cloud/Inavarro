@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-31",
+  "portal_commit": "290e12e9d8bd7f5eca82827d0555d5162b1de507",
+  "tool_commit": "5da3576da187353c9041fade572ad769e3e6996f",
+  "production": {
+    "http": "blocked_by_environment_CONNECT_403",
+    "render_api": "no_ready_credentials",
+    "deploy_attempted": false,
+    "client_data_accessed": false,
+    "core_web_vitals": "not_measured"
+  },
+  "local": {
+    "render_runner": {
+      "passed": 19,
+      "failed": 0,
+      "mocked": true
+    },
+    "drive_handler": {
+      "passed": 5,
+      "failed": 0,
+      "mocked": true
+    },
+    "orientador_rules": {
+      "passed": 7,
+      "failed": 0
+    },
+    "tool_typecheck": "passed",
+    "client_typecheck": "passed",
+    "client_build": "passed",
+    "public_build": "passed_offline_editorial_fixture",
+    "private_bundle_reproduction": {
+      "javascript": "byte_identical",
+      "css": "byte_identical"
+    },
+    "axe_combinations": 24,
+    "axe_violations": 0,
+    "horizontal_overflow_combinations": 0,
+    "authenticated_pages_tested": false,
+    "mounted_orientador_journey": "passed_unknown_correction_deadline_reset"
+  },
+  "artifacts": {
+    "portal-release.mjs": {
+      "sha256": "60623eb897d25fe3a319ff15938cb5c4c1cdf3e69a84b4c6c3ac48f82f6f47f1",
+      "bytes": 297239
+    },
+    "assets.tar.gz": {
+      "sha256": "a63b46738810ed2fe7bdfe5006049a3f5254685165348358d0155716907cc1e3",
+      "bytes": 414463
+    },
+    "orientador-static.tar.gz": {
+      "sha256": "746b23b2b8c4252ae4fc711ed6777eed4422caa8e6341fce099f05623f6c9ea3",
+      "bytes": 1768063
+    }
+  },
+  "limitations": [
+    "No live RLS or Storage tests",
+    "No real OAuth/SMTP/calendar tests",
+    "No backup restoration performed",
+    "No independent BOE or jurisprudence verification",
+    "No legal compliance certification",
+    "No line coverage measured"
+  ]
+}
