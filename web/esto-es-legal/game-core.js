@@ -83,7 +83,7 @@ export function reward(state) {
   };
 }
 export const SHARE_TEXT =
-  "¿Un zorro te haría caer en una pregunta trampa? Prueba ¿ESTO ES LEGAL? · Cinco retos de demostración, normas inventadas y siete personajes.";
+  "¿Un zorro te haría caer en una pregunta trampa? Prueba ¿ESTO ES LEGAL? · Cinco casos ficticios sobre contratos, consumo y privacidad. Contenido jurídico provisional.";
 export function publicChallengeUrl(origin) {
   const u = new URL(origin);
   if (!["http:", "https:"].includes(u.protocol)) throw Error("Origen inválido");

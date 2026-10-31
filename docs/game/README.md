@@ -36,7 +36,11 @@ Para probar en tu iPhone en la misma red, detener el servidor Python y ejecutarl
 
 ## Reglas del juego
 
-Banco de diez preguntas de demostración, selección aleatoria estratificada de cinco sin repetir dentro de una partida. Las normas de Villa Lex son **inventadas**; no son legislación española ni precedentes judiciales. Se practica lectura de reglas, excepciones y fuentes. No se ha utilizado ni consultado vLex Vincent en esta entrega.
+Banco de **15 casos ficticios de contenido jurídico provisional**, con cinco preguntas por nivel y selección aleatoria de cinco sin repetir dentro de una partida. Temas: contratos, vivienda, consumo, trabajo, imagen, garantías, prueba digital, protección de datos, sucesiones y procedimiento. Cada caso incluye un documento simulado, una pregunta, una explicación y referencias normativas propuestas para contraste.
+
+Se han retirado las reglas imaginarias de Villa Lex. Los casos son ficticios; las referencias apuntan a textos normativos del BOE o EUR-Lex, pero **no se han consultado ni contrastado sus versiones en esta entrega** y no se presentan como revisión profesional. No se inventa jurisprudencia. El ámbito propuesto es España/UE, pendiente de confirmación antes de publicar; `editorialScope` mantiene `publicationAllowed:false` y `jurisdictionConfirmed:false`. No se ha utilizado vLex Vincent.
+
+Ver [los 15 retos y sus respuestas propuestas](RETOS-JURIDICOS.md) para revisión editorial; es un documento con soluciones, no una pantalla del jugador.
 
 Acierto: 100 puntos base; con pista: 80. Racha: +10 por acierto previo consecutivo, hasta +30. Reto rápido: +20 si se acierta en los primeros 15 segundos activos. Error o tiempo agotado: cero, sin restar. Máximo sin pistas: 590 normal / 690 rápido. Medallas por aciertos: 5 «Ojo de Elion», 3–4 «Criterio en marcha», 0–2 «La curiosidad cuenta». No son puntuaciones jurídicas.
 
@@ -75,7 +79,7 @@ El recorrido usa el Chromium descargado por Playwright; para uno ya instalado: `
 
 ## Límites de esta entrega
 
-No integra vLex ni publica contenidos revisados automáticamente; el banco público sigue siendo ficticio. El editor es de un solo operador local, no un CMS multiusuario de producción. Sin prueba física en iPhone ni validación real de instalación en Render; no equivale a certificar WCAG o Core Web Vitals en producción. El backend privado no puede desplegarse como parte de un Static Site.
+No integra vLex ni publica contenidos revisados automáticamente; los casos siguen siendo ficticios y su contenido jurídico está pendiente de revisión. El editor es de un solo operador local, no un CMS multiusuario de producción. Sin prueba física en iPhone ni validación real de instalación en Render; no equivale a certificar WCAG o Core Web Vitals en producción. El backend privado no puede desplegarse como parte de un Static Site.
 
 ## Restauración
 

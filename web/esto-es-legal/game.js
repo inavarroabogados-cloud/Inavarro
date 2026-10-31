@@ -119,7 +119,19 @@ function home(focus = false) {
   main.replaceChildren();
   const section = el("section", undefined, "home");
   section.innerHTML =
-    '<div class="home-intro"><div class="intro-copy"><p class="eyebrow">CINCO RETOS. SIETE CÓMPLICES. UN MATIZ.</p><h1>¿ESTO ES<br><em>LEGAL?</em></h1><p class="subtitle">Parece fácil. Hasta que aparece Trampín.<br>Lee, elige y encuentra el detalle que lo cambia todo.</p><fieldset class="game-mode"><legend>Elige cómo jugar</legend><label><input type="radio" name="mode" value="relaxed" checked> A tu ritmo</label><label><input type="radio" name="mode" value="sprint"> Reto rápido · 20 s</label></fieldset><div id="start-slot"></div><p class="fine">Sin registro · Sin datos personales · Cinco preguntas</p><details class="scoring-guide"><summary>¿Cómo se puntúa?</summary><p>100 por acierto, o 80 con pista. La racha suma hasta 30 extra. En reto rápido, Brinco añade 20 si aciertas antes de 15 segundos. Un error no resta puntos.</p></details><span class="sound-notice">Música y efectos apagados al entrar. Actívalos cuando quieras.</span></div><div class="hero-world" aria-label="Don Lex, Trampín y Lexi te esperan en Villa Lex"><div class="world-floor"></div><span class="sky-star one" aria-hidden="true">✦</span><span class="sky-star two" aria-hidden="true">✧</span><span class="sky-star three" aria-hidden="true">✦</span><span class="speech-bubble">La letra pequeña tiene su gracia.</span><span class="world-label">BIENVENIDO A VILLA LEX</span></div></div><div class="cast-parade" aria-label="Los siete personajes"></div><div class="home-bottom"><span>Normas ficticias para aprender a leer con criterio.</span><span>Contenido pendiente de revisión con vLex Vincent.</span></div>';
+    '<div class="home-intro"><div class="intro-copy"><p class="eyebrow">CINCO RETOS. SIETE CÓMPLICES. UN MATIZ.</p><h1>¿ESTO ES<br><em>LEGAL?</em></h1><p class="subtitle">¿Un contrato por WhatsApp vale? ¿La fianza paga el último mes?<br>Pon a prueba tu criterio con cinco casos de la vida cotidiana.</p><fieldset class="game-mode"><legend>Elige cómo jugar</legend><label><input type="radio" name="mode" value="relaxed" checked> A tu ritmo</label><label><input type="radio" name="mode" value="sprint"> Reto rápido · 20 s</label></fieldset><div id="start-slot"></div><p class="fine">Sin registro · Sin datos personales · Cinco preguntas</p><details class="scoring-guide"><summary>¿Cómo se puntúa?</summary><p>100 por acierto, o 80 con pista. La racha suma hasta 30 extra. En reto rápido, Brinco añade 20 si aciertas antes de 15 segundos. Un error no resta puntos.</p></details><span class="sound-notice">Música y efectos apagados al entrar. Actívalos cuando quieras.</span></div><div class="hero-world" aria-label="Don Lex, Trampín y Lexi presentan cinco casos jurídicos"><div class="world-floor"></div><span class="sky-star one" aria-hidden="true">✦</span><span class="sky-star two" aria-hidden="true">✧</span><span class="sky-star three" aria-hidden="true">✦</span><span class="speech-bubble">La letra pequeña tiene su gracia.</span><span class="world-label">EL DESPACHO DE DON LEX</span></div></div><div class="cast-parade" aria-label="Los siete personajes"></div><div class="home-bottom"><span>Casos ficticios. Contenido jurídico provisional.</span><span>Contenido pendiente de revisión con vLex Vincent.</span></div>';
+  const topics = el("div", undefined, "legal-topics");
+  topics.setAttribute("aria-label", "Temas de las preguntas");
+  for (const topic of [
+    "Contratos",
+    "Vivienda",
+    "Trabajo",
+    "Consumo",
+    "Privacidad",
+    "Prueba y garantías",
+  ])
+    topics.append(el("span", topic));
+  section.querySelector(".subtitle").after(topics);
   const world = section.querySelector(".hero-world");
   for (const [id, cls] of [
     ["don-lex", "hero-owl"],
@@ -206,10 +218,10 @@ function renderQuestion(focus = true) {
     el(
       "span",
       q.scene === "plaza"
-        ? "PLAZA DE LOS MATICES"
+        ? "MESA DE CONTRATOS"
         : q.scene === "jardin"
-          ? "JARDÍN DE LAS PISTAS"
-          : "BIBLIOTECA DE LAS DUDAS",
+          ? "SALA DE ACUERDOS"
+          : "ARCHIVO DE PRUEBAS",
       "scene-tag",
     ),
   );
@@ -235,7 +247,18 @@ function renderQuestion(focus = true) {
     t.setAttribute("aria-hidden", "true");
     meta.append(t);
   }
-  card.append(meta, el("h1", q.prompt));
+  const dossier = el("section", undefined, "case-dossier");
+  dossier.setAttribute("aria-label", "Documento simulado del caso");
+  dossier.append(
+    el(
+      "p",
+      `CASO ${String(state.index + 1).padStart(2, "0")} / ${q.topic.toUpperCase()}`,
+      "case-label",
+    ),
+    el("h2", q.title),
+    el("p", q.exhibit, "case-exhibit"),
+  );
+  card.append(meta, dossier, el("h1", q.prompt));
   const answers = el("div", undefined, "answers");
   answers.setAttribute("role", "group");
   answers.setAttribute("aria-label", "Elige una respuesta");
@@ -385,10 +408,21 @@ function submitAnswer(choice) {
     el("p", q.explanation),
     el(
       "p",
-      `Fuente de demostración: ${q.sources[0].reference}. Norma inventada; sin validación de legislación ni jurisprudencia.`,
+      "Referencias para contraste editorial. No verificadas en esta entrega; no se ha realizado revisión con vLex Vincent.",
       "source",
     ),
   );
+  const sourceList = el("ul", undefined, "legal-sources");
+  for (const source of q.sources) {
+    const item = el("li");
+    const link = el("a", `${source.title} · ${source.reference}`);
+    link.href = source.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    item.append(link);
+    sourceList.append(item);
+  }
+  feedback.append(sourceList);
   feedback.append(
     button(
       state.index === 4 ? "Ver mi recompensa  ✦" : "Siguiente reto  →",
@@ -511,7 +545,7 @@ function showResult() {
     recap,
     el(
       "p",
-      "Demostración con normas ficticias. No valora casos reales. Contenido pendiente de revisión con vLex Vincent.",
+      "Casos ficticios con contenido jurídico provisional. No valora casos reales. Pendiente de revisión con vLex Vincent.",
       "fine",
     ),
   );
@@ -626,7 +660,7 @@ async function storyBlob() {
   ctx.font = "bold 48px sans-serif";
   ctx.fillText("Cinco retos. ¿Encuentras el matiz?", 85, 1480);
   ctx.font = "30px sans-serif";
-  ctx.fillText("Normas inventadas · Juego de demostración", 85, 1560);
+  ctx.fillText("Casos ficticios · Contenido jurídico provisional", 85, 1560);
   ctx.fillText(
     loopback.includes(location.hostname)
       ? "VISTA PREVIA · AÚN SIN PUBLICAR"

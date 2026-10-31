@@ -1,22 +1,23 @@
-✔ audio is opt-in, original effects schedule finite notes, mute stops voices and hidden page is silent (2.243986ms)
-✔ unsupported audio does not prevent game controls from continuing (0.29871ms)
-✔ five questions, escalating levels, original bank untouched (3.382621ms)
-✔ correct answers, combo, victory and duplicate prevention (1.696801ms)
-✔ hint reduces base once; incorrect and timeout reset combo (0.475471ms)
-✔ sprint bonus has explicit threshold; relaxed never rewards speed (0.365475ms)
-✔ all demo content is explicitly fictitious with no invented real case citation (0.264055ms)
-✔ share URL strips query, hash and path; text has no answers or score (0.557014ms)
-✔ editor accepts drafts, validates answers and rejects unsafe sources (0.58148ms)
-✔ declared Vincent review requires human identity, date, notes and legislation (0.901861ms)
-✔ all original 42 illustrations and animation implementation preserved byte for byte (161.862709ms)
-✔ private editor: authentication, CSRF, storage, conflict, errors and logout (528.820199ms)
+✔ audio is opt-in, original effects schedule finite notes, mute stops voices and hidden page is silent (1.999789ms)
+✔ unsupported audio does not prevent game controls from continuing (0.220914ms)
+✔ five questions, escalating levels, original bank untouched (3.831683ms)
+✔ correct answers, combo, victory and duplicate prevention (0.36256ms)
+✔ hint reduces base once; incorrect and timeout reset combo (0.487764ms)
+✔ sprint bonus has explicit threshold; relaxed never rewards speed (0.289793ms)
+✔ legal demo uses everyday cases, real-reference proposals and explicit pending review (0.788198ms)
+✔ legal bank: repeated rounds cannot duplicate cases or mutate the bank (4.899003ms)
+✔ share URL strips query, hash and path; text has no answers or score (0.225492ms)
+✔ editor accepts drafts, validates answers and rejects unsafe sources (0.784762ms)
+✔ declared Vincent review requires human identity, date, notes and legislation (0.82691ms)
+✔ all original 42 illustrations and animation implementation preserved byte for byte (141.388248ms)
+✔ private editor: authentication, CSRF, storage, conflict, errors and logout (510.975187ms)
 Elenco instalado en /esto-es-legal/ con recursos locales.
-✔ installer preserves private pages and is idempotent (10.322919ms)
-ℹ tests 13
+✔ installer preserves private pages and is idempotent (7.9118ms)
+ℹ tests 14
 ℹ suites 0
-ℹ pass 13
+ℹ pass 14
 ℹ fail 0
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 613.525404
+ℹ duration_ms 595.424445

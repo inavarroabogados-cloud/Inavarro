@@ -3,7 +3,10 @@ import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
 import fs from "node:fs";
 import { execFileSync } from "node:child_process";
-import { questions } from "../../web/esto-es-legal/questions.js";
+import {
+  questions,
+  editorialScope,
+} from "../../web/esto-es-legal/questions.js";
 import {
   startRound,
   answerRound,
@@ -65,14 +68,48 @@ test("sprint bonus has explicit threshold; relaxed never rewards speed", () => {
     );
   }
 });
-test("all demo content is explicitly fictitious with no invented real case citation", () => {
+test("legal demo uses everyday cases, real-reference proposals and explicit pending review", () => {
+  assert.equal(questions.length, 15);
+  assert.equal(editorialScope.publicationAllowed, false);
+  assert.equal(editorialScope.jurisdictionConfirmed, false);
+  const allowed = new Set(["www.boe.es", "eur-lex.europa.eu"]);
   for (const q of questions) {
     assert.equal(q.status, "demo");
     assert.equal(q.review.vincentVerified, false);
+    assert.equal(q.review.reviewer, null);
     assert.equal(q.options.length, 3);
-    assert.ok(q.jurisdiction.includes("ficticio"));
-    assert.equal(q.sources[0].url, null);
+    assert.equal(new Set(q.options).size, 3);
+    assert.ok(q.topic && q.title && q.exhibit);
+    assert.ok(q.correct >= 0 && q.correct < 3);
+    assert.ok(!/Villa Lex|Regla ficticia|hojas caídas|farol/.test(q.prompt));
+    for (const source of q.sources) {
+      assert.ok(allowed.has(new URL(source.url).hostname));
+      assert.equal(source.verification, "pending");
+      assert.ok(source.reference);
+    }
   }
+  assert.ok(new Set(questions.map((q) => q.topic)).size >= 7);
+  assert.deepEqual(
+    [1, 2, 3].map((level) => questions.filter((q) => q.level === level).length),
+    [5, 5, 5],
+  );
+});
+test("legal bank: repeated rounds cannot duplicate cases or mutate the bank", () => {
+  const before = JSON.stringify(questions);
+  const seen = new Set();
+  let seed = 20261031;
+  const random=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296};
+  for (let i = 0; i < 250; i++) {
+    const round = startRound(questions,"relaxed",random);
+    assert.equal(new Set(round.questions.map((q) => q.id)).size, 5);
+    assert.deepEqual(
+      round.questions.map((q) => q.level),
+      [1, 1, 2, 2, 3],
+    );
+    for (const q of round.questions) seen.add(q.id);
+  }
+  assert.equal(seen.size, 15);
+  assert.equal(JSON.stringify(questions), before);
 });
 test("share URL strips query, hash and path; text has no answers or score", () => {
   assert.equal(

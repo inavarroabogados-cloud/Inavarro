@@ -1284,3 +1284,95 @@ html.motion-reduced *:after {
     animation: none;
   }
 }
+
+/* Legal case files: recognisable facts and evidence, without personal data. */
+.legal-topics {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  max-width: 500px;
+  margin: 18px 0;
+}
+.legal-topics span {
+  border: 1px solid #bfcbbb;
+  border-radius: 6px;
+  padding: 5px 9px;
+  font-size: 10px;
+  background: #e8edde;
+  color: #172f41;
+}
+.case-dossier {
+  margin-top: 18px;
+  background: #f0eadb;
+  border: 1px solid #cec4ad;
+  border-left: 4px solid #98572e;
+  border-radius: 4px 12px 12px 4px;
+  padding: 17px 18px;
+  position: relative;
+}
+.case-dossier h2 {
+  font:
+    23px/1.2 Georgia,
+    serif;
+  margin: 9px 0 12px;
+}
+.case-label {
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  font-weight: 750;
+  color: #744721;
+  margin: 0;
+}
+.case-exhibit {
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 0;
+  color: #394f5b;
+}
+.legal-sources {
+  font-size: 11px;
+  line-height: 1.65;
+  margin: 12px 0;
+  padding-left: 18px;
+}
+.legal-sources a {
+  display: inline-block;
+  padding: 8px 0;
+  overflow-wrap: anywhere;
+}
+.scene.biblioteca:before {
+  background: repeating-linear-gradient(
+    0deg,
+    #e0e7e3 0 45px,
+    #becdc4 45px 49px
+  );
+}
+.scene.jardin:before {
+  background: linear-gradient(
+    135deg,
+    #d9e3dc 0 50%,
+    #c3d4c8 50% 70%,
+    #e7deca 70%
+  );
+}
+@media (max-width: 600px) {
+  .legal-topics {
+    gap: 5px;
+    margin: 14px 0;
+  }
+  .legal-topics span {
+    font-size: 9px;
+    padding: 4px 8px;
+  }
+  .case-dossier {
+    padding: 14px;
+  }
+  .case-dossier h2 {
+    font-size: 21px;
+  }
+  .case-exhibit {
+    font-size: 11px;
+  }
+}
+/* Clip the unfocused skip link, including in full-page review captures. */
+.skip:not(:focus){clip-path:inset(50%);width:1px;height:1px;overflow:hidden;padding:0;white-space:nowrap}
