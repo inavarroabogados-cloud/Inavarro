@@ -14,12 +14,13 @@ Permalinks base: [P](https://github.com/inavarroabogados-cloud/Inavarro/tree/290
 | --- | --- | --- |
 | Web pública | Node ESM, plantillas HTML en strings, JSON editorial, CSS, generación de RSS/sitemap/SVG | No hay package.json del generador raíz ni módulos pequeños de plantillas; líneas muy largas dificultan revisión |
 | Build Render | `deploy.mjs` extrae assets y ejecuta `build-render.mjs`; este descarga noticias y ensambla portal, clientes y herramienta | Depende de una fuente remota mutable y paquetes comprimidos |
+| Generación PNG | Python + Pillow y fuentes DejaVu por rutas del sistema | Scripts auxiliares sin entorno Python fijado en estos árboles; requieren portabilidad y pruebas de desbordamiento |
 | Área privada | React 19.2.6 + Vite 8.0.13 + TypeScript 5.9.3 + supabase-js 2.102.0 en snapshot | El build principal copia bundle; no recompila ni prueba esta app |
 | Herramienta | Next 16.4.3, React/ReactDOM 19.3.1 y TypeScript 5.9.3 según lockfile; exportación estática | Su actualización llega al portal mediante tar manual de otro repositorio |
 | Drive | Handler JS aislado, llamadas a Supabase y Google OAuth/Drive | El código no acredita qué función está desplegada ni sus permisos reales |
 | Operación | Python estándar para Render API, Git, pruebas unittest | No hay secreto Render disponible en esta sesión; vinculación real pendiente |
 
-Evidencias: `P/build.mjs:1–13`, `P/deploy.mjs:1–3`, [P/build-render.mjs:1–23](https://github.com/inavarroabogados-cloud/Inavarro/blob/290e12e9d8bd7f5eca82827d0555d5162b1de507/build-render.mjs#L1-L23), `P/portal-release.mjs:7–11`, `S/source/package.json:1`, `T/package.json:5–30`, `T/package-lock.json`, `T/next.config.ts:2`.
+Evidencias: `P/build.mjs:1–13`, `P/deploy.mjs:1–3`, [P/build-render.mjs:1–23](https://github.com/inavarroabogados-cloud/Inavarro/blob/290e12e9d8bd7f5eca82827d0555d5162b1de507/build-render.mjs#L1-L23), `P/portal-release.mjs:7–11`, `S/source/package.json:1`, `T/package.json:5–30`, `T/package-lock.json`, `T/next.config.ts:2`, `P/og-images.py:1–20` y `T/scripts/generate-cards.py:1–27`.
 
 ## Inventario de rutas y capacidades
 
@@ -119,6 +120,8 @@ Evidencia: `P/ops/render.py:97–124,128–164,196–260`, `P/tests/test_render.
 ### H14 · Compensación de subida ante respuesta ambigua — C de código / R de pérdida, alta
 
 En `S/source/src/api.ts:16`, cualquier error al insertar los metadatos provoca un intento de borrar el objeto recién subido. Si la inserción hubiera persistido y solo se hubiera perdido su respuesta, podría quedar una referencia a un objeto borrado. No se reprodujo ni se afirma una pérdida real. Contrasta con el handler Drive, que conserva la copia ante respuestas ambiguas (`S/source/edge/handler.mjs:106–114`). Diseñar estados pendientes, reconciliación idempotente y limpieza solo tras acreditar ausencia de referencia, con tests de timeout posterior al commit. No ejecutar esas pruebas con documentos reales.
+
+También existe `T/render.yaml:4–10` para un **servicio web Node distinto**, `inavarro-y-ahora-que`, mientras el portal ensambla una exportación bajo `/y-ahora-que/`. El archivo no acredita que ese segundo servicio esté creado. Mantener dos vías sin una decisión explícita puede causar despliegues en el destino equivocado; no se ha aplicado ese blueprint ni contratado recursos.
 
 ## Pruebas ejecutadas y pendientes
 
