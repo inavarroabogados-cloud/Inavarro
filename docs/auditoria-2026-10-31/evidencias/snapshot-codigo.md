@@ -46,7 +46,7 @@ Entradas `source/…` extraídas sin ejecutar el paquete. Numeración original, 
 27:  const blob=result.data;if(!blob?.size)throw new Error('El archivo recibido está vacío. Avisa al despacho.');
 28:  return {blob,name:d.name};
 29: }
-30: 
+30:
 31: async function driveResult<T>(result:{data:T|null;error:unknown}):Promise<T>{
 32:  if(result.error){const e=result.error as {context?:Response;message?:string};let message=e.message||'No se pudo conectar con Drive.';if(e.context){try{const b=await e.context.json();message=b.error||message;}catch{}}throw new Error(message);}return result.data as T;
 33: }
