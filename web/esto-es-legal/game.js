@@ -31,7 +31,8 @@ let manualMotion = false,
   remaining = 20,
   pausedAt = null,
   shareUrl = null,
-  musicPreferenceSet = false;
+  musicPreferenceSet = false,
+  effectsPreferenceSet = false;
 const el = (tag, text, cls) => {
   const n = document.createElement(tag);
   if (text !== undefined) n.textContent = text;
@@ -100,6 +101,7 @@ for (const [id, setter, name] of [
   b.addEventListener("click", async () => {
     const on = b.getAttribute("aria-pressed") !== "true";
     if (id === "music") musicPreferenceSet = true;
+    if (id === "effects") effectsPreferenceSet = true;
     b.disabled = true;
     try {
       const ok = await setter(on);
@@ -120,6 +122,17 @@ for (const [id, setter, name] of [
   });
 }
 function startMusicFromPlayGesture() {
+  // Both audio modes are requested directly from the Start click gesture.
+  // Preserve any explicit mute choices the player made before starting.
+  if (!effectsPreferenceSet && !audio.effects) {
+    const effectsControl = document.getElementById("effects");
+    audio.setEffects(true).then((ok) => {
+      if (ok && !effectsPreferenceSet) {
+        effectsControl.setAttribute("aria-pressed", "true");
+        effectsControl.setAttribute("aria-label", "Desactivar efectos sonoros");
+      }
+    }).catch(() => {});
+  }
   if (musicPreferenceSet || audio.music) return;
   const control = document.getElementById("music");
   control.disabled = true;
