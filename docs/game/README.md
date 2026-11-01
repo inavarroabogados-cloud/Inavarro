@@ -2,6 +2,10 @@
 
 Rama `feat/elenco-esto-es-legal`. Sin despliegue, fusión a main, contratación ni conexiones a datos reales.
 
+## Probar desde el móvil
+
+[Guía sencilla para iPhone y Android](PROBAR-EN-MOVIL.md). El paquete incluye lanzadores para Mac y Windows que muestran la dirección de tu Wi-Fi. No existe aún un enlace público jugable.
+
 ## Prueba rápida del juego, sin compilar
 
 Con Python 3, dentro del repositorio en la rama de revisión:

@@ -15,6 +15,7 @@ import {
   reward,
   publicChallengeUrl,
   SHARE_TEXT,
+  isLocalReviewHost,
 } from "../../web/esto-es-legal/game-core.js";
 import { validateDraft } from "../../game-editor/validation.mjs";
 test("five questions, escalating levels, original bank untouched", () => {
@@ -98,9 +99,12 @@ test("legal bank: repeated rounds cannot duplicate cases or mutate the bank", ()
   const before = JSON.stringify(questions);
   const seen = new Set();
   let seed = 20261031;
-  const random=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296};
+  const random = () => {
+    seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0;
+    return seed / 4294967296;
+  };
   for (let i = 0; i < 250; i++) {
-    const round = startRound(questions,"relaxed",random);
+    const round = startRound(questions, "relaxed", random);
     assert.equal(new Set(round.questions.map((q) => q.id)).size, 5);
     assert.deepEqual(
       round.questions.map((q) => q.level),
@@ -196,4 +200,25 @@ test("all original 42 illustrations and animation implementation preserved byte 
       f,
     );
   }
+});
+
+test("mobile LAN review is never advertised as a public challenge", () => {
+  for (const host of [
+    "localhost",
+    "127.0.0.1",
+    "192.168.1.20",
+    "10.0.0.5",
+    "172.16.0.8",
+    "172.31.255.1",
+    "169.254.2.3",
+    "macbook.local",
+  ])
+    assert.equal(isLocalReviewHost(host), true, host);
+  for (const host of [
+    "inavarro-abogados.onrender.com",
+    "preview.example.test",
+    "172.32.0.1",
+    "192.168.999.1",
+  ])
+    assert.equal(isLocalReviewHost(host), false, host);
 });

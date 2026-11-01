@@ -23,3 +23,11 @@ No hay dispositivo iPhone físico ni motor WebKit instalado en este entorno: las
 No se ejecutó el build Render completo con su fuente editorial remota, ni se ha solicitado despliegue. No hay métricas de usuarios reales ni certificación de Core Web Vitals o WCAG completa. Falta revisión manual con lector de pantalla.
 
 No se han contrastado preguntas con vLex Vincent; los casos son ficticios y las explicaciones jurídicas son provisionales; se proponen referencias del BOE/EUR-Lex sin afirmar comprobación de vigencia o contraste. El editor solo registra una declaración humana cuando se cumplimenta su revisión; no verifica legislación ni jurisprudencia por API. Su autenticación es local y no está habilitada para producción multiusuario.
+
+## Ampliación móvil — 1 de noviembre de 2026
+
+Partidas completas con `tap()` y reinicio en cinco perfiles emulados: iPhone SE, iPhone 13 vertical/horizontal, Pixel 7 e iPad Mini. Sin errores JavaScript ni desbordamiento; respuestas con altura mínima de 53 px en estas pruebas. Motor Chromium, no Safari ni hardware físico. Resultados en `mobile/results.json` y capturas en `mobile/`.
+
+La suite JS actual tiene 15 pruebas correctas, incluida la distinción de direcciones de revisión Wi-Fi frente a URLs públicas. Dos pruebas Python adicionales verifican el servidor de revisión: recursos del juego accesibles, editor/repositorio/directorios bloqueados y HEAD correcto.
+
+El usuario necesita un enlace HTTPS desde el teléfono, sin ordenador. Los lanzadores Wi-Fi no resuelven ese acceso. Se ha comprobado que no hay capacidad de preview en el entorno ni secreto RENDER_API_KEY configurado; no se ha creado ni verificado una URL pública, no se ha desplegado ni fusionado main. Requiere habilitar un alojamiento de revisión separado y comprobar la URL resultante; no utilizar la producción como sustituto de la revisión.

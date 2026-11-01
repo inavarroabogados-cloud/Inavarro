@@ -1,23 +1,24 @@
-✔ audio is opt-in, original effects schedule finite notes, mute stops voices and hidden page is silent (1.999789ms)
-✔ unsupported audio does not prevent game controls from continuing (0.220914ms)
-✔ five questions, escalating levels, original bank untouched (3.831683ms)
-✔ correct answers, combo, victory and duplicate prevention (0.36256ms)
-✔ hint reduces base once; incorrect and timeout reset combo (0.487764ms)
-✔ sprint bonus has explicit threshold; relaxed never rewards speed (0.289793ms)
-✔ legal demo uses everyday cases, real-reference proposals and explicit pending review (0.788198ms)
-✔ legal bank: repeated rounds cannot duplicate cases or mutate the bank (4.899003ms)
-✔ share URL strips query, hash and path; text has no answers or score (0.225492ms)
-✔ editor accepts drafts, validates answers and rejects unsafe sources (0.784762ms)
-✔ declared Vincent review requires human identity, date, notes and legislation (0.82691ms)
-✔ all original 42 illustrations and animation implementation preserved byte for byte (141.388248ms)
-✔ private editor: authentication, CSRF, storage, conflict, errors and logout (510.975187ms)
+✔ audio is opt-in, original effects schedule finite notes, mute stops voices and hidden page is silent (1.913727ms)
+✔ unsupported audio does not prevent game controls from continuing (0.21837ms)
+✔ five questions, escalating levels, original bank untouched (2.952685ms)
+✔ correct answers, combo, victory and duplicate prevention (0.459602ms)
+✔ hint reduces base once; incorrect and timeout reset combo (0.499016ms)
+✔ sprint bonus has explicit threshold; relaxed never rewards speed (0.304501ms)
+✔ legal demo uses everyday cases, real-reference proposals and explicit pending review (0.689813ms)
+✔ legal bank: repeated rounds cannot duplicate cases or mutate the bank (3.347585ms)
+✔ share URL strips query, hash and path; text has no answers or score (0.270757ms)
+✔ editor accepts drafts, validates answers and rejects unsafe sources (0.589616ms)
+✔ declared Vincent review requires human identity, date, notes and legislation (0.75232ms)
+✔ all original 42 illustrations and animation implementation preserved byte for byte (135.17139ms)
+✔ mobile LAN review is never advertised as a public challenge (0.572182ms)
+✔ private editor: authentication, CSRF, storage, conflict, errors and logout (481.344396ms)
 Elenco instalado en /esto-es-legal/ con recursos locales.
-✔ installer preserves private pages and is idempotent (7.9118ms)
-ℹ tests 14
+✔ installer preserves private pages and is idempotent (7.09531ms)
+ℹ tests 15
 ℹ suites 0
-ℹ pass 14
+ℹ pass 15
 ℹ fail 0
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 595.424445
+ℹ duration_ms 573.074565

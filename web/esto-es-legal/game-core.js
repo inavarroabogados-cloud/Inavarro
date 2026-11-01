@@ -89,3 +89,25 @@ export function publicChallengeUrl(origin) {
   if (!["http:", "https:"].includes(u.protocol)) throw Error("Origen inválido");
   return u.origin + "/esto-es-legal/";
 }
+
+// LAN review links must not be presented as publicly reachable challenges.
+export function isLocalReviewHost(hostname) {
+  if (
+    ["localhost", "127.0.0.1", "[::1]"].includes(hostname) ||
+    hostname.endsWith(".local")
+  )
+    return true;
+  const parts = hostname.split(".").map(Number);
+  if (
+    parts.length !== 4 ||
+    parts.some((n) => !Number.isInteger(n) || n < 0 || n > 255)
+  )
+    return false;
+  return (
+    parts[0] === 10 ||
+    parts[0] === 127 ||
+    (parts[0] === 192 && parts[1] === 168) ||
+    (parts[0] === 172 && parts[1] >= 16 && parts[1] <= 31) ||
+    (parts[0] === 169 && parts[1] === 254)
+  );
+}

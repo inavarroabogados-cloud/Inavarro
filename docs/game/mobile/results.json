@@ -1,0 +1,70 @@
+{
+  "engine": "Chromium with device emulation; not real Safari/iOS or physical hardware",
+  "profiles": [
+    {
+      "name": "iPhone SE",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "hasTouch": true,
+      "fullRound": "passed",
+      "restart": "passed",
+      "overflow": false,
+      "minAnswerHeight": 53,
+      "errors": []
+    },
+    {
+      "name": "iPhone 13",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "hasTouch": true,
+      "fullRound": "passed",
+      "restart": "passed",
+      "overflow": false,
+      "minAnswerHeight": 53,
+      "errors": []
+    },
+    {
+      "name": "iPhone 13 landscape",
+      "viewport": {
+        "width": 750,
+        "height": 342
+      },
+      "hasTouch": true,
+      "fullRound": "passed",
+      "restart": "passed",
+      "overflow": false,
+      "minAnswerHeight": 61,
+      "errors": []
+    },
+    {
+      "name": "Pixel 7",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "hasTouch": true,
+      "fullRound": "passed",
+      "restart": "passed",
+      "overflow": false,
+      "minAnswerHeight": 53,
+      "errors": []
+    },
+    {
+      "name": "iPad Mini",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "hasTouch": true,
+      "fullRound": "passed",
+      "restart": "passed",
+      "overflow": false,
+      "minAnswerHeight": 61,
+      "errors": []
+    }
+  ]
+}

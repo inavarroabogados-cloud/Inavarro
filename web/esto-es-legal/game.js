@@ -8,6 +8,7 @@ import {
   reward,
   publicChallengeUrl,
   SHARE_TEXT,
+  isLocalReviewHost,
 } from "./game-core.js";
 import { GameAudio } from "./audio.js";
 const main = document.querySelector("main"),
@@ -560,12 +561,11 @@ function showResult() {
 function shareStatus(text) {
   document.querySelector("#share-status").textContent = text;
 }
-const loopback = ["localhost", "127.0.0.1", "[::1]"];
 function challengeLink() {
   return publicChallengeUrl(location.origin);
 }
 function canSharePublic() {
-  if (loopback.includes(location.hostname)) {
+  if (isLocalReviewHost(location.hostname)) {
     shareStatus(
       "Esta es una revisión local. El enlace no será accesible desde otro móvil hasta publicar. Puedes descargar la tarjeta de muestra.",
     );
@@ -662,7 +662,7 @@ async function storyBlob() {
   ctx.font = "30px sans-serif";
   ctx.fillText("Casos ficticios · Contenido jurídico provisional", 85, 1560);
   ctx.fillText(
-    loopback.includes(location.hostname)
+    isLocalReviewHost(location.hostname)
       ? "VISTA PREVIA · AÚN SIN PUBLICAR"
       : "Descubre el desafío en " + location.host,
     85,
