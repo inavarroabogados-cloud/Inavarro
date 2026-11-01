@@ -118,7 +118,8 @@ try {
   await p.goto(origin + "/esto-es-legal/");
   await p.getByRole("button", { name: "¡Vamos a jugar!" }).tap();
   assert.equal(await p.locator(".answer").count(), 3);
-  assert.equal(await p.locator("#music").getAttribute("aria-pressed"), "false");
+  await p.locator('#music[aria-pressed="true"]').waitFor();
+  assert.equal(await p.locator("#music").getAttribute("aria-pressed"), "true");
   report.unsupportedAudioGameContinues = true;
   await phone.close();
   await fs.writeFile(root + "results.json", JSON.stringify(report, null, 2));

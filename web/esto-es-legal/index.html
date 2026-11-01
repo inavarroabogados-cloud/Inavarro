@@ -28,11 +28,11 @@
     />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; connect-src 'self'; font-src 'self'; base-uri 'self'; form-action 'self'"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; media-src 'self'; connect-src 'self'; font-src 'self'; base-uri 'self'; form-action 'self'"
     />
     <title>¿ESTO ES LEGAL? · El juego · iNavarro Abogados</title>
     <link rel="stylesheet" href="game.css" />
-    <script type="module" src="game.js"></script>
+    <script type="module" src="game.js?v=4"></script>
   </head>
   <body>
     <a class="skip" href="#main">Saltar al juego</a>
@@ -58,8 +58,66 @@
     </header>
     <div class="demo-banner">
       MODO DEMOSTRACIÓN
-      <span>Casos ficticios · Contenido jurídico provisional. No es asesoramiento.</span>
+      <span
+        >Casos ficticios · Contenido jurídico provisional. No es
+        asesoramiento.</span
+      >
     </div>
+    <section class="sound-check" aria-label="Prueba y controles de sonido">
+      <button id="test-sound" type="button">🔊 PROBAR SONIDO</button>
+      <p id="audio-status" role="status">
+        Pulsa Probar sonido para escuchar tres notas. El navegador no puede
+        confirmar el volumen del iPhone.
+      </p>
+      <div class="audio-volumes">
+        <label for="music-volume"
+          >Volumen música
+          <input
+            id="music-volume"
+            type="range"
+            min="0"
+            max="100"
+            value="60" /></label
+        ><label for="effects-volume"
+          >Volumen efectos y prueba
+          <input id="effects-volume" type="range" min="0" max="100" value="80"
+        /></label>
+      </div>
+      <div id="hearing-confirmation" hidden>
+        <button id="heard-sound" type="button" disabled>Lo he oído</button
+        ><button id="silent-sound" type="button">No lo oigo</button>
+      </div>
+      <p id="audio-guidance" hidden>
+        En el Centro de control del iPhone comprueba el volumen multimedia y la
+        salida de audio: altavoz, auriculares, Bluetooth o AirPlay. Desconecta
+        una salida externa para comparar y prueba el modo silencio. Abre esta
+        página en Safari, no dentro de otra aplicación. Estas opciones no se
+        pueden leer de forma fiable desde la web. Después pulsa Probar sonido
+        otra vez.
+      </p>
+      <details id="audio-diagnostics">
+        <summary>Diagnóstico de sonido</summary>
+        <p>
+          Reproducción observada no garantiza que el altavoz sea audible. Este
+          panel no contiene respuestas de la partida.
+        </p>
+        <p>
+          <a href="audio/test.wav" target="_blank" rel="noopener noreferrer"
+            >Abrir señal WAV en el reproductor del navegador</a
+          >
+          ·
+          <a href="audio/music.mp3" target="_blank" rel="noopener noreferrer"
+            >Abrir música MP3</a
+          >
+        </p>
+        <pre id="audio-details"></pre>
+        <button id="copy-audio-diagnostics" type="button">
+          Copiar diagnóstico
+        </button>
+        <p id="diagnostic-copy-status" role="status"></p>
+      </details>
+    </section>
+    <div id="audio-host" hidden aria-hidden="true"></div>
     <main id="main" tabindex="-1"></main>
     <footer>
       <a href="personajes/">Conoce al elenco →</a

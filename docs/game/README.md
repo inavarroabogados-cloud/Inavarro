@@ -52,7 +52,7 @@ Los estados y respuestas viven solo en memoria; recargar borra la partida. Sin c
 
 ## Sonido y movimiento
 
-Música original de síntesis Web Audio: secuencia de 16 notas con bajo, timbres triangle/sine y envolventes cortas; efectos diferenciados de acierto, error, pista y victoria. Sin muestras, archivos de terceros ni descargas de audio. Apagado al entrar; la música se solicita al pulsar Jugar, se respeta el silencio elegido y se detiene al ocultar la página. Los efectos son opcionales y las señales también son visuales y textuales.
+Música y efectos originales sintetizados durante la generación de recursos, servidos como archivos MP3/WAV del mismo origen. El motor de reproducción usa HTMLMediaElement y no depende de AudioContext; consulta el informe de corrección de audio. No se utilizan muestras ni servidores de audio de terceros. Apagado al entrar; la música se solicita al pulsar Jugar, se respeta el silencio elegido y se detiene al ocultar la página. Los efectos son opcionales y las señales también son visuales y textuales.
 
 Entradas, flotación, reacciones, estrellas y confeti mediante transformaciones CSS; no hay canvas de animación por fotograma ni dependencia gráfica. El canvas se usa solo al solicitar una tarjeta PNG. `prefers-reduced-motion` desactiva movimiento; control manual adicional. No se imponen destellos, vibración ni movimiento al contenido que hay que leer.
 
@@ -94,3 +94,8 @@ La integración es aditiva. Para deshacer esta iteración, revertir su commit en
 [Configuración de un Static Site separado en Render, sin API Key, sin main y sin Auto-Deploy](REVISION-HTTPS-RENDER.md). Comando de build aislado: `node scripts/build-game-preview.mjs`; directorio publicable: `preview-dist`. Este comando solo prepara archivos, no despliega.
 
 La música permanece apagada al cargar la página y se activa al pulsar **Jugar**, dentro del gesto del usuario. Un silencio elegido expresamente en el control Música se respeta al empezar otra partida. Los efectos continúan siendo opcionales. Fallos de audio no impiden jugar.
+
+
+## Corrección del audio iOS
+
+[Diagnóstico, solución, pruebas y despliegue exclusivo de la demo](AUDIO-IOS.md). Incluye botón temporal PROBAR SONIDO, confirmación humana y diagnóstico copiable sin respuestas. Los tests no equivalen a escuchar un iPhone físico.

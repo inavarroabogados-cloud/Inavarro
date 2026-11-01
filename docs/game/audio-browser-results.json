@@ -1,0 +1,183 @@
+{
+  "physicalIPhoneTested": false,
+  "physicalAudibilityVerified": false,
+  "engines": [
+    {
+      "engine": "chromium",
+      "flows": [
+        "First tap test: actual same-origin WAV loaded, decoded and media clock advanced within gesture; physical output unverified",
+        "Not-heard guidance and repeat test without reload; confirmation is user action, not inference",
+        "First Play tap: actual MP3 progresses, music and effects enabled together, no AudioContext",
+        "Hint, correct, wrong and victory WAVs all decode and advance during a full round",
+        "Music and effects mute independently; disabled effects make no media play call",
+        "Simulated browser rejection is visible; retry succeeds without reload",
+        "Actual WAV playback still works with both Web Audio constructors absent",
+        "Simulated background/foreground pauses and recovers actual music media",
+        "Music volume updates actual media element; encoded-level fallback has independent unit coverage",
+        "Simulated ignored native volume: actual medium/low MP3 variants decode and advance"
+      ],
+      "errors": [],
+      "mediaResponses": [
+        {
+          "file": "test.wav",
+          "status": 200,
+          "type": "audio/x-wav"
+        },
+        {
+          "file": "test.wav",
+          "status": 206,
+          "type": "audio/x-wav"
+        },
+        {
+          "file": "music.mp3",
+          "status": 200,
+          "type": "audio/mpeg"
+        },
+        {
+          "file": "hint.wav",
+          "status": 200,
+          "type": "audio/x-wav"
+        },
+        {
+          "file": "correct.wav",
+          "status": 200,
+          "type": "audio/x-wav"
+        },
+        {
+          "file": "wrong.wav",
+          "status": 200,
+          "type": "audio/x-wav"
+        },
+        {
+          "file": "correct.wav",
+          "status": 206,
+          "type": "audio/x-wav"
+        },
+        {
+          "file": "victory.wav",
+          "status": 200,
+          "type": "audio/x-wav"
+        },
+        {
+          "file": "test.wav",
+          "status": 206,
+          "type": "audio/x-wav"
+        },
+        {
+          "file": "test.wav",
+          "status": 206,
+          "type": "audio/x-wav"
+        },
+        {
+          "file": "music.mp3",
+          "status": 206,
+          "type": "audio/mpeg"
+        },
+        {
+          "file": "music.mp3",
+          "status": 206,
+          "type": "audio/mpeg"
+        }
+      ],
+      "diagnostic": {
+        "version": "media-files-v4",
+        "engine": "HTMLMediaElement · same-origin MP3/WAV",
+        "audioContextState": "not-created (engine does not depend on Web Audio)",
+        "webAudioAvailable": false,
+        "audioSession": "unsupported",
+        "browser": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+        "secureContext": true,
+        "codecs": {
+          "mp3": "probably",
+          "wav": "maybe"
+        },
+        "hidden": false,
+        "musicEnabled": true,
+        "effectsEnabled": true,
+        "music": {
+          "file": "music.mp3",
+          "paused": true,
+          "ended": false,
+          "muted": false,
+          "volume": 0.2,
+          "volumeMode": "native",
+          "readyState": 4,
+          "networkState": 1,
+          "currentTime": 0.02,
+          "error": null
+        },
+        "test": {
+          "file": "test.wav",
+          "paused": false,
+          "ended": false,
+          "muted": false,
+          "volume": 0.8,
+          "volumeMode": "native",
+          "readyState": 4,
+          "networkState": 1,
+          "currentTime": 0.77,
+          "error": null
+        },
+        "effects": [
+          {
+            "file": "correct.wav",
+            "paused": true,
+            "ended": false,
+            "muted": false,
+            "volume": 1,
+            "volumeMode": "native",
+            "readyState": 0,
+            "networkState": 1,
+            "currentTime": 0,
+            "error": null
+          },
+          {
+            "file": "hint.wav",
+            "paused": true,
+            "ended": false,
+            "muted": false,
+            "volume": 1,
+            "volumeMode": "native",
+            "readyState": 0,
+            "networkState": 1,
+            "currentTime": 0,
+            "error": null
+          }
+        ],
+        "errors": {},
+        "testInProgress": false,
+        "requestedVolumes": {
+          "music": 0.2,
+          "effects": 0.8
+        },
+        "testProgressObserved": true,
+        "userHeard": null,
+        "physicalOutput": "OS volume, silent switch and Bluetooth/AirPlay route are not exposed reliably by this browser",
+        "events": [
+          "test:progress-observed",
+          "gesture-activation",
+          "music:waiting",
+          "page-hidden",
+          "music:pause",
+          "test:pause",
+          "foreground-retry",
+          "music:playing",
+          "music:play-accepted",
+          "music:volume",
+          "test:requested",
+          "music:pause",
+          "test:waiting",
+          "test:playing",
+          "test:play-accepted",
+          "test:progress-observed"
+        ]
+      }
+    }
+  ],
+  "unavailable": [
+    {
+      "engine": "webkit",
+      "reason": "WebKit binary not installed; browser-download destinations blocked by current network policy. No Safari/physical iPhone test claimed."
+    }
+  ]
+}

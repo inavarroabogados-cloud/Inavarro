@@ -263,6 +263,7 @@ try {
   await page
     .getByRole("button", { name: "Activar música", exact: true })
     .click();
+  await page.locator('#music[aria-pressed="true"]').waitFor();
   assert.equal(
     await page.locator("#music").getAttribute("aria-pressed"),
     "true",

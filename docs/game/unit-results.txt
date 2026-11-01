@@ -1,27 +1,34 @@
-✔ audio is opt-in, original effects schedule finite notes, mute stops voices and hidden page is silent (2.119423ms)
-✔ unsupported audio does not prevent game controls from continuing (0.209874ms)
-✔ five questions, escalating levels, original bank untouched (3.479021ms)
-✔ correct answers, combo, victory and duplicate prevention (0.511398ms)
-✔ hint reduces base once; incorrect and timeout reset combo (0.44276ms)
-✔ sprint bonus has explicit threshold; relaxed never rewards speed (0.370345ms)
-✔ legal demo uses everyday cases, real-reference proposals and explicit pending review (0.578485ms)
-✔ legal bank: repeated rounds cannot duplicate cases or mutate the bank (3.422666ms)
-✔ share URL strips query, hash and path; text has no answers or score (0.220313ms)
-✔ editor accepts drafts, validates answers and rejects unsafe sources (0.626334ms)
-✔ declared Vincent review requires human identity, date, notes and legislation (0.7254ms)
-✔ all original 42 illustrations and animation implementation preserved byte for byte (147.267303ms)
-✔ mobile LAN review is never advertised as a public challenge (0.347651ms)
-✔ private editor: authentication, CSRF, storage, conflict, errors and logout (517.955971ms)
-✔ isolated preview build excludes all administration, private data and portal tools (70.28596ms)
-✔ preview build rejects production service and main branch before writing output (124.536097ms)
-✔ preview refuses unexpected output files without deleting them (38.407605ms)
+✔ first gesture starts real music and enables effects with one media play, without Web Audio (2.995435ms)
+✔ independent controls: music mute leaves effects alive; effects mute leaves music alive (2.367559ms)
+✔ background and foreground recover; rejected resume remains retryable from next tap (6.057706ms)
+✔ sound test calls play synchronously, observes progress and never asserts physical audibility (851.73136ms)
+✔ blocked first sound test is retryable without reload; no false success with paused/no data (851.628793ms)
+✔ timeouts, unsupported media and zero volume produce visible diagnostic errors (36.949013ms)
+✔ late play promise cannot turn music back on after explicit mute (0.694401ms)
+✔ original PCM files contain measured nonzero signal and checked hashes; MP3 signature exists (18.584642ms)
+✔ encoded levels provide gain when iOS ignores the native volume setter (1.119889ms)
+✔ five questions, escalating levels, original bank untouched (3.444186ms)
+✔ correct answers, combo, victory and duplicate prevention (0.453049ms)
+✔ hint reduces base once; incorrect and timeout reset combo (0.432962ms)
+✔ sprint bonus has explicit threshold; relaxed never rewards speed (0.338895ms)
+✔ legal demo uses everyday cases, real-reference proposals and explicit pending review (0.834134ms)
+✔ legal bank: repeated rounds cannot duplicate cases or mutate the bank (4.24094ms)
+✔ share URL strips query, hash and path; text has no answers or score (0.319358ms)
+✔ editor accepts drafts, validates answers and rejects unsafe sources (0.660167ms)
+✔ declared Vincent review requires human identity, date, notes and legislation (0.817883ms)
+✔ all original 42 illustrations and animation implementation preserved byte for byte (142.823725ms)
+✔ mobile LAN review is never advertised as a public challenge (0.362941ms)
+✔ private editor: authentication, CSRF, storage, conflict, errors and logout (557.445168ms)
+✔ isolated preview build excludes all administration, private data and portal tools (114.181624ms)
+✔ preview build rejects production service and main branch before writing output (130.521103ms)
+✔ preview refuses unexpected output files without deleting them (50.674784ms)
 Elenco instalado en /esto-es-legal/ con recursos locales.
-✔ installer preserves private pages and is idempotent (7.925436ms)
-ℹ tests 18
+✔ installer preserves private pages and is idempotent (10.745052ms)
+ℹ tests 25
 ℹ suites 0
-ℹ pass 18
+ℹ pass 25
 ℹ fail 0
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 608.974523
+ℹ duration_ms 1845.450544

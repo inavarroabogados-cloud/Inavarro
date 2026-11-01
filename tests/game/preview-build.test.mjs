@@ -34,6 +34,16 @@ test("isolated preview build excludes all administration, private data and porta
   assert.ok(!home.includes('href="/y-ahora-que/"'));
   assert.ok(home.includes("Casos ficticios"));
   assert.ok(home.includes("noindex"));
+  const marker = JSON.parse(fs.readFileSync(root + "/preview-version.json"));
+  assert.equal(marker.audioEngineVersion, "media-files-v4");
+  for (const file of [
+    "audio.js",
+    "audio/test.wav",
+    "audio/music.mp3",
+    "audio/music-medium.mp3",
+  ])
+    assert.ok(marker.files["esto-es-legal/" + file]);
+  assert.ok(home.includes("media-src 'self'"));
   assert.ok(!home.includes("https://inavarro-abogados.onrender.com"));
 });
 

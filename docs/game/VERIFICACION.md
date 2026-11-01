@@ -39,3 +39,12 @@ Inspeccionadas herramientas y capacidades actuales: no hay hosting de previews n
 La música se solicita dentro del gesto de Jugar (sin esperar una navegación), permanece apagada antes y respeta silencio explícito. Pruebas táctiles de partida completa con música activada en cinco perfiles de Chromium, más silencio previo y ausencia de AudioContext: correctas. No es una prueba de Safari real ni de un altavoz físico. WebKit no está instalado y no hay iPhone conectado.
 
 18 pruebas JS correctas. El nuevo build `scripts/build-game-preview.mjs` genera solo recursos demo en `preview-dist`; rechaza el nombre/dominio de producción, rama main informada por Render y archivos ajenos en la salida. Pruebas HTTP locales: juego, audio, preguntas y marcador 200; editor, administración, clientes y .env 404. No se ha desplegado ni fusionado main. La URL y Safari físico siguen pendientes de verificación tras habilitar la revisión independiente.
+
+
+## Corrección de audio sobre e834621 — 1 de noviembre de 2026
+
+25 pruebas JS correctas; diez recorridos de audio en Chromium con archivos reales decodificados y reloj multimedia avanzando; regresión completa del juego (13 flujos, 13 vistas sin incidencias de axe ni desbordamiento detectados); cinco perfiles táctiles completan partidas. Señal PCM no nula y hashes comprobados. Ver AUDIO-IOS.md y los JSON de evidencia.
+
+Se detectaron defectos confirmados de ciclo de vida, errores ocultos y falsa equivalencia entre AudioContext running y salida audible en el código anterior. Se sustituyó por un motor de archivos propio, sesión de reproducción cuando existe, controles independientes, niveles codificados para volumen ignorado, reintento y prueba audible con confirmación humana. No se aumenta de nuevo una ganancia de osciladores.
+
+**Pendiente:** Safari/iPhone físico, HTTPS público, estado live y logs Render. El proxy devolvió CONNECT 403 al intentar leer la demo; el borrador de destinos de red está guardado pero no aplicado. No hay credencial Render disponible. No se declara desplegada ni resuelta en el iPhone esta corrección.

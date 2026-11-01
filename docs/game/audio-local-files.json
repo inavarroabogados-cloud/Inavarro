@@ -1,0 +1,166 @@
+{
+  "origin": "http://127.0.0.1:3203",
+  "expectedCommit": "e8346217b0135c973ab20a0f6ae6b3648a2a59c7",
+  "physicalIPhoneTested": false,
+  "renderStateAndBuildLogsVerified": false,
+  "checks": [
+    {
+      "file": "esto-es-legal/index.html",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 5449
+    },
+    {
+      "file": "esto-es-legal/game.js",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 29628
+    },
+    {
+      "file": "esto-es-legal/audio.js",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 13479
+    },
+    {
+      "file": "esto-es-legal/audio/correct-low.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 45908
+    },
+    {
+      "file": "esto-es-legal/audio/correct-medium.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 45908
+    },
+    {
+      "file": "esto-es-legal/audio/correct.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 45908
+    },
+    {
+      "file": "esto-es-legal/audio/hint-low.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 44144
+    },
+    {
+      "file": "esto-es-legal/audio/hint-medium.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 44144
+    },
+    {
+      "file": "esto-es-legal/audio/hint.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 44144
+    },
+    {
+      "file": "esto-es-legal/audio/manifest.json",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 1462
+    },
+    {
+      "file": "esto-es-legal/audio/music-low.mp3",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 110385
+    },
+    {
+      "file": "esto-es-legal/audio/music-low.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 804426
+    },
+    {
+      "file": "esto-es-legal/audio/music-medium.mp3",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 110385
+    },
+    {
+      "file": "esto-es-legal/audio/music-medium.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 804426
+    },
+    {
+      "file": "esto-es-legal/audio/music.mp3",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 110385
+    },
+    {
+      "file": "esto-es-legal/audio/music.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 804426
+    },
+    {
+      "file": "esto-es-legal/audio/test-low.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 105002
+    },
+    {
+      "file": "esto-es-legal/audio/test-medium.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 105002
+    },
+    {
+      "file": "esto-es-legal/audio/test.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 105002
+    },
+    {
+      "file": "esto-es-legal/audio/victory-low.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 83834
+    },
+    {
+      "file": "esto-es-legal/audio/victory-medium.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 83834
+    },
+    {
+      "file": "esto-es-legal/audio/victory.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 83834
+    },
+    {
+      "file": "esto-es-legal/audio/wrong-low.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 48554
+    },
+    {
+      "file": "esto-es-legal/audio/wrong-medium.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 48554
+    },
+    {
+      "file": "esto-es-legal/audio/wrong.wav",
+      "status": 200,
+      "sha256Matches": true,
+      "bytes": 48554
+    }
+  ],
+  "byteRange": {
+    "status": 200,
+    "contentRange": null,
+    "bytes": 105002,
+    "supported": false
+  },
+  "publicFilesVerified": true,
+  "context": "Local uncommitted correction snapshot built on e834621; not evidence of deployment."
+}

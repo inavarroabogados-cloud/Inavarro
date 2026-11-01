@@ -1,5 +1,6 @@
 /** Isolated static demo build. No API, credentials, database, editorial fetch or deployment. */
 import fs from "node:fs";
+import { createHash } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
@@ -85,6 +86,11 @@ for (const character of manifest.characters) {
     for (const ext of ["svg", "png"])
       copy(`exports/${character.id}-${format}.${ext}`);
 }
+for (const file of fs.readdirSync(path.join(source, "audio"))) {
+  if (!/^[a-z-]+\.(mp3|wav|json)$/.test(file))
+    throw Error("Archivo de audio inesperado");
+  copy(`audio/${file}`);
+}
 const gameHtml = path.join(mount, "index.html");
 let html = fs.readFileSync(gameHtml, "utf8");
 html = html
@@ -116,6 +122,22 @@ fs.writeFileSync(
     type: "game-demo-only",
     commit,
     administration: false,
+    audioEngineVersion: "media-files-v4",
+    files: Object.fromEntries(
+      [
+        "esto-es-legal/index.html",
+        "esto-es-legal/game.js",
+        "esto-es-legal/audio.js",
+        ...fs
+          .readdirSync(path.join(mount, "audio"))
+          .map((file) => "esto-es-legal/audio/" + file),
+      ].map((file) => [
+        file,
+        createHash("sha256")
+          .update(fs.readFileSync(path.join(output, file)))
+          .digest("hex"),
+      ]),
+    ),
     editorialBackend: false,
   }) + "\n",
 );

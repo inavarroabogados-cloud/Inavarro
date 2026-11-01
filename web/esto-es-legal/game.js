@@ -10,7 +10,7 @@ import {
   SHARE_TEXT,
   isLocalReviewHost,
 } from "./game-core.js";
-import { GameAudio } from "./audio.js";
+import { GameAudio } from "./audio.js?v=4";
 const main = document.querySelector("main"),
   live = document.querySelector("#announcement"),
   audio = new GameAudio();
@@ -99,7 +99,7 @@ for (const [id, setter, name] of [
 ]) {
   const b = document.getElementById(id);
   b.addEventListener("click", async () => {
-    const on = b.getAttribute("aria-pressed") !== "true";
+    const on = id === "music" ? !audio.music : !audio.effects;
     if (id === "music") musicPreferenceSet = true;
     if (id === "effects") effectsPreferenceSet = true;
     b.disabled = true;
@@ -122,49 +122,116 @@ for (const [id, setter, name] of [
   });
 }
 function startMusicFromPlayGesture() {
-  // Both audio modes are requested directly from the Start click gesture.
-  // Preserve any explicit mute choices the player made before starting.
-  if (!effectsPreferenceSet && !audio.effects) {
-    const effectsControl = document.getElementById("effects");
-    audio.setEffects(true).then((ok) => {
-      if (ok && !effectsPreferenceSet) {
-        effectsControl.setAttribute("aria-pressed", "true");
-        effectsControl.setAttribute("aria-label", "Desactivar efectos sonoros");
-      }
-    }).catch(() => {});
-  }
-  if (musicPreferenceSet || audio.music) return;
-  const control = document.getElementById("music");
-  control.disabled = true;
-  // Call before any await or navigation: iOS requires the original user gesture.
-  audio
-    .setMusic(true)
-    .then((ok) => {
-      if (ok) {
-        control.setAttribute("aria-pressed", "true");
-        control.setAttribute("aria-label", "Desactivar música");
-        announce("Música activada. Puedes silenciarla con el control Música.");
-      } else
-        announce(
-          "La música no está disponible. Puedes continuar jugando sin sonido.",
-        );
-    })
-    .catch(() =>
-      announce(
-        "La música no está disponible. Puedes continuar jugando sin sonido.",
-      ),
-    )
-    .finally(() => {
-      control.disabled = false;
-    });
+  // One synchronous media activation, not competing asynchronous AudioContext.resume calls.
+  audio.activateFromGesture({
+    music: musicPreferenceSet ? audio.music : true,
+    effects: effectsPreferenceSet ? audio.effects : true,
+  });
 }
+function syncAudioUI() {
+  for (const [id, on, label] of [
+    ["music", audio.music, "música"],
+    ["effects", audio.effects, "efectos sonoros"],
+  ]) {
+    const control = document.getElementById(id);
+    control.setAttribute("aria-pressed", String(on));
+    control.setAttribute(
+      "aria-label",
+      `${on ? "Desactivar" : "Activar"} ${label}`,
+    );
+  }
+  const data = audio.diagnostics();
+  document.getElementById("audio-details").textContent = JSON.stringify(
+    data,
+    null,
+    2,
+  );
+  const errors = Object.values(data.errors);
+  const status = document.getElementById("audio-status");
+  if (data.userHeard === false)
+    status.textContent =
+      "No has oído la prueba. El problema sigue sin resolver en este dispositivo. Revisa la salida y reintenta.";
+  else if (data.errors.test) status.textContent = data.errors.test.message;
+  else if (data.testInProgress)
+    status.textContent =
+      "Preparando la señal de prueba. Espera a que termine y confirma si la oyes.";
+  else if (data.userHeard === true)
+    status.textContent =
+      "Has confirmado que oyes la señal de prueba en este dispositivo.";
+  else if (data.testProgressObserved)
+    status.textContent =
+      "El archivo de prueba avanzó y tiene datos reproducibles. Confirma si has oído las tres notas; no podemos verificar el altavoz.";
+  else if (errors.length) status.textContent = errors.at(-1).message;
+  else if (
+    data.musicEnabled &&
+    !data.music.paused &&
+    data.music.readyState >= 2
+  )
+    status.textContent =
+      "El navegador está reproduciendo el archivo de música. Si no lo oyes, pulsa Probar sonido.";
+  else
+    status.textContent =
+      "Audio preparado. Pulsa Probar sonido o Jugar para iniciar la reproducción.";
+}
+audio.onChange = syncAudioUI;
+document
+  .getElementById("audio-diagnostics")
+  .addEventListener("toggle", syncAudioUI);
+for (const channel of ["music", "effects"])
+  document
+    .getElementById(`${channel}-volume`)
+    .addEventListener("input", (event) =>
+      audio.setVolume(channel, Number(event.target.value) / 100),
+    );
+document.getElementById("test-sound").addEventListener("click", async () => {
+  const control = document.getElementById("test-sound");
+  control.disabled = true;
+  document.getElementById("hearing-confirmation").hidden = false;
+  document.getElementById("heard-sound").disabled = true;
+  try {
+    const result = await audio.testSound();
+    document.getElementById("heard-sound").disabled = !result.progress;
+    syncAudioUI();
+  } catch {
+    document.getElementById("audio-status").textContent =
+      "No se pudo completar la prueba. Puedes reintentarlo sin recargar.";
+  } finally {
+    control.disabled = false;
+  }
+});
+document
+  .getElementById("heard-sound")
+  .addEventListener("click", () => audio.confirmHeard(true));
+document.getElementById("silent-sound").addEventListener("click", () => {
+  audio.confirmHeard(false);
+  document.getElementById("audio-guidance").hidden = false;
+});
+document
+  .getElementById("copy-audio-diagnostics")
+  .addEventListener("click", async () => {
+    const text = document.getElementById("audio-details").textContent;
+    try {
+      await navigator.clipboard.writeText(text);
+      document.getElementById("diagnostic-copy-status").textContent =
+        "Diagnóstico copiado. No incluye respuestas ni datos del caso.";
+    } catch {
+      const range = document.createRange();
+      range.selectNodeContents(document.getElementById("audio-details"));
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      document.getElementById("diagnostic-copy-status").textContent =
+        "Selecciona y copia el diagnóstico del panel.";
+    }
+  });
+syncAudioUI();
 function home(focus = false) {
   clearTimer();
   state = null;
   main.replaceChildren();
   const section = el("section", undefined, "home");
   section.innerHTML =
-    '<div class="home-intro"><div class="intro-copy"><p class="eyebrow">CINCO RETOS. SIETE CÓMPLICES. UN MATIZ.</p><h1>¿ESTO ES<br><em>LEGAL?</em></h1><p class="subtitle">¿Un contrato por WhatsApp vale? ¿La fianza paga el último mes?<br>Pon a prueba tu criterio con cinco casos de la vida cotidiana.</p><fieldset class="game-mode"><legend>Elige cómo jugar</legend><label><input type="radio" name="mode" value="relaxed" checked> A tu ritmo</label><label><input type="radio" name="mode" value="sprint"> Reto rápido · 20 s</label></fieldset><div id="start-slot"></div><p class="fine">Sin registro · Sin datos personales · Cinco preguntas</p><details class="scoring-guide"><summary>¿Cómo se puntúa?</summary><p>100 por acierto, o 80 con pista. La racha suma hasta 30 extra. En reto rápido, Brinco añade 20 si aciertas antes de 15 segundos. Un error no resta puntos.</p></details><span class="sound-notice">La música empieza al pulsar Jugar. Puedes silenciarla arriba. Efectos opcionales.</span></div><div class="hero-world" aria-label="Don Lex, Trampín y Lexi presentan cinco casos jurídicos"><div class="world-floor"></div><span class="sky-star one" aria-hidden="true">✦</span><span class="sky-star two" aria-hidden="true">✧</span><span class="sky-star three" aria-hidden="true">✦</span><span class="speech-bubble">La letra pequeña tiene su gracia.</span><span class="world-label">EL DESPACHO DE DON LEX</span></div></div><div class="cast-parade" aria-label="Los siete personajes"></div><div class="home-bottom"><span>Casos ficticios. Contenido jurídico provisional.</span><span>Contenido pendiente de revisión con vLex Vincent.</span></div>';
+    '<div class="home-intro"><div class="intro-copy"><p class="eyebrow">CINCO RETOS. SIETE CÓMPLICES. UN MATIZ.</p><h1>¿ESTO ES<br><em>LEGAL?</em></h1><p class="subtitle">¿Un contrato por WhatsApp vale? ¿La fianza paga el último mes?<br>Pon a prueba tu criterio con cinco casos de la vida cotidiana.</p><fieldset class="game-mode"><legend>Elige cómo jugar</legend><label><input type="radio" name="mode" value="relaxed" checked> A tu ritmo</label><label><input type="radio" name="mode" value="sprint"> Reto rápido · 20 s</label></fieldset><div id="start-slot"></div><p class="fine">Sin registro · Sin datos personales · Cinco preguntas</p><details class="scoring-guide"><summary>¿Cómo se puntúa?</summary><p>100 por acierto, o 80 con pista. La racha suma hasta 30 extra. En reto rápido, Brinco añade 20 si aciertas antes de 15 segundos. Un error no resta puntos.</p></details><span class="sound-notice">Música y efectos se habilitan al pulsar Jugar. Puedes controlarlos arriba y comprobar la salida con Probar sonido.</span></div><div class="hero-world" aria-label="Don Lex, Trampín y Lexi presentan cinco casos jurídicos"><div class="world-floor"></div><span class="sky-star one" aria-hidden="true">✦</span><span class="sky-star two" aria-hidden="true">✧</span><span class="sky-star three" aria-hidden="true">✦</span><span class="speech-bubble">La letra pequeña tiene su gracia.</span><span class="world-label">EL DESPACHO DE DON LEX</span></div></div><div class="cast-parade" aria-label="Los siete personajes"></div><div class="home-bottom"><span>Casos ficticios. Contenido jurídico provisional.</span><span>Contenido pendiente de revisión con vLex Vincent.</span></div>';
   const topics = el("div", undefined, "legal-topics");
   topics.setAttribute("aria-label", "Temas de las preguntas");
   for (const topic of [

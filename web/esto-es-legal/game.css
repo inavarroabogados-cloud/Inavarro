@@ -1375,4 +1375,88 @@ html.motion-reduced *:after {
   }
 }
 /* Clip the unfocused skip link, including in full-page review captures. */
-.skip:not(:focus){clip-path:inset(50%);width:1px;height:1px;overflow:hidden;padding:0;white-space:nowrap}
+.skip:not(:focus) {
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.sound-check {
+  padding: 14px 5%;
+  border-bottom: 1px solid var(--line);
+  background: #edf0e5;
+}
+.sound-check > button {
+  background: var(--ink);
+  color: #fffaf0;
+  border: 0;
+  border-radius: 10px;
+  padding: 12px 18px;
+  font-weight: 700;
+}
+.sound-check p {
+  font-size: 12px;
+  max-width: 850px;
+  margin: 12px 0;
+}
+.audio-volumes {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.audio-volumes label {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 44px;
+}
+.audio-volumes input {
+  max-width: 160px;
+  accent-color: var(--ink);
+  min-height: 44px;
+}
+.sound-check details {
+  font-size: 11px;
+  max-width: 900px;
+}
+.sound-check summary {
+  min-height: 44px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.sound-check pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  background: #fffdf6;
+  border: 1px solid var(--line);
+  padding: 14px;
+  max-height: 320px;
+  overflow: auto;
+  font-size: 11px;
+}
+.sound-check details button,
+#hearing-confirmation button {
+  padding: 10px 14px;
+  background: #faf7ed;
+  border: 1px solid #9ab19f;
+  border-radius: 8px;
+  margin: 8px 8px 0 0;
+}
+.sound-check [hidden] {
+  display: none !important;
+}
+@media (max-width: 600px) {
+  .sound-check {
+    padding: 12px 5%;
+  }
+  .audio-volumes {
+    gap: 0 15px;
+  }
+  .audio-volumes label {
+    flex-wrap: wrap;
+  }
+}
