@@ -15,3 +15,6 @@ pages('dist',file=>{const relative=path.relative('dist',file).split(path.sep).jo
 const home=fs.readFileSync(path.join(destination,'index.html'),'utf8');
 if(!home.includes('Versión de demostración')||!home.includes('noindex'))throw new Error('La herramienta debe mantener su etiqueta demo y noindex');
 console.log('Herramienta estática instalada en '+mount+'; portal y área privada conservados.');
+
+// Keep the public game beta entry across both supported build entrypoints.
+await import('./install-game-beta.mjs');

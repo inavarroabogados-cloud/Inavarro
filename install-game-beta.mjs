@@ -1,0 +1,30 @@
+/** Public beta entry. Gameplay remains on the isolated, verified demo service. */
+import fs from 'node:fs';
+import path from 'node:path';
+const root='dist';
+const mount='/esto-es-legal/';
+const game='https://esto-es-legal-demo.onrender.com/esto-es-legal/';
+const config=JSON.parse(fs.readFileSync('config.json','utf8'));
+const origin=new URL(config.origin).origin;
+const canonical=origin+mount;
+const share='¿Esto es legal? 🎮 Cinco retos para poner a prueba tu intuición. Prueba la beta de iNavarro Abogados: '+canonical+' · Casos ficticios y contenido jurídico provisional.';
+const wa='https://wa.me/?text='+encodeURIComponent(share);
+const html=`<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>¿Esto es legal? · Beta pública | iNavarro Abogados</title><meta name="description" content="Pon a prueba tu intuición con cinco retos y personajes originales. Beta pública: casos ficticios y contenido jurídico provisional."><meta name="robots" content="noindex,follow"><link rel="canonical" href="${canonical}"><meta property="og:title" content="¿Esto es legal? · ¿Te atreves con cinco retos?"><meta property="og:description" content="El juego de iNavarro Abogados. Beta pública con música y personajes originales. Casos ficticios y contenido jurídico provisional."><meta property="og:type" content="website"><meta property="og:url" content="${canonical}"><meta property="og:image" content="https://esto-es-legal-demo.onrender.com/esto-es-legal/exports/don-lex-horizontal.png"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/marca.png"><link rel="stylesheet" href="/style.css"><meta name="theme-color" content="#18283e"><style>.beta-layout{max-width:900px;margin:auto;padding:48px 24px}.beta-layout h1{font-size:clamp(40px,8vw,76px);line-height:1.05}.beta-label{display:inline-block;padding:6px 12px;border:1px solid #18283e;border-radius:30px;font-size:13px}.beta-actions{display:flex;flex-wrap:wrap;gap:18px;align-items:center;margin:28px 0}.beta-note{padding:20px;border-left:4px solid #a88647;background:#f4f0e7;margin:28px 0}.beta-layout li{margin:12px 0}.beta-feedback{margin-top:36px}a:focus-visible{outline:3px solid #aa7834;outline-offset:4px}</style></head><body><a class="skip" href="#contenido">Saltar al contenido</a><header><a href="/" class="brand"><img src="/marca.png" width="48" height="48" alt=""><span><b>iNavarro</b><small>ABOGADOS · TENERIFE</small></span></a><nav aria-label="Navegación principal"><a href="/">Noticias</a><a href="/contacto/">Contacto</a></nav></header><main id="contenido" class="beta-layout"><span class="beta-label">BETA PÚBLICA · PRUÉBALA Y COMPARTE</span><h1>¿Esto es legal?</h1><p class="lead">Cinco retos. Siete personajes. Y ese momento en el que dices: «¡Eso lo sabía!».</p><p>Contratos, alquileres, consumo y privacidad: pon a prueba tu intuición en una partida breve, con música original y efectos. Cada ronda selecciona cinco casos del banco de demostración.</p><div class="beta-actions"><a class="contact" href="${game}">Jugar a la beta ↗</a><a href="${wa}" rel="noopener noreferrer">Compartir por WhatsApp ↗</a></div><aside class="beta-note"><strong>Estamos de estreno: es una versión de prueba.</strong><p>Los casos son ficticios. El contenido jurídico es provisional y está pendiente de revisión; no constituye asesoramiento ni debe utilizarse para decidir sobre un asunto real.</p></aside><h2>Cómo jugar</h2><ol><li>Abre el juego y pulsa «PROBAR SONIDO» si quieres comprobar el audio.</li><li>Pulsa «Jugar» y elige tu respuesta en cada reto.</li><li>Revisa la explicación y comparte el juego para retar a otra persona.</li></ol><p>No necesitas crear una cuenta ni aportar documentos. El juego se abre en nuestro sitio de demostración.</p><section class="beta-feedback"><h2>Ayúdanos a mejorar</h2><p>Si algo falla o una pregunta resulta confusa, <a href="mailto:inavarroabogados@gmail.com?subject=Comentario%20sobre%20la%20beta%20Esto%20es%20legal">cuéntanoslo por correo</a>. Indica el dispositivo y lo que ocurrió, sin incluir datos de clientes ni de asuntos reales.</p><p>¿Tienes una consulta jurídica? <a href="/contacto/">Contacta con el despacho</a>.</p></section></main><footer><p>iNavarro Abogados · Im anol Navarro Pérez · ICATF 6738</p><p><a href="/">Volver a noticias</a> · <a href="/contacto/">Contacto</a></p></footer></body></html>`.replace('Im anol','Imanol');
+fs.mkdirSync(path.join(root,mount),{recursive:true});
+fs.writeFileSync(path.join(root,mount,'index.html'),html);
+const homePath=path.join(root,'index.html');
+let home=fs.readFileSync(homePath,'utf8');
+if(!home.includes('id="game-beta-launch"')){
+ const banner='<aside id="game-beta-launch" aria-label="Juego en beta pública" style="padding:26px 7%;background:#18283e;color:#f5f3ed"><strong style="font-size:24px">¿Esto es legal? 🎮</strong><p>Cinco retos para poner a prueba tu intuición. Música, personajes y una beta que ya puedes probar.</p><a href="/esto-es-legal/" style="color:#f5f3ed;text-decoration:underline;font-weight:700">Jugar a la beta pública ↗</a><small style="display:block;margin-top:10px">Casos ficticios · Contenido jurídico provisional · Sin registro</small></aside>';
+ if(!home.includes('<main id="contenido">'))throw Error('No se encuentra la entrada pública del portal');
+ home=home.replace('<main id="contenido">','<main id="contenido">'+banner);
+ fs.writeFileSync(homePath,home);
+}
+for(const hub of ['enlaces','instagram']){
+ const file=path.join(root,hub,'index.html');if(!fs.existsSync(file))continue;
+ let page=fs.readFileSync(file,'utf8');
+ if(page.includes('href="/esto-es-legal/"'))continue;
+ const card='<a class="card" href="/esto-es-legal/"><span><strong>¿Esto es legal? 🎮</strong><small>Jugar a la beta pública · Contenido provisional</small></span><span class="arrow" aria-hidden="true">↗</span></a>';
+ page=page.replace('</nav>',card+'</nav>');fs.writeFileSync(file,page);
+}
+console.log('Beta pública: entrada en /esto-es-legal/, portada y enlaces; juego aislado y avisos provisionales conservados.');
