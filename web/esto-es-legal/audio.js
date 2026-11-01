@@ -63,13 +63,13 @@ export class GameAudio {
       if (!this.music || document.hidden) return;
       const t = this.context.currentTime;
       const midi = melody[this.step % melody.length];
-      this.tone(440 * 2 ** ((midi - 69) / 12), t, 0.21, 0.023, "triangle");
+      this.tone(440 * 2 ** ((midi - 69) / 12), t, 0.21, 0.065, "triangle");
       if (this.step % 4 === 0)
         this.tone(
           130.81 * [1, 4 / 3, 1.5, 1][Math.floor(this.step / 4) % 4],
           t,
           0.38,
-          0.019,
+          0.043,
         );
       this.step++;
     };
@@ -96,7 +96,7 @@ export class GameAudio {
     };
     const notes = sequences[name] || [];
     notes.forEach((hz, i) =>
-      this.tone(hz, this.context.currentTime + i * 0.105, 0.19, 0.045, "sine"),
+      this.tone(hz, this.context.currentTime + i * 0.105, 0.19, 0.075, "sine"),
     );
   }
   destroy() {
