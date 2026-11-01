@@ -30,7 +30,8 @@ let manualMotion = false,
   started = 0,
   remaining = 20,
   pausedAt = null,
-  shareUrl = null;
+  shareUrl = null,
+  musicPreferenceSet = false;
 const el = (tag, text, cls) => {
   const n = document.createElement(tag);
   if (text !== undefined) n.textContent = text;
@@ -98,6 +99,8 @@ for (const [id, setter, name] of [
   const b = document.getElementById(id);
   b.addEventListener("click", async () => {
     const on = b.getAttribute("aria-pressed") !== "true";
+    if (id === "music") musicPreferenceSet = true;
+    b.disabled = true;
     try {
       const ok = await setter(on);
       if (!ok) {
@@ -111,8 +114,36 @@ for (const [id, setter, name] of [
       announce(`${name}: ${on ? "activado" : "desactivado"}.`);
     } catch {
       announce("Audio no disponible. La partida puede continuar.");
+    } finally {
+      b.disabled = false;
     }
   });
+}
+function startMusicFromPlayGesture() {
+  if (musicPreferenceSet || audio.music) return;
+  const control = document.getElementById("music");
+  control.disabled = true;
+  // Call before any await or navigation: iOS requires the original user gesture.
+  audio
+    .setMusic(true)
+    .then((ok) => {
+      if (ok) {
+        control.setAttribute("aria-pressed", "true");
+        control.setAttribute("aria-label", "Desactivar música");
+        announce("Música activada. Puedes silenciarla con el control Música.");
+      } else
+        announce(
+          "La música no está disponible. Puedes continuar jugando sin sonido.",
+        );
+    })
+    .catch(() =>
+      announce(
+        "La música no está disponible. Puedes continuar jugando sin sonido.",
+      ),
+    )
+    .finally(() => {
+      control.disabled = false;
+    });
 }
 function home(focus = false) {
   clearTimer();
@@ -120,7 +151,7 @@ function home(focus = false) {
   main.replaceChildren();
   const section = el("section", undefined, "home");
   section.innerHTML =
-    '<div class="home-intro"><div class="intro-copy"><p class="eyebrow">CINCO RETOS. SIETE CÓMPLICES. UN MATIZ.</p><h1>¿ESTO ES<br><em>LEGAL?</em></h1><p class="subtitle">¿Un contrato por WhatsApp vale? ¿La fianza paga el último mes?<br>Pon a prueba tu criterio con cinco casos de la vida cotidiana.</p><fieldset class="game-mode"><legend>Elige cómo jugar</legend><label><input type="radio" name="mode" value="relaxed" checked> A tu ritmo</label><label><input type="radio" name="mode" value="sprint"> Reto rápido · 20 s</label></fieldset><div id="start-slot"></div><p class="fine">Sin registro · Sin datos personales · Cinco preguntas</p><details class="scoring-guide"><summary>¿Cómo se puntúa?</summary><p>100 por acierto, o 80 con pista. La racha suma hasta 30 extra. En reto rápido, Brinco añade 20 si aciertas antes de 15 segundos. Un error no resta puntos.</p></details><span class="sound-notice">Música y efectos apagados al entrar. Actívalos cuando quieras.</span></div><div class="hero-world" aria-label="Don Lex, Trampín y Lexi presentan cinco casos jurídicos"><div class="world-floor"></div><span class="sky-star one" aria-hidden="true">✦</span><span class="sky-star two" aria-hidden="true">✧</span><span class="sky-star three" aria-hidden="true">✦</span><span class="speech-bubble">La letra pequeña tiene su gracia.</span><span class="world-label">EL DESPACHO DE DON LEX</span></div></div><div class="cast-parade" aria-label="Los siete personajes"></div><div class="home-bottom"><span>Casos ficticios. Contenido jurídico provisional.</span><span>Contenido pendiente de revisión con vLex Vincent.</span></div>';
+    '<div class="home-intro"><div class="intro-copy"><p class="eyebrow">CINCO RETOS. SIETE CÓMPLICES. UN MATIZ.</p><h1>¿ESTO ES<br><em>LEGAL?</em></h1><p class="subtitle">¿Un contrato por WhatsApp vale? ¿La fianza paga el último mes?<br>Pon a prueba tu criterio con cinco casos de la vida cotidiana.</p><fieldset class="game-mode"><legend>Elige cómo jugar</legend><label><input type="radio" name="mode" value="relaxed" checked> A tu ritmo</label><label><input type="radio" name="mode" value="sprint"> Reto rápido · 20 s</label></fieldset><div id="start-slot"></div><p class="fine">Sin registro · Sin datos personales · Cinco preguntas</p><details class="scoring-guide"><summary>¿Cómo se puntúa?</summary><p>100 por acierto, o 80 con pista. La racha suma hasta 30 extra. En reto rápido, Brinco añade 20 si aciertas antes de 15 segundos. Un error no resta puntos.</p></details><span class="sound-notice">La música empieza al pulsar Jugar. Puedes silenciarla arriba. Efectos opcionales.</span></div><div class="hero-world" aria-label="Don Lex, Trampín y Lexi presentan cinco casos jurídicos"><div class="world-floor"></div><span class="sky-star one" aria-hidden="true">✦</span><span class="sky-star two" aria-hidden="true">✧</span><span class="sky-star three" aria-hidden="true">✦</span><span class="speech-bubble">La letra pequeña tiene su gracia.</span><span class="world-label">EL DESPACHO DE DON LEX</span></div></div><div class="cast-parade" aria-label="Los siete personajes"></div><div class="home-bottom"><span>Casos ficticios. Contenido jurídico provisional.</span><span>Contenido pendiente de revisión con vLex Vincent.</span></div>';
   const topics = el("div", undefined, "legal-topics");
   topics.setAttribute("aria-label", "Temas de las preguntas");
   for (const topic of [
@@ -152,6 +183,7 @@ function home(focus = false) {
     button(
       "¡Vamos a jugar!  →",
       () => {
+        startMusicFromPlayGesture();
         const mode = section.querySelector("input:checked").value;
         state = startRound(questions, mode);
         renderQuestion(true);

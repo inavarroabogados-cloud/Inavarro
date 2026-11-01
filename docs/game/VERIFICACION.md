@@ -31,3 +31,11 @@ Partidas completas con `tap()` y reinicio en cinco perfiles emulados: iPhone SE,
 La suite JS actual tiene 15 pruebas correctas, incluida la distinción de direcciones de revisión Wi-Fi frente a URLs públicas. Dos pruebas Python adicionales verifican el servidor de revisión: recursos del juego accesibles, editor/repositorio/directorios bloqueados y HEAD correcto.
 
 El usuario necesita un enlace HTTPS desde el teléfono, sin ordenador. Los lanzadores Wi-Fi no resuelven ese acceso. Se ha comprobado que no hay capacidad de preview en el entorno ni secreto RENDER_API_KEY configurado; no se ha creado ni verificado una URL pública, no se ha desplegado ni fusionado main. Requiere habilitar un alojamiento de revisión separado y comprobar la URL resultante; no utilizar la producción como sustituto de la revisión.
+
+## Preparación de revisión HTTPS aislada — 1 de noviembre de 2026
+
+Inspeccionadas herramientas y capacidades actuales: no hay hosting de previews ni forwarding HTTPS público disponible. Sin acceso conectado a proveedores de preview. No se ha usado Render de producción ni generado una URL HTTPS pública. Instrucciones manuales sin API Key: `REVISION-HTTPS-RENDER.md`.
+
+La música se solicita dentro del gesto de Jugar (sin esperar una navegación), permanece apagada antes y respeta silencio explícito. Pruebas táctiles de partida completa con música activada en cinco perfiles de Chromium, más silencio previo y ausencia de AudioContext: correctas. No es una prueba de Safari real ni de un altavoz físico. WebKit no está instalado y no hay iPhone conectado.
+
+18 pruebas JS correctas. El nuevo build `scripts/build-game-preview.mjs` genera solo recursos demo en `preview-dist`; rechaza el nombre/dominio de producción, rama main informada por Render y archivos ajenos en la salida. Pruebas HTTP locales: juego, audio, preguntas y marcador 200; editor, administración, clientes y .env 404. No se ha desplegado ni fusionado main. La URL y Safari físico siguen pendientes de verificación tras habilitar la revisión independiente.

@@ -9,6 +9,7 @@
       },
       "hasTouch": true,
       "fullRound": "passed",
+      "musicFromPlayGesture": "passed",
       "restart": "passed",
       "overflow": false,
       "minAnswerHeight": 53,
@@ -22,6 +23,7 @@
       },
       "hasTouch": true,
       "fullRound": "passed",
+      "musicFromPlayGesture": "passed",
       "restart": "passed",
       "overflow": false,
       "minAnswerHeight": 53,
@@ -35,6 +37,7 @@
       },
       "hasTouch": true,
       "fullRound": "passed",
+      "musicFromPlayGesture": "passed",
       "restart": "passed",
       "overflow": false,
       "minAnswerHeight": 61,
@@ -48,6 +51,7 @@
       },
       "hasTouch": true,
       "fullRound": "passed",
+      "musicFromPlayGesture": "passed",
       "restart": "passed",
       "overflow": false,
       "minAnswerHeight": 53,
@@ -61,10 +65,13 @@
       },
       "hasTouch": true,
       "fullRound": "passed",
+      "musicFromPlayGesture": "passed",
       "restart": "passed",
       "overflow": false,
       "minAnswerHeight": 61,
       "errors": []
     }
-  ]
+  ],
+  "explicitMuteRespected": true,
+  "unsupportedAudioGameContinues": true
 }

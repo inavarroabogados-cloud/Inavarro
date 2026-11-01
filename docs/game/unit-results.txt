@@ -1,24 +1,27 @@
-✔ audio is opt-in, original effects schedule finite notes, mute stops voices and hidden page is silent (1.913727ms)
-✔ unsupported audio does not prevent game controls from continuing (0.21837ms)
-✔ five questions, escalating levels, original bank untouched (2.952685ms)
-✔ correct answers, combo, victory and duplicate prevention (0.459602ms)
-✔ hint reduces base once; incorrect and timeout reset combo (0.499016ms)
-✔ sprint bonus has explicit threshold; relaxed never rewards speed (0.304501ms)
-✔ legal demo uses everyday cases, real-reference proposals and explicit pending review (0.689813ms)
-✔ legal bank: repeated rounds cannot duplicate cases or mutate the bank (3.347585ms)
-✔ share URL strips query, hash and path; text has no answers or score (0.270757ms)
-✔ editor accepts drafts, validates answers and rejects unsafe sources (0.589616ms)
-✔ declared Vincent review requires human identity, date, notes and legislation (0.75232ms)
-✔ all original 42 illustrations and animation implementation preserved byte for byte (135.17139ms)
-✔ mobile LAN review is never advertised as a public challenge (0.572182ms)
-✔ private editor: authentication, CSRF, storage, conflict, errors and logout (481.344396ms)
+✔ audio is opt-in, original effects schedule finite notes, mute stops voices and hidden page is silent (2.119423ms)
+✔ unsupported audio does not prevent game controls from continuing (0.209874ms)
+✔ five questions, escalating levels, original bank untouched (3.479021ms)
+✔ correct answers, combo, victory and duplicate prevention (0.511398ms)
+✔ hint reduces base once; incorrect and timeout reset combo (0.44276ms)
+✔ sprint bonus has explicit threshold; relaxed never rewards speed (0.370345ms)
+✔ legal demo uses everyday cases, real-reference proposals and explicit pending review (0.578485ms)
+✔ legal bank: repeated rounds cannot duplicate cases or mutate the bank (3.422666ms)
+✔ share URL strips query, hash and path; text has no answers or score (0.220313ms)
+✔ editor accepts drafts, validates answers and rejects unsafe sources (0.626334ms)
+✔ declared Vincent review requires human identity, date, notes and legislation (0.7254ms)
+✔ all original 42 illustrations and animation implementation preserved byte for byte (147.267303ms)
+✔ mobile LAN review is never advertised as a public challenge (0.347651ms)
+✔ private editor: authentication, CSRF, storage, conflict, errors and logout (517.955971ms)
+✔ isolated preview build excludes all administration, private data and portal tools (70.28596ms)
+✔ preview build rejects production service and main branch before writing output (124.536097ms)
+✔ preview refuses unexpected output files without deleting them (38.407605ms)
 Elenco instalado en /esto-es-legal/ con recursos locales.
-✔ installer preserves private pages and is idempotent (7.09531ms)
-ℹ tests 15
+✔ installer preserves private pages and is idempotent (7.925436ms)
+ℹ tests 18
 ℹ suites 0
-ℹ pass 15
+ℹ pass 18
 ℹ fail 0
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 573.074565
+ℹ duration_ms 608.974523

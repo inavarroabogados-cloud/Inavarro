@@ -38,6 +38,13 @@ try {
     page.on("pageerror", (e) => errors.push(e.message));
     await page.goto(origin + "/esto-es-legal/");
     await page.getByRole("button", { name: "¡Vamos a jugar!" }).tap();
+    await page.locator('#music[aria-pressed="true"]').waitFor();
+    assert.equal(
+      await page
+        .getByRole("button", { name: "Desactivar música", exact: true })
+        .count(),
+      1,
+    );
     let overflow = false,
       minAnswerHeight = Infinity;
     for (let i = 0; i < 5; i++) {
@@ -79,6 +86,7 @@ try {
       viewport: profile.viewport,
       hasTouch: profile.hasTouch,
       fullRound: "passed",
+      musicFromPlayGesture: "passed",
       restart: "passed",
       overflow,
       minAnswerHeight,
@@ -86,6 +94,33 @@ try {
     });
     await context.close();
   }
+  const phone = await browser.newContext({
+    ...devices["iPhone 13"],
+    deviceScaleFactor: 1,
+  });
+  const p = await phone.newPage();
+  await p.goto(origin + "/esto-es-legal/");
+  await p.getByRole("button", { name: "Activar música", exact: true }).tap();
+  await p.getByRole("button", { name: "Desactivar música", exact: true }).tap();
+  await p.getByRole("button", { name: "¡Vamos a jugar!" }).tap();
+  assert.equal(await p.locator("#music").getAttribute("aria-pressed"), "false");
+  report.explicitMuteRespected = true;
+  await p.addInitScript(() => {
+    Object.defineProperty(window, "AudioContext", {
+      value: undefined,
+      configurable: true,
+    });
+    Object.defineProperty(window, "webkitAudioContext", {
+      value: undefined,
+      configurable: true,
+    });
+  });
+  await p.goto(origin + "/esto-es-legal/");
+  await p.getByRole("button", { name: "¡Vamos a jugar!" }).tap();
+  assert.equal(await p.locator(".answer").count(), 3);
+  assert.equal(await p.locator("#music").getAttribute("aria-pressed"), "false");
+  report.unsupportedAudioGameContinues = true;
+  await phone.close();
   await fs.writeFile(root + "results.json", JSON.stringify(report, null, 2));
   console.log(JSON.stringify(report, null, 2));
 } finally {
