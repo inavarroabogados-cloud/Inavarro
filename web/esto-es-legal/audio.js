@@ -52,7 +52,7 @@ export class GameAudio {
     media.muted = false;
     media.setAttribute("playsinline", "");
     media.setAttribute("webkit-playsinline", "");
-    media.src = new URL(file, ROOT).href;
+    media.src = new URL(file + (file.startsWith("music") ? "?score=hook-126-v1" : ""), ROOT).href;
     media.dataset.channel = channel;
     media.dataset.file = file;
     document.getElementById?.("audio-host")?.append(media);
@@ -218,7 +218,7 @@ export class GameAudio {
           )
         : base;
     media.dataset.volumeMode = native ? "native" : "encoded-levels";
-    const next = new URL(selected, ROOT).href;
+    const next = new URL(selected + (selected.startsWith("music") ? "?score=hook-126-v1" : ""), ROOT).href;
     const changed = media.src !== next;
     if (changed) media.src = next;
     return changed;

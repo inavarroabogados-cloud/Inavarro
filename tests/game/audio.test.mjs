@@ -72,7 +72,7 @@ test("first gesture starts real music and enables effects with one media play, w
       a.diagnostics().audioContextState,
       "not-created (engine does not depend on Web Audio)",
     );
-    assert.ok(a.musicAudio.src.endsWith("music.mp3"));
+    assert.ok(new URL(a.musicAudio.src).pathname.endsWith("music.mp3"));
   } finally {
     a.destroy();
   }
@@ -170,7 +170,7 @@ test("timeouts, unsupported media and zero volume produce visible diagnostic err
     a.testAudio.hang = false;
     a.musicAudio.fail = "NotSupportedError";
     assert.equal(await a.setMusic(true), false);
-    assert.ok(a.musicAudio.src.endsWith("music.wav"));
+    assert.ok(new URL(a.musicAudio.src).pathname.endsWith("music.wav"));
     a.musicAudio.fail = null;
     assert.equal(await a.setMusic(true), true);
     assert.equal(a.setVolume("effects", 0), true);
@@ -234,9 +234,9 @@ test("encoded levels provide gain when iOS ignores the native volume setter", as
       configurable: true,
     });
     await a.setMusic(true);
-    assert.ok(a.musicAudio.src.endsWith("music-medium.mp3"));
+    assert.ok(new URL(a.musicAudio.src).pathname.endsWith("music-medium.mp3"));
     a.setVolume("music", 0.2);
-    assert.ok(a.musicAudio.src.endsWith("music-low.mp3"));
+    assert.ok(new URL(a.musicAudio.src).pathname.endsWith("music-low.mp3"));
     a.setVolume("music", 0);
     assert.equal(a.musicAudio.muted, true);
     assert.equal(a.music, true);

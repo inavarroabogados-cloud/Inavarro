@@ -5,12 +5,12 @@
   "assets": {
     "music": {
       "wav": "music.wav",
-      "seconds": 9.12,
-      "peak": 0.38373,
-      "rms": 0.07937,
-      "sha256": "1a41fd862007f46bb7fd06141cae1bccc5900a624efa9bcd0f2505941b49ef5b",
+      "seconds": 15.238,
+      "peak": 0.53695,
+      "rms": 0.10326,
+      "sha256": "91dc8a2f0756522b3f01a359c6ebc77b3e6ae8232ffab1036d927e8ea377adf0",
       "mp3": "music.mp3",
-      "mp3Sha256": "20d67877133b1314b01aefe5f688995a82fae158dfd522f6be72ccbce6b17e58"
+      "mp3Sha256": "48ade6ff93a3b7c8ade873de478879a4674551a77b94e05a1cbc1ab75ee7714a"
     },
     "test": {
       "wav": "test.wav",
