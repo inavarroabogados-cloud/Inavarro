@@ -9,28 +9,21 @@
     },
     {
       "width": 390,
-      "game": "inmobiliario",
+      "game": "familia",
       "questions": 10,
       "score": 10,
       "passed": true
     },
     {
       "width": 390,
-      "game": "civil",
+      "game": "vivienda",
       "questions": 10,
       "score": 10,
       "passed": true
     },
     {
       "width": 390,
-      "game": "mercantil",
-      "questions": 10,
-      "score": 10,
-      "passed": true
-    },
-    {
-      "width": 390,
-      "game": "datos",
+      "game": "consumo",
       "questions": 10,
       "score": 10,
       "passed": true
@@ -38,6 +31,13 @@
     {
       "width": 390,
       "game": "penal",
+      "questions": 10,
+      "score": 10,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "game": "extranjeria",
       "questions": 10,
       "score": 10,
       "passed": true
@@ -51,28 +51,21 @@
     },
     {
       "width": 1440,
-      "game": "inmobiliario",
+      "game": "familia",
       "questions": 10,
       "score": 0,
       "passed": true
     },
     {
       "width": 1440,
-      "game": "civil",
+      "game": "vivienda",
       "questions": 10,
       "score": 0,
       "passed": true
     },
     {
       "width": 1440,
-      "game": "mercantil",
-      "questions": 10,
-      "score": 0,
-      "passed": true
-    },
-    {
-      "width": 1440,
-      "game": "datos",
+      "game": "consumo",
       "questions": 10,
       "score": 0,
       "passed": true
@@ -80,6 +73,13 @@
     {
       "width": 1440,
       "game": "penal",
+      "questions": 10,
+      "score": 0,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "game": "extranjeria",
       "questions": 10,
       "score": 0,
       "passed": true
@@ -119,8 +119,8 @@
     }
   ],
   "audio": {
-    "initial": 1.554843,
-    "after": 2.014918,
+    "initial": 1.712764,
+    "after": 2.172004,
     "progress": true,
     "readyState": 4,
     "elements": 1,

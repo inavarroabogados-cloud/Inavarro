@@ -1,24 +1,20 @@
 # Fuentes jurídicas de la colección
 
-Consulta oficial: 1 de noviembre de 2026. Casos ficticios, Derecho español; sucesiones bajo Derecho civil común, sin elementos internacionales. No se utiliza jurisprudencia ni se atribuye revisión personal al letrado.
+Comprobación documental: 2 de noviembre de 2026. Once normas oficiales del BOE, incluyendo la normativa estatal de extranjería y procedimiento. Sin jurisprudencia ni revisiones de Vincent atribuidas.
 
-Se descargaron las normas oficiales del BOE y se localizaron los artículos citados. El RGPD se contrastó en la publicación oficial del DOUE alojada en BOE: EUR-Lex devolvió una respuesta 202 vacía y no se presenta como consulta satisfactoria. Los hashes y estados HTTP están en `fuentes-verificadas.json`; `articulos-comprobados.json` comprueba existencia, no sustituye la valoración jurídica.
-
-## Normas
+Los estados HTTP, tamaños y hashes están en `fuentes-verificadas.json`. `articulos-comprobados.json` localiza referencias; no acredita por sí solo una interpretación ni revisión jurídica humana. El dossier completo de los 60 casos y los puntos a revisar están en `DOSSIER-JURIDICO.md`.
 
 - [Código Civil](https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763)
-- [Ley de Propiedad Horizontal](https://www.boe.es/buscar/act.php?id=BOE-A-1960-10906)
 - [Ley de Arrendamientos Urbanos](https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003)
-- [Ley de Sociedades de Capital](https://www.boe.es/buscar/act.php?id=BOE-A-2010-10544)
 - [Código Penal](https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444)
 - [Ley de Enjuiciamiento Criminal](https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036)
-- [Reglamento General de Protección de Datos](https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807)
-- [Ley Orgánica 3/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673)
-- [Ley General Tributaria](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186)
-- [Código de Comercio](https://www.boe.es/buscar/act.php?id=BOE-A-1885-6627)
 - [Ley General para la Defensa de los Consumidores y Usuarios](https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555)
-- [Ley Orgánica 1/1982, derecho a la propia imagen](https://www.boe.es/buscar/act.php?id=BOE-A-1982-11196)
 - [Constitución Española](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229)
+- [Ley Orgánica 4/2000, extranjería](https://www.boe.es/buscar/act.php?id=BOE-A-2000-544)
+- [Reglamento de Extranjería, RD 1155/2024](https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099)
+- [Ley 39/2015, procedimiento administrativo](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565)
+- [Ley 7/1985, bases del régimen local](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392)
+- [Ley de Enjuiciamiento Civil](https://www.boe.es/buscar/act.php?id=BOE-A-2000-323)
 
 ## La herencia envenenada
 
@@ -35,65 +31,50 @@ Se descargaron las normas oficiales del BOE y se localizaron los artículos cita
 | 9. El reparto de sobremesa | Código Civil, art. 1058, 1278–1280 |
 | 10. El último sobre | Código Civil, art. 1079 |
 
-## Las llaves o la trampa
+## La familia cambia de guion
 
 | Caso | Fundamento |
 | --- | --- |
-| 1. Reserva a ciegas | Código Civil, art. 1254–1258, 1261; Ley General para la Defensa de los Consumidores y Usuarios, art. 60 |
-| 2. Hipoteca denegada | Código Civil, art. 1454, 1255 |
-| 3. Los metros que faltan | Código Civil, art. 1469–1472; Ley General para la Defensa de los Consumidores y Usuarios, art. 61 |
-| 4. El cerramiento precioso | Ley de Propiedad Horizontal, art. 7, 10, 17 |
-| 5. La comunidad pendiente | Ley de Propiedad Horizontal, art. 9.1.e, 17.11 |
-| 6. Comprar con inquilino | Ley de Arrendamientos Urbanos, art. 14, 25 |
-| 7. Humedades tras las llaves | Código Civil, art. 1484–1490 |
-| 8. Hipoteca desigual | Código Civil, art. 393, 1138, 1145 |
-| 9. La venta bloqueada | Código Civil, art. 400, 404, 405 |
-| 10. Un precio en el sobre | Ley General Tributaria, art. 16, 191; Código Civil, art. 1275–1276 |
+| 1. Separarse sin borrar acuerdos | Código Civil, art. 90, 91; Ley de Enjuiciamiento Civil, art. 777 |
+| 2. Los cuidados no son un premio | Código Civil, art. 92 |
+| 3. Una pensión con destino | Código Civil, art. 93, 142, 146, 147 |
+| 4. El colegio del próximo curso | Código Civil, art. 156 |
+| 5. La casa después de separarse | Código Civil, art. 96 |
+| 6. Abuelos en medio del conflicto | Código Civil, art. 160 |
+| 7. La mudanza importante | Código Civil, art. 154, 156 |
+| 8. Los ingresos han cambiado | Código Civil, art. 91, 147; Ley de Enjuiciamiento Civil, art. 775 |
+| 9. Cumplir dieciocho no lo borra todo | Código Civil, art. 93, 142, 152 |
+| 10. La nueva pareja y los bienes | Código Civil, art. 392, 609, 1255, 1344 |
 
-## ¿Te la han colado?
+## Bajo el mismo techo
 
 | Caso | Fundamento |
 | --- | --- |
-| 1. El favor de 2.000 euros | Código Civil, art. 1258, 1278, 1740 |
-| 2. Un sí en WhatsApp | Código Civil, art. 1261–1262, 1278 |
-| 3. La reforma parada | Código Civil, art. 1101, 1124 |
-| 4. «El mes que viene» | Código Civil, art. 1964.2, 1969, 1973 |
-| 5. La firma por ayudar | Código Civil, art. 1822, 1827, 1830–1831 |
-| 6. Cobrar y renunciar | Código Civil, art. 1809, 1815; Ley General para la Defensa de los Consumidores y Usuarios, art. 10 |
+| 1. El nombre del contrato | Ley de Arrendamientos Urbanos, art. 2, 3 |
+| 2. La fianza de entrada | Ley de Arrendamientos Urbanos, art. 36 |
+| 3. El último mes | Ley de Arrendamientos Urbanos, art. 17, 27.2.a, 36 |
+| 4. La caldera que falla | Ley de Arrendamientos Urbanos, art. 21 |
+| 5. Pintar no es derribar | Ley de Arrendamientos Urbanos, art. 23 |
+| 6. La visita sorpresa | Constitución Española, art. 18.2; Ley de Arrendamientos Urbanos, art. 21.3 |
+| 7. Me voy antes | Ley de Arrendamientos Urbanos, art. 11 |
+| 8. Un piso vendido | Ley de Arrendamientos Urbanos, art. 14, 25 |
+| 9. La mensualidad y el índice | Ley de Arrendamientos Urbanos, art. 18 |
+| 10. La cerradura ante el impago | Ley de Arrendamientos Urbanos, art. 27.2.a; Ley de Enjuiciamiento Civil, art. 250.1.1 |
+
+## La compra tiene letra pequeña
+
+| Caso | Fundamento |
+| --- | --- |
+| 1. El pedido desde el sofá | Ley General para la Defensa de los Consumidores y Usuarios, art. 102–108 |
+| 2. La compra en el mostrador | Ley General para la Defensa de los Consumidores y Usuarios, art. 61, 68, 102, 114 |
+| 3. El electrodoméstico nuevo | Ley General para la Defensa de los Consumidores y Usuarios, art. 118–120, 121 |
+| 4. El móvil hecho a tu medida | Ley General para la Defensa de los Consumidores y Usuarios, art. 103.c, 114 |
+| 5. La reforma interrumpida | Código Civil, art. 1101, 1124 |
+| 6. La penalización oculta | Ley General para la Defensa de los Consumidores y Usuarios, art. 80, 82, 83, 85.6 |
 | 7. El coche entre particulares | Código Civil, art. 1484–1490 |
-| 8. La penalización del contrato | Ley General para la Defensa de los Consumidores y Usuarios, art. 82, 83, 85.6; Código Civil, art. 1152–1154 |
-| 9. ¿De quién es el ordenador? | Código Civil, art. 609, 1095, 1445 |
-| 10. La deuda que ya pagaste | Código Civil, art. 1156–1157 |
-
-## Tu socio mueve ficha
-
-| Caso | Fundamento |
-| --- | --- |
-| 1. Cincuenta contra cincuenta | Ley de Sociedades de Capital, art. 198–200, 363.1.d, 365 |
-| 2. Vacaciones con la tarjeta social | Ley de Sociedades de Capital, art. 225, 227–228, 236 |
-| 3. La pregunta del minoritario | Ley de Sociedades de Capital, art. 196 |
-| 4. La empresa de su pareja | Ley de Sociedades de Capital, art. 228.c, 229–231 |
-| 5. Dinero para arrancar | Ley de Sociedades de Capital, art. 58, 295, 314–315; Código Civil, art. 1740 |
-| 6. «Me voy: págame mi mitad» | Ley de Sociedades de Capital, art. 107, 346–347, 353 |
-| 7. El aval que se queda | Código Civil, art. 1205, 1822, 1847 |
-| 8. El socio que deja de trabajar | Ley de Sociedades de Capital, art. 86–89, 350–352 |
-| 9. Beneficios no es dividendo | Ley de Sociedades de Capital, art. 273–274, 348 bis |
-| 10. Lo firmado y lo inscrito | Ley de Sociedades de Capital, art. 29, 204, 285; Código Civil, art. 1091 |
-
-## Tu negocio al descubierto
-
-| Caso | Fundamento |
-| --- | --- |
-| 1. El grupo de clientes | Reglamento General de Protección de Datos, art. 5, 6, 13, 25 |
-| 2. La foto del evento | Reglamento General de Protección de Datos, art. 6, 7, 13; Ley Orgánica 1/1982, derecho a la propia imagen, art. 2, 7.5 |
-| 3. Cincuenta destinatarios visibles | Reglamento General de Protección de Datos, art. 4.12, 32–34 |
-| 4. «Borra todo lo mío» | Reglamento General de Protección de Datos, art. 12, 17; Ley Orgánica 3/2018, art. 32; Ley General Tributaria, art. 66; Código de Comercio, art. 30 |
-| 5. El móvil perdido | Reglamento General de Protección de Datos, art. 32–34 |
-| 6. La cámara del mostrador | Ley Orgánica 3/2018, art. 22; Reglamento General de Protección de Datos, art. 5, 13, 32 |
-| 7. La política prestada | Reglamento General de Protección de Datos, art. 5.2, 12–14, 24 |
-| 8. El expediente y la IA | Reglamento General de Protección de Datos, art. 5, 6, 9, 25, 28, 32, 44 |
-| 9. La llave maestra del proveedor | Reglamento General de Protección de Datos, art. 5.1.c, 28, 29, 32 |
-| 10. La cuenta que ha cambiado | Reglamento General de Protección de Datos, art. 5.1.f, 32–34 |
+| 8. La caída y las pruebas | Código Civil, art. 1902 |
+| 9. El perro que se escapa | Código Civil, art. 1905 |
+| 10. La reclamación que no espera | Código Civil, art. 1968.2, 1969, 1973 |
 
 ## En el banquillo
 
@@ -110,12 +91,17 @@ Se descargaron las normas oficiales del BOE y se localizaron los artículos cita
 | 9. «Puedes escribirme» | Código Penal, art. 48, 468 |
 | 10. Juicio por delito leve | Ley de Enjuiciamiento Criminal, art. 967.1 |
 
-## Decisiones de contenido
+## El siguiente paso
 
-- No se fijan plazos sucesorios sin saber posesión, gestiones previas y demás presupuestos. Renuncia, representación, sustitución y transmisión se distinguen expresamente.
-- Arras: se especifica su naturaleza penitencial y ausencia de condición de financiación. Vicios ocultos: comprador particular, preexistencia, carácter oculto, gravedad y plazo de seis meses desde entrega. No se confunde con garantías de consumo.
-- Sociedades: supuestos de SL. Se distinguen condición de socio, trabajo, préstamo, aportación, administrador y avalista. No se promete salida unilateral ni recompra obligatoria.
-- Datos: las 72 horas se vinculan al conocimiento de brecha y a la procedencia de notificación. Comunicación a afectados exige analizar alto riesgo y excepciones. Conservación obligatoria no equivale a uso libre indefinido. Fotografías: también se cita la LO 1/1982.
-- Penal: se distinguen testigo/investigado/detenido, denuncia/condena y deuda/apropiación. La imagen íntima incorpora los requisitos del art. 197.7 CP. La prohibición judicial sigue vigente pese al contacto de la persona protegida. Delito leve: se precisa máximo de multa de al menos seis meses (art. 967.1 LECrim). No se prometen condenas ni recuperación.
-
-La revisión por el despacho antes de integrar la colección en producción es recomendable; no se afirma que ya se haya realizado.
+| Caso | Fundamento |
+| --- | --- |
+| 1. Un número no es un permiso | Ley Orgánica 4/2000, extranjería, art. 4, 31, 36 |
+| 2. Empadronarse en Tenerife | Ley 7/1985, bases del régimen local, art. 15, 18.2 |
+| 3. Entrar como visitante | Ley Orgánica 4/2000, extranjería, art. 30, 36 |
+| 4. La oferta que ayuda, pero no basta | Ley Orgánica 4/2000, extranjería, art. 36, 38 |
+| 5. Familia de una persona española | Reglamento de Extranjería, RD 1155/2024, art. 93–99 |
+| 6. La cita no es el registro | Ley 39/2015, procedimiento administrativo, art. 16, 66; Ley Orgánica 4/2000, extranjería, art. 31 |
+| 7. Falta un documento | Ley 39/2015, procedimiento administrativo, art. 40–43, 68 |
+| 8. El silencio no siempre concede | Ley Orgánica 4/2000, extranjería, disposición adicional primera; Ley 39/2015, procedimiento administrativo, art. 21, 24 |
+| 9. Una infracción no es una expulsión automática | Ley Orgánica 4/2000, extranjería, art. 53, 55, 57, 63 |
+| 10. Renovar exige mirar el permiso | Ley Orgánica 4/2000, extranjería, art. 31 |

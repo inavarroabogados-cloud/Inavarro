@@ -13,9 +13,10 @@ if(origin&&new URL(origin).protocol!=='https:')throw Error('La URL de revisión 
 const source=path.join(root,'web/coleccion-juridica'),out=path.join(root,'collection-preview-dist'),mount=path.join(out,'coleccion-juridica');
 const catalog=JSON.parse(fs.readFileSync(path.join(source,'catalog.json'),'utf8'));
 if(catalog.games.length!==6)throw Error('Se requieren seis juegos');
-for(const g of catalog.games){const q=JSON.parse(fs.readFileSync(path.join(source,'data',g.slug+'.json'),'utf8')).questions;if(q.length!==10||q.some(q=>q.options.length!==3||!Number.isInteger(q.correct)||!q.options[q.correct]||!q.explanation||!q.nuance||!q.references.length||!q.consult))throw Error('Banco incompleto: '+g.slug)}
+for(const g of catalog.games){const q=JSON.parse(fs.readFileSync(path.join(source,'data',g.slug+'.json'),'utf8')).questions;if(q.length!==10||q.some(q=>q.options.length!==3||!Number.isInteger(q.correct)||!q.options[q.correct]||!q.explanation||!q.nuance||!q.references.length||!q.consult||!q.territory||!q.verifiedDate||!q.humanReview||!q.difficulty))throw Error('Banco incompleto: '+g.slug)}
 fs.mkdirSync(out,{recursive:true});
 if(fs.readdirSync(out).some(n=>!['coleccion-juridica','index.html','robots.txt','preview-version.json','404.html'].includes(n)))throw Error('Salida con archivos ajenos a la colección');
+fs.rmSync(mount,{recursive:true,force:true});
 fs.mkdirSync(mount,{recursive:true});
 fs.cpSync(source,mount,{recursive:true,filter:src=>!src.endsWith('.md')});
 const original=fs.readFileSync(path.join(source,'index.html'),'utf8');

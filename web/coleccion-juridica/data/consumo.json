@@ -1,0 +1,253 @@
+{
+  "slug": "consumo",
+  "title": "La compra tiene letra pequeña",
+  "area": "Responsabilidad civil y consumo",
+  "hook": "Comprar, confiar, reclamar. ¿Dónde está el matiz?",
+  "intro": "De una compra en línea a un daño cotidiano. Diez decisiones ficticias para distinguir un derecho de una promesa, y una reclamación razonable de una garantía de resultado.",
+  "cta": "Reclamar por consumo o responsabilidad civil",
+  "character": "trampin",
+  "color": "#a45838",
+  "scene": "chat",
+  "questions": [
+    {
+      "id": "consumo-01",
+      "title": "El pedido desde el sofá",
+      "situation": "Compras por internet a una tienda profesional una chaqueta ordinaria, no personalizada ni incluida en una excepción. La recibes hace tres días y cambias de opinión. ¿Qué derecho debes revisar?",
+      "options": [
+        "Que toda compra por internet obliga a conservar el producto aunque no concurra excepción.",
+        "El desistimiento, con carácter general dentro de catorce días naturales desde la recepción en este supuesto.",
+        "Que solo puedes devolverla si demuestras un defecto."
+      ],
+      "correct": 1,
+      "explanation": "En ventas a distancia existe, con carácter general, derecho de desistimiento sin necesidad de justificar el motivo, con excepciones y reglas de información.",
+      "nuance": "Debes comunicarlo y respetar las reglas de devolución. Costes, devolución de importes y falta de información requieren comprobarse; no se traslada esta regla sin más a compras entre particulares.",
+      "references": [
+        {
+          "source": "consumo",
+          "articles": "102–108"
+        }
+      ],
+      "consult": "Consultar sobre el pedido desde el sofá",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 1
+    },
+    {
+      "id": "consumo-02",
+      "title": "La compra en el mostrador",
+      "situation": "Compras presencialmente una camiseta sin defectos. La tienda informó antes de comprar que no admite devoluciones por cambio de opinión, y no prometió otra cosa. ¿Hay un derecho general a devolverla por no gustarte?",
+      "options": [
+        "No existe un desistimiento general por ese motivo en cualquier compra presencial; revisa lo pactado y las circunstancias.",
+        "Sí: toda compra presencial permite devolver sin motivo dentro del mismo plazo que internet.",
+        "No: las tiendas pueden excluir también cualquier responsabilidad por defectos."
+      ],
+      "correct": 0,
+      "explanation": "La devolución comercial voluntaria y los derechos legales por falta de conformidad son distintos. La regla general de desistimiento a distancia no se aplica a toda compra presencial.",
+      "nuance": "Si hay defecto, publicidad de devolución o un régimen especial, la respuesta puede cambiar. La política de tienda no suprime derechos imperativos.",
+      "references": [
+        {
+          "source": "consumo",
+          "articles": "61, 68, 102, 114"
+        }
+      ],
+      "consult": "Consultar sobre la compra en el mostrador",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 1
+    },
+    {
+      "id": "consumo-03",
+      "title": "El electrodoméstico nuevo",
+      "situation": "Compraste en 2025 un electrodoméstico nuevo a una tienda profesional. Al año aparece una falta de conformidad. ¿Puede la tienda decir que la responsabilidad legal acabó a los seis meses?",
+      "options": [
+        "Sí: los seis meses son el plazo legal universal de cualquier compra.",
+        "No: cualquier avería da derecho automático a devolución íntegra inmediata.",
+        "No: para estos bienes el empresario responde de faltas de conformidad que se manifiesten en tres años desde la entrega."
+      ],
+      "correct": 2,
+      "explanation": "El empresario responde de las faltas de conformidad que existan en la entrega y se manifiesten dentro del periodo legal. En bienes nuevos como el del caso es de tres años, con reparación, sustitución u otros remedios según sus requisitos.",
+      "nuance": "Hay que examinar defecto, fecha y prueba. La presunción sobre origen y el periodo de responsabilidad son conceptos distintos; no se garantiza la misma solución para toda avería.",
+      "references": [
+        {
+          "source": "consumo",
+          "articles": "118–120, 121"
+        }
+      ],
+      "consult": "Consultar sobre el electrodoméstico nuevo",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 1
+    },
+    {
+      "id": "consumo-04",
+      "title": "El móvil hecho a tu medida",
+      "situation": "Pides a una tienda online un producto confeccionado claramente según tus especificaciones personales, sin defectos. Quieres devolverlo solo por cambiar de opinión. ¿El desistimiento general se aplica sin excepción?",
+      "options": [
+        "Sí: ningún producto personalizado puede quedar exceptuado.",
+        "No: la ley exceptúa, entre otros, los bienes confeccionados conforme a especificaciones del consumidor o claramente personalizados.",
+        "No: la personalización elimina también todos los derechos ante defectos."
+      ],
+      "correct": 1,
+      "explanation": "La personalización puede excluir el desistimiento general, pero no permite entregar un producto defectuoso incumpliendo las obligaciones legales.",
+      "nuance": "Debe tratarse de una personalización real encuadrable en la excepción. No basta cualquier etiqueta de la tienda ni se confunde con una opción estándar sin analizarla.",
+      "references": [
+        {
+          "source": "consumo",
+          "articles": "103.c, 114"
+        }
+      ],
+      "consult": "Consultar sobre el móvil hecho a tu medida",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 2
+    },
+    {
+      "id": "consumo-05",
+      "title": "La reforma interrumpida",
+      "situation": "Contratas a un profesional para una reforma por fases, pagas un hito y abandona una parte esencial vencida. Tienes presupuesto, mensajes y recibos. ¿Qué haces?",
+      "options": [
+        "Dar por perdido el pago porque no firmaste ante notario.",
+        "Encargar el doble de obra y dar por seguro que se te reintegrará todo.",
+        "Documentar lo ejecutado y requerir solución, valorando cumplimiento o resolución y daños acreditados."
+      ],
+      "correct": 2,
+      "explanation": "El incumplimiento relevante puede permitir exigir cumplimiento o resolución, con los daños que procedan. La documentación y una valoración de lo ejecutado ayudan a concretar la reclamación.",
+      "nuance": "No todo retraso justifica resolver. Antes de litigar deben revisarse también requisitos de negociación o procedibilidad que resulten aplicables.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "1101, 1124"
+        }
+      ],
+      "consult": "Consultar sobre la reforma interrumpida",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 2
+    },
+    {
+      "id": "consumo-06",
+      "title": "La penalización oculta",
+      "situation": "Un gimnasio profesional exige a una consumidora una penalización muy alta por cancelar, no negociada individualmente y aparentemente desproporcionada. ¿Debe darse por válida solo porque se firmó?",
+      "options": [
+        "No: hay que valorar información, transparencia y posible carácter abusivo.",
+        "Sí: toda cláusula firmada impide cualquier revisión.",
+        "No: todas las penalizaciones están prohibidas aunque sean proporcionadas."
+      ],
+      "correct": 0,
+      "explanation": "Las condiciones no negociadas pueden ser abusivas si causan un desequilibrio importante contra las exigencias de buena fe. La ley incluye indemnizaciones desproporcionadamente altas.",
+      "nuance": "No se declara nula una cláusula sin leerla y valorar el contrato. Una duración o compromiso válidos pueden tener efectos; firmar no elimina el control de abusividad.",
+      "references": [
+        {
+          "source": "consumo",
+          "articles": "80, 82, 83, 85.6"
+        }
+      ],
+      "consult": "Consultar sobre la penalización oculta",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 2
+    },
+    {
+      "id": "consumo-07",
+      "title": "El coche entre particulares",
+      "situation": "Compras un coche usado a un particular. Dos meses después un perito identifica una avería grave, oculta y anterior a la entrega. ¿Qué régimen debes distinguir?",
+      "options": [
+        "La garantía de consumo de una tienda, sin importar quién vende.",
+        "La obligación automática de indemnizar cualquier desgaste propio del uso.",
+        "El saneamiento por vicios ocultos del Código Civil, con sus requisitos y acciones sujetas a seis meses desde la entrega."
+      ],
+      "correct": 2,
+      "explanation": "La venta entre particulares no se convierte por sí sola en una relación de consumo. Los vicios ocultos tienen presupuestos y plazo propios.",
+      "nuance": "Hay que acreditar preexistencia, gravedad y carácter oculto. Una avería no demuestra automáticamente engaño ni permite prometer recuperación íntegra del precio.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "1484–1490"
+        }
+      ],
+      "consult": "Consultar sobre el coche entre particulares",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 2
+    },
+    {
+      "id": "consumo-08",
+      "title": "La caída y las pruebas",
+      "situation": "Una persona cae en un comercio y se lesiona. No sabe aún qué la hizo caer ni hay informe de las condiciones del suelo. ¿Puede asegurarse una indemnización solo por haberse caído allí?",
+      "options": [
+        "No: debe documentar lesiones y circunstancias y valorar culpa o negligencia, daño y relación causal.",
+        "Sí: estar dentro de un negocio garantiza indemnización por cualquier caída.",
+        "No: solo se reclama si otra persona reconoce expresamente su culpa."
+      ],
+      "correct": 0,
+      "explanation": "En responsabilidad por culpa o negligencia hay que examinar los hechos, el daño y su relación con una conducta imputable. Asistencia sanitaria, fotos y testigos pueden ser relevantes.",
+      "nuance": "No se exige obtener pruebas exponiéndose a peligro ni se garantiza indemnización. La mera producción de un daño no resuelve todos los requisitos de responsabilidad.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "1902"
+        }
+      ],
+      "consult": "Consultar sobre la caída y las pruebas",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 3
+    },
+    {
+      "id": "consumo-09",
+      "title": "El perro que se escapa",
+      "situation": "Un perro bajo la posesión de una persona se escapa y causa un daño. No concurre fuerza mayor ni culpa de la víctima según los hechos. ¿Queda libre su poseedor solo porque se escapó?",
+      "options": [
+        "Sí: escaparse rompe siempre cualquier responsabilidad.",
+        "No: el Código Civil contempla responsabilidad del poseedor o de quien se sirve del animal incluso si se escapa o extravía.",
+        "Sí: solo responde si personalmente ordenó al animal causar el daño."
+      ],
+      "correct": 1,
+      "explanation": "La responsabilidad por daños de animales tiene una regla específica. La fuga no exonera por sí sola; la ley contempla fuerza mayor o culpa de quien sufrió el daño.",
+      "nuance": "Deben probarse daño y hechos y revisar las circunstancias y posibles seguros. La regla no equivale a fijar automáticamente una cuantía.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "1905"
+        }
+      ],
+      "consult": "Consultar sobre el perro que se escapa",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 3
+    },
+    {
+      "id": "consumo-10",
+      "title": "La reclamación que no espera",
+      "situation": "Tras un daño extracontractual conocido, quieres esperar varios años para reclamar «cuando se calme todo». No has interrumpido el plazo y no sabes cuándo empezó a correr. ¿Qué haces?",
+      "options": [
+        "Esperar: cualquier reclamación civil tiene siempre cinco años.",
+        "Suponer que hablar informalmente con una amistad interrumpe la prescripción frente al responsable.",
+        "Revisar inmediatamente acción, inicio del cómputo y prescripción y, si procede, efectuar reclamación acreditable."
+      ],
+      "correct": 2,
+      "explanation": "Las obligaciones de culpa o negligencia del artículo 1902 tienen, como regla, prescripción de un año desde que lo supo el agraviado. La interrupción exige valorar los actos legalmente previstos.",
+      "nuance": "En daños personales y otros regímenes pueden ser decisivos estabilización, conocimiento y normativa especial. No se calcula un vencimiento real sin fechas y datos suficientes.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "1968.2, 1969, 1973"
+        }
+      ],
+      "consult": "Consultar sobre la reclamación que no espera",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 3
+    }
+  ]
+}

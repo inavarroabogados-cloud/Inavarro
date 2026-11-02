@@ -1,0 +1,261 @@
+{
+  "slug": "vivienda",
+  "title": "Bajo el mismo techo",
+  "area": "Arrendamientos y vivienda",
+  "hook": "La letra pequeña también vive contigo.",
+  "intro": "Recibes las llaves de un piso en Tenerife destinado a vivienda habitual. Antes de instalarte, recorre diez decisiones entre inquilino y arrendador. Aplicamos la LAU; el alquiler turístico y de temporada requiere otro análisis.",
+  "cta": "Revisar un alquiler o conflicto de vivienda",
+  "character": "elion",
+  "color": "#397f79",
+  "scene": "llaves",
+  "questions": [
+    {
+      "id": "vivienda-01",
+      "title": "El nombre del contrato",
+      "situation": "Buscas tu residencia estable en Tenerife. El contrato dice «temporada», pero no explica ninguna causa temporal y la realidad es vivienda habitual. ¿Basta la etiqueta?",
+      "options": [
+        "Sí: escribir «temporada» excluye siempre la vivienda habitual.",
+        "No: hay que revisar la finalidad real, hechos y contrato para identificar el régimen aplicable.",
+        "No: cualquier estancia de pocas semanas es vivienda habitual."
+      ],
+      "correct": 1,
+      "explanation": "La LAU atiende al destino real y distingue vivienda habitual y temporal. En su redacción vigente, la temporal exige un desplazamiento del domicilio habitual por causa justificada y acreditable; la etiqueta no sustituye los hechos.",
+      "nuance": "Un contrato de temporada auténtico puede ser válido. No se califica solo contando meses ni se confunde con alquiler turístico.",
+      "references": [
+        {
+          "source": "lau",
+          "articles": "2, 3"
+        }
+      ],
+      "consult": "Consultar sobre el nombre del contrato",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 1
+    },
+    {
+      "id": "vivienda-02",
+      "title": "La fianza de entrada",
+      "situation": "Firmas un arrendamiento de vivienda habitual sujeto a la LAU. El propietario afirma que la fianza legal mínima es siempre de tres mensualidades. ¿Qué debes distinguir?",
+      "options": [
+        "La fianza legal de una mensualidad y las posibles garantías adicionales, sujetas a sus límites.",
+        "Que cualquier cantidad llamada fianza puede exigirse sin límites.",
+        "Que en vivienda habitual nunca se puede pedir ninguna fianza."
+      ],
+      "correct": 0,
+      "explanation": "La fianza legal en metálico es de una mensualidad para vivienda y de dos para uso distinto. Las garantías adicionales son una cuestión separada.",
+      "nuance": "En contratos de vivienda de hasta cinco años, o siete si el arrendador es persona jurídica, la garantía adicional no puede exceder de dos mensualidades de renta, con las condiciones legales.",
+      "references": [
+        {
+          "source": "lau",
+          "articles": "36"
+        }
+      ],
+      "consult": "Consultar sobre la fianza de entrada",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 1
+    },
+    {
+      "id": "vivienda-03",
+      "title": "El último mes",
+      "situation": "Se acaba el alquiler. Quieres dejar sin pagar el último mes y decir que se cobre de la fianza, pero no existe acuerdo que lo permita. ¿Es correcto hacerlo por tu cuenta?",
+      "options": [
+        "Sí: la fianza sustituye automáticamente la última renta.",
+        "Sí: basta con avisarlo el día en que vence el pago.",
+        "No: debes pagar la renta y liquidar la fianza y las posibles responsabilidades al finalizar."
+      ],
+      "correct": 2,
+      "explanation": "La fianza garantiza obligaciones y no sustituye unilateralmente rentas exigibles. Al finalizar debe revisarse el estado y la liquidación correspondiente.",
+      "nuance": "Documenta entrega de llaves, estado, suministros y cantidades. Las discrepancias sobre desperfectos no convierten cualquier retención en válida.",
+      "references": [
+        {
+          "source": "lau",
+          "articles": "17, 27.2.a, 36"
+        }
+      ],
+      "consult": "Consultar sobre el último mes",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 1
+    },
+    {
+      "id": "vivienda-04",
+      "title": "La caldera que falla",
+      "situation": "La caldera de un piso alquilado se avería por antigüedad. No hay mal uso ni se trata de una pequeña reparación por desgaste ordinario. ¿Cómo se aborda?",
+      "options": [
+        "Asumir que toda avería la paga siempre el inquilino.",
+        "Comunicarlo al arrendador y valorar su obligación de conservar la vivienda habitable.",
+        "Dejar de pagar toda la renta de inmediato sin revisar alternativas."
+      ],
+      "correct": 1,
+      "explanation": "El arrendador debe realizar las reparaciones necesarias para conservar la habitabilidad, salvo deterioro imputable al arrendatario y las excepciones legales.",
+      "nuance": "La pequeña reparación por desgaste ordinario corresponde al arrendatario. Conviene documentar causa y urgencia y permitir la comprobación y reparación.",
+      "references": [
+        {
+          "source": "lau",
+          "articles": "21"
+        }
+      ],
+      "consult": "Consultar sobre la caldera que falla",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 2
+    },
+    {
+      "id": "vivienda-05",
+      "title": "Pintar no es derribar",
+      "situation": "Quieres tirar un tabique del piso alquilado y la obra modifica su configuración. No tienes autorización escrita del arrendador. ¿Qué haces?",
+      "options": [
+        "Empezar porque cualquier reforma que pagues está permitida.",
+        "Entender que avisar por WhatsApp sin respuesta equivale siempre a consentimiento.",
+        "Solicitar y obtener el consentimiento escrito exigible antes de la obra, además de comprobar otras autorizaciones."
+      ],
+      "correct": 2,
+      "explanation": "El arrendatario no puede hacer sin consentimiento escrito obras que modifiquen la configuración de la vivienda o sus accesorios en los términos de la LAU.",
+      "nuance": "También pueden ser necesarias autorizaciones urbanísticas o de comunidad. Pintar o realizar otra actuación no siempre tiene el mismo régimen que alterar un tabique.",
+      "references": [
+        {
+          "source": "lau",
+          "articles": "23"
+        }
+      ],
+      "consult": "Consultar sobre pintar no es derribar",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 2
+    },
+    {
+      "id": "vivienda-06",
+      "title": "La visita sorpresa",
+      "situation": "El arrendador conserva una copia de las llaves y quiere entrar en tu domicilio alquilado sin consentimiento, sin emergencia ni autorización judicial. ¿Puede hacerlo por ser propietario?",
+      "options": [
+        "No: la propiedad no le da libre acceso al domicilio del arrendatario.",
+        "Sí: puede entrar en cualquier momento mientras siga siendo dueño.",
+        "Sí: basta con que haya avisado el día anterior aunque te opongas."
+      ],
+      "correct": 0,
+      "explanation": "El domicilio es inviolable. Ser titular del inmueble no permite entrar por cuenta propia en el domicilio ajeno sin consentimiento o cobertura legal.",
+      "nuance": "El inquilino debe facilitar comprobaciones y obras en los supuestos legales, pero ello no crea una autorización general de entrada unilateral.",
+      "references": [
+        {
+          "source": "ce",
+          "articles": "18.2"
+        },
+        {
+          "source": "lau",
+          "articles": "21.3"
+        }
+      ],
+      "consult": "Consultar sobre la visita sorpresa",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 2
+    },
+    {
+      "id": "vivienda-07",
+      "title": "Me voy antes",
+      "situation": "Tu contrato de vivienda habitual se firmó antes de la reforma de octubre de 2026 y contiene una cláusula de indemnización por desistir. Han transcurrido ocho meses. ¿Puedes calcular lo que debes aplicando sin más una regla que viste en internet?",
+      "options": [
+        "Sí: cualquier cláusula pactada de indemnización se aplica sin revisar la ley ni sus reformas.",
+        "Sí: basta con dejar las llaves para dar por cumplido cualquier preaviso.",
+        "No: revisa fecha, régimen temporal aplicable, preaviso y validez de la cláusula antes de calcular una indemnización."
+      ],
+      "correct": 2,
+      "explanation": "El artículo 11 LAU vigente permite, para vivienda habitual, desistir tras al menos seis meses con preaviso mínimo de treinta días y establece que el desistimiento así ejercido no genera derecho de indemnización al arrendador.",
+      "nuance": "La redacción anterior contemplaba indemnización pactada. Al tratarse de un contrato anterior a la reforma, deben comprobarse las normas temporales y la cláusula: no se aplica automáticamente una versión de la ley por haberla leído en internet.",
+      "references": [
+        {
+          "source": "lau",
+          "articles": "11"
+        }
+      ],
+      "consult": "Consultar sobre me voy antes",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 2
+    },
+    {
+      "id": "vivienda-08",
+      "title": "Un piso vendido",
+      "situation": "Tienes un alquiler de vivienda de 2023 con propietario persona física. Compra el piso otra persona y te exige irte solo por la compraventa, estando dentro de los primeros cinco años. ¿Desaparece el alquiler por vender?",
+      "options": [
+        "No: la LAU prevé la subrogación del comprador durante ese periodo, en los términos legales.",
+        "Sí: cada venta extingue inmediatamente cualquier alquiler.",
+        "No: el comprador no puede recibir rentas ni asumir ninguna obligación."
+      ],
+      "correct": 0,
+      "explanation": "El adquirente queda subrogado durante los cinco primeros años del contrato, o siete si el anterior arrendador era persona jurídica, incluso en el supuesto registral previsto por la ley.",
+      "nuance": "Para duraciones superiores, fechas diferentes o situaciones especiales hay que revisar el régimen concreto. Pueden existir derechos de adquisición preferente y excepciones.",
+      "references": [
+        {
+          "source": "lau",
+          "articles": "14, 25"
+        }
+      ],
+      "consult": "Consultar sobre un piso vendido",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 3
+    },
+    {
+      "id": "vivienda-09",
+      "title": "La mensualidad y el índice",
+      "situation": "En un alquiler de vivienda firmado en 2025 no hay pacto expreso de actualización de renta. El propietario quiere aumentarla automáticamente por «el IPC de siempre». ¿Se actualiza sin pacto?",
+      "options": [
+        "Sí: cualquier contrato se actualiza siempre por IPC.",
+        "No: en defecto de pacto expreso no se aplica actualización; si lo hay, deben revisarse índice y límites vigentes.",
+        "Sí: el propietario puede escoger cada año el porcentaje que quiera."
+      ],
+      "correct": 1,
+      "explanation": "La LAU exige pacto expreso para actualizar. Con pacto, importan fecha del contrato, índice aplicable, límites y comunicación; no se presupone que el IPC sea siempre la referencia válida.",
+      "nuance": "Este caso no calcula ningún incremento ni declara una zona tensionada. La aplicación del índice estatal y de medidas temporales debe comprobarse cuando se plantee una actualización real.",
+      "references": [
+        {
+          "source": "lau",
+          "articles": "18"
+        }
+      ],
+      "consult": "Consultar sobre la mensualidad y el índice",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 3
+    },
+    {
+      "id": "vivienda-10",
+      "title": "La cerradura ante el impago",
+      "situation": "Un inquilino deja de pagar y sigue viviendo en el piso. El arrendador quiere cambiar la cerradura y cortar suministros para que salga. ¿Cuál es la vía adecuada?",
+      "options": [
+        "Cambiar la cerradura cuando no haya nadie porque el impago lo autoriza.",
+        "Cortar suministros como sustituto del procedimiento de recuperación.",
+        "Reclamar y, si procede, acudir al procedimiento legal, sin expulsarlo ni presionarlo por cuenta propia."
+      ],
+      "correct": 2,
+      "explanation": "El impago puede fundamentar resolución y reclamación, pero no habilita un desalojo de hecho. Deben utilizarse los cauces y requisitos procesales aplicables.",
+      "nuance": "En vivienda pueden concurrir requisitos, comunicaciones y medidas específicas que deben revisarse a la fecha del procedimiento. No se promete una recuperación inmediata del inmueble.",
+      "references": [
+        {
+          "source": "lau",
+          "articles": "27.2.a"
+        },
+        {
+          "source": "lec",
+          "articles": "250.1.1"
+        }
+      ],
+      "consult": "Consultar sobre la cerradura ante el impago",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-02",
+      "humanReview": "pending",
+      "difficulty": 3
+    }
+  ]
+}

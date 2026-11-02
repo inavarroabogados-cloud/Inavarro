@@ -1,6 +1,6 @@
 # Antes de que te pase, juega — revisión independiente
 
-Colección completa: seis especialidades, diez casos por especialidad y tres alternativas por caso. Sin Laboral ni cooperativas. No se modifica ningún componente del portal ni de la beta. No se integra todavía un acceso desde producción.
+Colección completa: sucesiones, familia, arrendamientos y vivienda, responsabilidad civil y consumo, penal y extranjería; diez casos por especialidad y tres alternativas por caso. Sin Laboral ni cooperativas. No se modifica ningún componente del portal ni de la beta. No se integra todavía un acceso desde producción. El primer diseño completo está conservado en el commit 5abef9a; este encargo posterior cambia cuatro especialidades sin rehacer el motor.
 
 ## Desarrollo y revisión
 
@@ -9,7 +9,7 @@ Colección completa: seis especialidades, diez casos por especialidad y tres alt
 - Interfaz: `app.js`, `collection.css`, `index.html`. Sin dependencias de ejecución, backend, formularios o base de datos.
 - Compilación: `node scripts/build-collection-preview.mjs` → `collection-preview-dist/`.
 - Servidor de revisión local: `python3 -m http.server 3201 --directory collection-preview-dist`. Es una dirección local, no un enlace público.
-- Rutas físicas `/coleccion-juridica/{sucesiones,inmobiliario,civil,mercantil,datos,penal}/`, con HTML y metadatos propios; no requieren reescrituras SPA. La recarga vuelve a la introducción, como se informa en la interfaz.
+- Rutas físicas `/coleccion-juridica/{sucesiones,familia,vivienda,consumo,penal,extranjeria}/`, con HTML y metadatos propios; no requieren reescrituras SPA. La recarga vuelve a la introducción, como se informa en la interfaz.
 - `COLLECTION_PREVIEW_ORIGIN` o `RENDER_EXTERNAL_URL` establece canonical, og:url e imagen absoluta al compilar. Cada especialidad tiene su PNG social original de 1200 × 630.
 - El build rechaza los nombres y dominios del portal y de la beta, además de cualquier `RENDER_GIT_BRANCH` distinto del de la colección. No ejecuta el build editorial ni incorpora clientes, administración o la beta.
 
@@ -27,7 +27,7 @@ El sandbox de esta sesión requiere habilitar red adicional también para abrir 
 
 `browser-results.json` documenta los doce recorridos completos (120 decisiones: los sesenta aciertos en móvil y sesenta errores en escritorio), reinicio, recarga, enlaces, compartir nativo simulado, cancelación, copia y alternativa manual, descarga de tarjeta, contacto, consola y auditoría Axe. Anchos: 390 y 1440 px; además, 320 px con movimiento reducido. Las pruebas del diálogo nativo son simuladas: no implican un envío a otra persona.
 
-No se han probado Safari/iPhone físicos, Android real, lectores de pantalla ni la salida acústica física. Chromium comprueba progreso del reloj de reproducción, readyState, un solo canal musical y pausa/reanudación ante visibilidad. El resultado no se basa en un AudioContext «running». Los archivos y motor se copiaron del commit de beta `6039620` a un directorio nuevo; se mantienen variantes de nivel codificado para iOS y carga bajo demanda. Música discreta, sin cuenta atrás.
+No se han probado Safari/iPhone físicos, Android real, lectores de pantalla ni la salida acústica física. Chromium comprueba progreso del reloj de reproducción, readyState, un solo canal musical y pausa/reanudación ante visibilidad. El resultado no se basa en un AudioContext «running». Los archivos y motor se copiaron del commit de beta `6039620` a un directorio nuevo; se mantienen variantes de nivel codificado para iOS y carga bajo demanda. Música discreta, sin cuenta atrás. Controles independientes de música y efectos, prueba de reproducción y diagnóstico local. El usuario confirmó que la beta se oye en su iPhone; no se atribuye esa prueba a la nueva colección.
 
 ## Beta conservada y comparación
 
@@ -44,3 +44,7 @@ No se encontró analítica/consentimiento en los archivos públicos inspeccionad
 ## Publicación posterior
 
 Esta entrega es de revisión. Tras revisar contenido y probar audio/compartir en dispositivos físicos, decidir expresamente la integración en el portal. Mantener `/esto-es-legal/` y el servicio de beta intactos. La futura instalación deberá añadir una ruta nueva y un acceso específico; no sustituir ni redirigir la beta. No fusionar automáticamente esta rama ni desplegarla en los servicios existentes.
+
+## Revisión jurídica concreta
+
+`DOSSIER-JURIDICO.md` contiene los 60 supuestos, las 180 opciones, respuesta, explicación, matiz, ámbito territorial, fecha y puntos concretos a revisar. Toda revisión humana está pendiente. `python3 scripts/verify-collection-sources.py` repite las descargas oficiales y comprueba existencia de artículos; no es una revisión jurídica humana. `python3 scripts/collection-review-dossier.py` regenera el dossier.
