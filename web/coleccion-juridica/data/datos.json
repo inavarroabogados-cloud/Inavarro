@@ -1,0 +1,233 @@
+{
+  "slug": "datos",
+  "title": "Tu negocio al descubierto",
+  "area": "Protección de datos",
+  "hook": "¿Cuántos datos estás dejando escapar?",
+  "intro": "Un negocio cotidiano y diez pequeñas fugas posibles. Sigue las señales: la buena protección empieza decidiendo qué datos necesitas y quién puede verlos.",
+  "cta": "Revisión de cumplimiento de protección de datos",
+  "character": "lexi",
+  "color": "#39759b",
+  "scene": "radar",
+  "questions": [
+    {
+      "id": "datos-01",
+      "title": "El grupo de clientes",
+      "situation": "Una tienda quiere meter a todos sus clientes en un grupo de WhatsApp donde se ven teléfonos y perfiles. No les ha informado ni ha comprobado una base que permita esa exposición. ¿Qué hace?",
+      "options": [
+        "Evitar el grupo y revisar una vía de comunicación que no exponga datos a otros clientes.",
+        "Crear el grupo porque ya tiene sus teléfonos para entregar pedidos.",
+        "Crear el grupo y pedir permiso después."
+      ],
+      "correct": 0,
+      "explanation": "Tener un teléfono para un pedido no autoriza cualquier uso ni su comunicación a otras personas. Deben revisarse finalidad, base jurídica y transparencia.",
+      "nuance": "Una lista de difusión tampoco legitima por sí sola publicidad. El medio elegido y las reglas sobre comunicaciones comerciales deben comprobarse aparte.",
+      "references": [
+        {
+          "source": "rgpd",
+          "articles": "5, 6, 13, 25"
+        }
+      ],
+      "consult": "Consultar sobre el grupo de clientes"
+    },
+    {
+      "id": "datos-02",
+      "title": "La foto del evento",
+      "situation": "Un comercio quiere publicar en Instagram el primer plano identificable de una clienta como reclamo publicitario. Ella no ha autorizado ese uso. ¿Qué debe hacer?",
+      "options": [
+        "Publicar con un filtro que no impide reconocerla.",
+        "Obtener una base válida para ese uso y una autorización adecuada de imagen antes de publicarlo.",
+        "Publicar porque asistir a un evento equivale a aceptar cualquier publicidad."
+      ],
+      "correct": 1,
+      "explanation": "La finalidad publicitaria exige revisar tanto protección de datos como derechos de imagen. Para este supuesto, debe recabarse una autorización informada y específica antes de publicar.",
+      "nuance": "No toda fotografía tiene el mismo régimen. Que una imagen esté en redes o se tomara en un lugar abierto no autoriza cualquier reutilización.",
+      "references": [
+        {
+          "source": "rgpd",
+          "articles": "6, 7, 13"
+        },
+        {
+          "source": "imagen",
+          "articles": "2, 7.5"
+        }
+      ],
+      "consult": "Consultar sobre la foto del evento"
+    },
+    {
+      "id": "datos-03",
+      "title": "Cincuenta destinatarios visibles",
+      "situation": "Una clínica envía por error un correo a cincuenta pacientes con todos los destinatarios visibles. El asunto permite inferir su relación con la clínica. ¿Qué hace?",
+      "options": [
+        "Borrar el correo de enviados y darlo por resuelto.",
+        "Pedir a todos que respondan a todos con su DNI.",
+        "Contener el incidente, documentarlo y evaluar riesgo y posibles notificaciones."
+      ],
+      "correct": 2,
+      "explanation": "La exposición de direcciones puede ser una brecha de confidencialidad. Hay que evaluar contexto y riesgo, registrar lo ocurrido y aplicar medidas correctoras.",
+      "nuance": "Cuando proceda notificar a la autoridad, el plazo es sin dilación indebida y, de ser posible, 72 horas desde que se tiene constancia. No toda brecha exige comunicar a afectados; depende del alto riesgo.",
+      "references": [
+        {
+          "source": "rgpd",
+          "articles": "4.12, 32–34"
+        }
+      ],
+      "consult": "Consultar sobre cincuenta destinatarios visibles"
+    },
+    {
+      "id": "datos-04",
+      "title": "«Borra todo lo mío»",
+      "situation": "Un antiguo cliente pide suprimir todos sus datos. Conservas facturas necesarias para obligaciones fiscales y contables vigentes. ¿Cómo respondes?",
+      "options": [
+        "Atender la solicitud, explicar qué debe conservarse y limitar o bloquear lo que corresponda.",
+        "Borrar también todos los justificantes obligatorios de inmediato.",
+        "Negar la solicitud completa sin dar explicación."
+      ],
+      "correct": 0,
+      "explanation": "El derecho de supresión tiene excepciones, como el cumplimiento de obligaciones legales o la defensa de reclamaciones. Eso no permite conservar indefinidamente todos los datos para cualquier uso.",
+      "nuance": "Los plazos dependen del documento y la obligación: no debe confundirse prescripción tributaria con conservación contable. El bloqueo de la LOPDGDD tiene su propio alcance.",
+      "references": [
+        {
+          "source": "rgpd",
+          "articles": "12, 17"
+        },
+        {
+          "source": "lopdgdd",
+          "articles": "32"
+        },
+        {
+          "source": "lgt",
+          "articles": "66"
+        },
+        {
+          "source": "comercio",
+          "articles": "30"
+        }
+      ],
+      "consult": "Consultar sobre «borra todo lo mío»"
+    },
+    {
+      "id": "datos-05",
+      "title": "El móvil perdido",
+      "situation": "Se pierde un móvil del negocio con acceso a datos de clientes. No sabes aún si estaba cifrado ni si alguien accedió. ¿Cuál es el primer enfoque correcto?",
+      "options": [
+        "Anunciar que hubo robo de datos sin comprobarlo.",
+        "Revocar accesos y aplicar medidas remotas disponibles, investigar y registrar el riesgo de brecha.",
+        "Esperar una semana a que aparezca antes de hacer nada."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta debe contener el riesgo y determinar qué datos quedaron expuestos, con qué protección y posibles consecuencias. No es necesario esperar a probar una extracción para evaluar una brecha.",
+      "nuance": "El cifrado, bloqueo y posibilidad de revocación importan. La notificación a autoridad y afectados depende del riesgo y de los requisitos legales, no de una regla de avisar siempre o nunca.",
+      "references": [
+        {
+          "source": "rgpd",
+          "articles": "32–34"
+        }
+      ],
+      "consult": "Consultar sobre el móvil perdido"
+    },
+    {
+      "id": "datos-06",
+      "title": "La cámara del mostrador",
+      "situation": "Una tienda instala una cámara para seguridad y quiere captar de forma continua la acera entera. ¿Qué debe revisar?",
+      "options": [
+        "Que poner un cartel permite grabar cualquier espacio sin límites.",
+        "Que para seguridad no se aplica protección de datos.",
+        "Necesidad, encuadre mínimo, información y acceso a imágenes; evitar captar vía pública salvo lo imprescindible permitido."
+      ],
+      "correct": 2,
+      "explanation": "La videovigilancia debe ser proporcionada y limitar lo captado. La captación de vía pública está restringida a lo imprescindible para la finalidad prevista por la ley.",
+      "nuance": "Las imágenes se suprimen, como regla, en un máximo de un mes, con la excepción legal para acreditar actos contra personas, bienes o instalaciones. El audio exige evaluación propia.",
+      "references": [
+        {
+          "source": "lopdgdd",
+          "articles": "22"
+        },
+        {
+          "source": "rgpd",
+          "articles": "5, 13, 32"
+        }
+      ],
+      "consult": "Consultar sobre la cámara del mostrador"
+    },
+    {
+      "id": "datos-07",
+      "title": "La política prestada",
+      "situation": "Una autónoma copia la política de privacidad de otra empresa, aunque usa proveedores y finalidades distintas. ¿Es suficiente?",
+      "options": [
+        "No: debe reflejar sus tratamientos reales, bases, destinatarios, conservación y derechos.",
+        "Sí: cualquier texto largo demuestra cumplimiento.",
+        "Sí: basta cambiar el logotipo."
+      ],
+      "correct": 0,
+      "explanation": "La información debe ser transparente y ajustada a lo que realmente se hace. Copiar un texto que menciona otros tratamientos puede desinformar.",
+      "nuance": "Una política no sustituye seguridad, contratos con encargados ni procedimientos para atender derechos. Primero identifica los tratamientos.",
+      "references": [
+        {
+          "source": "rgpd",
+          "articles": "5.2, 12–14, 24"
+        }
+      ],
+      "consult": "Consultar sobre la política prestada"
+    },
+    {
+      "id": "datos-08",
+      "title": "El expediente y la IA",
+      "situation": "Una asesoría quiere pegar documentos identificables de clientes en una IA de consumo sin revisar condiciones, retención ni uso para entrenamiento. ¿Qué hace?",
+      "options": [
+        "Borrar solo el nombre, dejando DNI, direcciones y hechos identificables.",
+        "No cargarlos; evaluar finalidad, base, proveedor, contrato, seguridad y posibles transferencias antes de elegir una solución.",
+        "Cargarlos porque la herramienta es conocida y gratuita."
+      ],
+      "correct": 1,
+      "explanation": "Enviar datos a una herramienta es un tratamiento y puede implicar un proveedor encargado, usos propios o transferencias. Deben comprobarse garantías reales antes de compartirlos.",
+      "nuance": "La seudonimización no convierte automáticamente los datos en anónimos. Los datos sensibles exigen requisitos adicionales y minimización estricta.",
+      "references": [
+        {
+          "source": "rgpd",
+          "articles": "5, 6, 9, 25, 28, 32, 44"
+        }
+      ],
+      "consult": "Consultar sobre el expediente y la ia"
+    },
+    {
+      "id": "datos-09",
+      "title": "La llave maestra del proveedor",
+      "situation": "Un proveedor solo necesita mantener la web, pero solicita acceso permanente a todos los expedientes de clientes. ¿Qué debe hacer el negocio?",
+      "options": [
+        "Entregar una cuenta compartida de administración para ahorrar tiempo.",
+        "Dar acceso total porque firma una cláusula de confidencialidad.",
+        "Limitar permisos a lo necesario, formalizar el encargo cuando proceda y controlar accesos y retirada."
+      ],
+      "correct": 2,
+      "explanation": "La confidencialidad no sustituye la minimización, la seguridad y el contrato de encargo. Deben definirse instrucciones y accesos adecuados al servicio.",
+      "nuance": "Hay que comprobar si actúa como encargado o con fines propios, y revisar subencargados y localización de datos. Al terminar el servicio deben gestionarse devolución o supresión y accesos.",
+      "references": [
+        {
+          "source": "rgpd",
+          "articles": "5.1.c, 28, 29, 32"
+        }
+      ],
+      "consult": "Consultar sobre la llave maestra del proveedor"
+    },
+    {
+      "id": "datos-10",
+      "title": "La cuenta que ha cambiado",
+      "situation": "Recibes un correo aparentemente de tu proveedor: «hemos cambiado de IBAN». Pide urgencia y adjunta una factura con datos conocidos. Aún no has transferido. ¿Qué haces?",
+      "options": [
+        "Verificar el cambio por un canal previamente conocido y revisar posibles accesos comprometidos.",
+        "Responder al mismo correo y confiar si confirma.",
+        "Transferir una cantidad pequeña para que el supuesto proveedor la valide."
+      ],
+      "correct": 0,
+      "explanation": "Los datos y el aspecto del mensaje no acreditan su autenticidad. La verificación independiente reduce el riesgo de fraude y puede ayudar a detectar una brecha.",
+      "nuance": "Si ya hubo transferencia, contacta inmediatamente con el banco, conserva pruebas y valora denuncia y gestión de brecha. No se garantiza recuperar fondos.",
+      "references": [
+        {
+          "source": "rgpd",
+          "articles": "5.1.f, 32–34"
+        }
+      ],
+      "consult": "Consultar sobre la cuenta que ha cambiado"
+    }
+  ]
+}

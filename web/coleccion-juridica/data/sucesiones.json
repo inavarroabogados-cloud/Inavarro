@@ -1,0 +1,213 @@
+{
+  "slug": "sucesiones",
+  "title": "La herencia envenenada",
+  "area": "Sucesiones",
+  "hook": "Te han dejado una herencia. ¿Dinero o problemas?",
+  "intro": "La casa familiar guarda diez sobres. Cada uno abre una decisión: antes de repartir recuerdos, conviene saber qué estás aceptando. Supuestos sujetos al Derecho civil común español, sin elementos internacionales.",
+  "cta": "Revisar o tramitar una herencia",
+  "character": "don-lex",
+  "color": "#806599",
+  "scene": "casa",
+  "questions": [
+    {
+      "id": "sucesiones-01",
+      "title": "El sobre de las deudas",
+      "situation": "Clara está llamada a heredar bajo Derecho civil común. Aún no ha aceptado ni dispuesto de bienes y desconoce si las deudas superan al patrimonio. ¿Qué paso protege mejor sus bienes propios?",
+      "options": [
+        "Informarse y tramitar, en plazo y con inventario, la aceptación a beneficio de inventario.",
+        "Aceptar sin más: las deudas siempre se limitan a lo heredado.",
+        "Retirar el saldo y decidir después si acepta."
+      ],
+      "correct": 0,
+      "explanation": "La aceptación pura y simple puede hacer responder con bienes propios. El beneficio de inventario permite limitar la responsabilidad a los bienes hereditarios si se cumplen sus requisitos.",
+      "nuance": "No basta escribir «acepto con reservas». Hay formalidades notariales y plazos que dependen, entre otros datos, de la posesión de bienes; no dispongas de ellos sin asesorarte.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "998, 999, 1003, 1010–1014, 1023"
+        }
+      ],
+      "consult": "Consultar sobre el sobre de las deudas"
+    },
+    {
+      "id": "sucesiones-02",
+      "title": "Las llaves de siempre",
+      "situation": "Tras aceptar la herencia, tres hermanos siguen en comunidad hereditaria, sin reparto. Uno ocupa toda la vivienda y niega las llaves a los demás. No hay acuerdo de uso exclusivo. ¿Qué procede?",
+      "options": [
+        "Aceptar que vivir allí le convierte en propietario único.",
+        "Pedir un acuerdo de uso y, si falla, asesorarse sobre las medidas para cesar la exclusión y repartir.",
+        "Cambiar la cerradura por sorpresa y sacar sus cosas."
+      ],
+      "correct": 1,
+      "explanation": "Ser coheredero no atribuye el uso exclusivo de toda la casa. Conviene documentar la oposición y ordenar uso, gastos y partición.",
+      "nuance": "La compensación por ocupación no nace automáticamente en cualquier caso. Depende de la exclusión, los requerimientos y las circunstancias; no se debe practicar un desalojo por cuenta propia.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "394, 1068"
+        }
+      ],
+      "consult": "Consultar sobre las llaves de siempre"
+    },
+    {
+      "id": "sucesiones-03",
+      "title": "El testamento inesperado",
+      "situation": "Bajo Derecho civil común, Daniel fallece viudo con dos hijos. Su testamento deja todo a una amiga, sin causa de desheredación ni otras circunstancias especiales. ¿Qué deben comprobar los hijos?",
+      "options": [
+        "Que el testamento elimina siempre todos sus derechos.",
+        "Que los hijos reciben necesariamente toda la herencia.",
+        "La legítima y las acciones para protegerla frente a las disposiciones que la lesionen."
+      ],
+      "correct": 2,
+      "explanation": "Los hijos son legitimarios. El testador no puede privarlos de su legítima fuera de los casos legales; las disposiciones que la lesionen pueden reducirse.",
+      "nuance": "La legítima no equivale siempre a una mitad por hijo. Hay que calcular caudal, deudas, donaciones y tercios; otros derechos civiles españoles pueden tener reglas distintas.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "806–808, 813, 815, 817"
+        }
+      ],
+      "consult": "Consultar sobre el testamento inesperado"
+    },
+    {
+      "id": "sucesiones-04",
+      "title": "El regalo que vuelve",
+      "situation": "La madre de Irene donó dinero a su hermano. Ambos son ahora hijos legitimarios que concurren a la herencia y no consta dispensa de colación. ¿Se ignora aquella donación al repartir?",
+      "options": [
+        "Hay que examinar su colación y su cómputo para las legítimas.",
+        "Sí: toda donación desaparece del cálculo al fallecer quien dona.",
+        "No: el hermano pierde automáticamente su condición de heredero."
+      ],
+      "correct": 0,
+      "explanation": "La colación busca tener en cuenta determinadas liberalidades recibidas por legitimarios que concurren a la sucesión. No implica necesariamente devolver el mismo dinero.",
+      "nuance": "Dispensar de colación y no lesionar legítimas son cuestiones distintas. Importan el título de la donación, su valoración y las demás liberalidades.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "818, 1035–1036, 1045"
+        }
+      ],
+      "consult": "Consultar sobre el regalo que vuelve"
+    },
+    {
+      "id": "sucesiones-05",
+      "title": "La cuenta del fallecido",
+      "situation": "Álvaro tenía autorización bancaria para operar en la cuenta de su padre, que acaba de fallecer. Sin repartir la herencia, quiere transferirse el saldo para «guardarlo». ¿Qué debe hacer?",
+      "options": [
+        "Retirarlo todo y repartirlo cuando los demás lo pidan.",
+        "Comunicar el fallecimiento y tramitar la disposición por los cauces sucesorios, sin apropiarse del saldo.",
+        "Usar su antigua autorización: sigue vigente sin límites."
+      ],
+      "correct": 1,
+      "explanation": "La autorización no convierte al autorizado en dueño y el mandato se extingue, como regla, por la muerte. Hay que identificar los titulares reales del dinero y los derechos sucesorios.",
+      "nuance": "No confundas autorización con cotitularidad; ni siquiera esta demuestra por sí sola a quién pertenece todo el saldo. Los gastos urgentes deben documentarse y gestionarse con el banco.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "659, 661, 1732"
+        }
+      ],
+      "consult": "Consultar sobre la cuenta del fallecido"
+    },
+    {
+      "id": "sucesiones-06",
+      "title": "Renunciar no es elegir sustituto",
+      "situation": "Marta, llamada por testamento, quiere repudiar. Tiene dos hijos y desconoce si el testamento prevé sustitución. ¿Puede asegurar que su parte pasará a ellos?",
+      "options": [
+        "Sí: los hijos representan siempre al progenitor que renuncia.",
+        "Sí: basta una renuncia privada «a favor de mis hijos».",
+        "No; debe revisar testamento, sustituciones y reglas de la sucesión antes de repudiar."
+      ],
+      "correct": 2,
+      "explanation": "La repudiación no produce siempre representación de los descendientes. Puede operar una sustitución testamentaria, acrecimiento o apertura de la sucesión intestada según el caso.",
+      "nuance": "La repudiación debe hacerse ante notario en instrumento público. Renunciar a favor de alguien concreto puede tener efectos distintos de una repudiación pura.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "774, 923, 929, 1000, 1008"
+        }
+      ],
+      "consult": "Consultar sobre renunciar no es elegir sustituto"
+    },
+    {
+      "id": "sucesiones-07",
+      "title": "La casa y el banco",
+      "situation": "Dos herederas reciben una vivienda hipotecada. Pactan que una se quedará la casa y la deuda. El banco no ha consentido liberar a la otra. ¿El pacto basta frente al banco?",
+      "options": [
+        "No: deben comprobar su posición en la deuda y obtener el consentimiento del acreedor para sustituir al deudor.",
+        "Sí: el reparto obliga siempre al banco a liberar a la otra.",
+        "Sí: al fallecer el deudor se cancela la hipoteca."
+      ],
+      "correct": 0,
+      "explanation": "La deuda y la garantía no desaparecen por el fallecimiento. El reparto interno no impone al banco una liberación de deudores.",
+      "nuance": "Antes de aceptar o adjudicar hay que revisar préstamo, seguros, saldo y modalidad de aceptación. Ser dueño hipotecado y ser deudor personal son posiciones diferentes.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "659, 1205, 1876"
+        }
+      ],
+      "consult": "Consultar sobre la casa y el banco"
+    },
+    {
+      "id": "sucesiones-08",
+      "title": "Dos fallecimientos",
+      "situation": "Luis es llamado a la herencia de su madre y muere después, sin aceptar ni repudiar y dejando herederos. ¿Desaparece aquella posibilidad de decidir?",
+      "options": [
+        "No: se entiende que Luis aceptó por sobrevivir un día.",
+        "No: se transmite a sus herederos el derecho que tenía a aceptar o repudiar.",
+        "Sí: siempre se adjudica directamente a los hermanos de Luis."
+      ],
+      "correct": 1,
+      "explanation": "El derecho de transmisión conserva la facultad de aceptar o repudiar que tenía el llamado fallecido sin ejercitarla.",
+      "nuance": "Hay que coordinar ambas sucesiones y comprobar que no hubo aceptación tácita previa; no es lo mismo que la representación sucesoria.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "1006, 999"
+        }
+      ],
+      "consult": "Consultar sobre dos fallecimientos"
+    },
+    {
+      "id": "sucesiones-09",
+      "title": "El reparto de sobremesa",
+      "situation": "Tres coherederos adultos acuerdan verbalmente «la casa para ti y los ahorros para nosotros», sin inventario ni valorar deudas. Ahora uno discrepa. ¿Cuál es el paso prudente?",
+      "options": [
+        "Inscribir la casa con la palabra de uno de los hermanos.",
+        "Dar por nulo cualquier acuerdo porque fue verbal.",
+        "Reunir pruebas del acuerdo y formalizar una partición completa con todos los interesados."
+      ],
+      "correct": 2,
+      "explanation": "Los coherederos con capacidad y libre administración pueden distribuir como convengan, pero el acuerdo, su alcance y la titularidad deben acreditarse. Los inmuebles requieren documentación apta para el Registro.",
+      "nuance": "Un pacto verbal puede plantear problemas de prueba y formalización. Hay que considerar deudas, legítimas y personas que deban intervenir, no solo las llaves.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "1058, 1278–1280"
+        }
+      ],
+      "consult": "Consultar sobre el reparto de sobremesa"
+    },
+    {
+      "id": "sucesiones-10",
+      "title": "El último sobre",
+      "situation": "Tras una partición válida aparece una cuenta que nadie conocía. No hubo ocultación ni otros defectos. ¿Hay que deshacer por completo el reparto?",
+      "options": [
+        "Como regla, completar la partición con los bienes omitidos.",
+        "Sí: toda omisión anula automáticamente la partición.",
+        "No: el dinero pertenece al primero que lo encuentre."
+      ],
+      "correct": 0,
+      "explanation": "La omisión de bienes no da por sí sola lugar a rescindir la partición: se completa o adiciona con lo omitido.",
+      "nuance": "Si hay ocultación, lesión u otros vicios, pueden existir cuestiones adicionales. Conviene conservar el certificado bancario y revisar las obligaciones fiscales correspondientes.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "1079"
+        }
+      ],
+      "consult": "Consultar sobre el último sobre"
+    }
+  ]
+}

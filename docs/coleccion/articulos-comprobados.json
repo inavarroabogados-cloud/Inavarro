@@ -1,0 +1,1417 @@
+[
+  {
+    "case": "civil-01",
+    "references": [
+      {
+        "source": "cc",
+        "article": "1258",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1278",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1740",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "civil-02",
+    "references": [
+      {
+        "source": "cc",
+        "article": "1261",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1262",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1278",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "civil-03",
+    "references": [
+      {
+        "source": "cc",
+        "article": "1101",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1124",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "civil-04",
+    "references": [
+      {
+        "source": "cc",
+        "article": "1964",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1969",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1973",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "civil-05",
+    "references": [
+      {
+        "source": "cc",
+        "article": "1822",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1827",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1830",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1831",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "civil-06",
+    "references": [
+      {
+        "source": "cc",
+        "article": "1809",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1815",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "consumo",
+        "article": "10",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "civil-07",
+    "references": [
+      {
+        "source": "cc",
+        "article": "1484",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1485",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1486",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1487",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1488",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1489",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1490",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "civil-08",
+    "references": [
+      {
+        "source": "consumo",
+        "article": "82",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "consumo",
+        "article": "83",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "consumo",
+        "article": "85",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1152",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1153",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1154",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "civil-09",
+    "references": [
+      {
+        "source": "cc",
+        "article": "609",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1095",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1445",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "civil-10",
+    "references": [
+      {
+        "source": "cc",
+        "article": "1156",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1157",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "datos-01",
+    "references": [
+      {
+        "source": "rgpd",
+        "article": "5",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "6",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "13",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "25",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "datos-02",
+    "references": [
+      {
+        "source": "rgpd",
+        "article": "6",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "7",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "13",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "imagen",
+        "article": "2",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "imagen",
+        "article": "7",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "datos-03",
+    "references": [
+      {
+        "source": "rgpd",
+        "article": "4",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "32",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "33",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "34",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "datos-04",
+    "references": [
+      {
+        "source": "rgpd",
+        "article": "12",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "17",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lopdgdd",
+        "article": "32",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lgt",
+        "article": "66",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "comercio",
+        "article": "30",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "datos-05",
+    "references": [
+      {
+        "source": "rgpd",
+        "article": "32",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "33",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "34",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "datos-06",
+    "references": [
+      {
+        "source": "lopdgdd",
+        "article": "22",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "5",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "13",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "32",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "datos-07",
+    "references": [
+      {
+        "source": "rgpd",
+        "article": "5",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "12",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "13",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "14",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "24",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "datos-08",
+    "references": [
+      {
+        "source": "rgpd",
+        "article": "5",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "6",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "9",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "25",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "28",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "32",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "44",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "datos-09",
+    "references": [
+      {
+        "source": "rgpd",
+        "article": "5",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "28",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "29",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "32",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "datos-10",
+    "references": [
+      {
+        "source": "rgpd",
+        "article": "5",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "32",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "33",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "rgpd",
+        "article": "34",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "inmobiliario-01",
+    "references": [
+      {
+        "source": "cc",
+        "article": "1254",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1255",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1256",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1257",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1258",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1261",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "consumo",
+        "article": "60",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "inmobiliario-02",
+    "references": [
+      {
+        "source": "cc",
+        "article": "1454",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1255",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "inmobiliario-03",
+    "references": [
+      {
+        "source": "cc",
+        "article": "1469",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1470",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1471",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1472",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "consumo",
+        "article": "61",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "inmobiliario-04",
+    "references": [
+      {
+        "source": "lph",
+        "article": "7",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lph",
+        "article": "10",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lph",
+        "article": "17",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "inmobiliario-05",
+    "references": [
+      {
+        "source": "lph",
+        "article": "9",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lph",
+        "article": "17",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "inmobiliario-06",
+    "references": [
+      {
+        "source": "lau",
+        "article": "14",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lau",
+        "article": "25",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "inmobiliario-07",
+    "references": [
+      {
+        "source": "cc",
+        "article": "1484",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1485",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1486",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1487",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1488",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1489",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1490",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "inmobiliario-08",
+    "references": [
+      {
+        "source": "cc",
+        "article": "393",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1138",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1145",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "inmobiliario-09",
+    "references": [
+      {
+        "source": "cc",
+        "article": "400",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "404",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "405",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "inmobiliario-10",
+    "references": [
+      {
+        "source": "lgt",
+        "article": "16",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lgt",
+        "article": "191",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1275",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1276",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "mercantil-01",
+    "references": [
+      {
+        "source": "lsc",
+        "article": "198",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "199",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "200",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "363",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "365",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "mercantil-02",
+    "references": [
+      {
+        "source": "lsc",
+        "article": "225",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "227",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "228",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "236",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "mercantil-03",
+    "references": [
+      {
+        "source": "lsc",
+        "article": "196",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "mercantil-04",
+    "references": [
+      {
+        "source": "lsc",
+        "article": "228",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "229",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "230",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "231",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "mercantil-05",
+    "references": [
+      {
+        "source": "lsc",
+        "article": "58",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "295",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "314",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "315",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1740",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "mercantil-06",
+    "references": [
+      {
+        "source": "lsc",
+        "article": "107",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "346",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "347",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "353",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "mercantil-07",
+    "references": [
+      {
+        "source": "cc",
+        "article": "1205",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1822",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1847",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "mercantil-08",
+    "references": [
+      {
+        "source": "lsc",
+        "article": "86",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "87",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "88",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "89",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "350",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "351",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "352",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "mercantil-09",
+    "references": [
+      {
+        "source": "lsc",
+        "article": "273",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "274",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "348",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "mercantil-10",
+    "references": [
+      {
+        "source": "lsc",
+        "article": "29",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "204",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lsc",
+        "article": "285",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1091",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "penal-01",
+    "references": [
+      {
+        "source": "lecrim",
+        "article": "118",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lecrim",
+        "article": "410",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lecrim",
+        "article": "486",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "penal-02",
+    "references": [
+      {
+        "source": "lecrim",
+        "article": "520",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "penal-03",
+    "references": [
+      {
+        "source": "ce",
+        "article": "24",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lecrim",
+        "article": "118",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lecrim",
+        "article": "741",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cp",
+        "article": "136",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "penal-04",
+    "references": [
+      {
+        "source": "cp",
+        "article": "169",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cp",
+        "article": "170",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cp",
+        "article": "171",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lecrim",
+        "article": "259",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lecrim",
+        "article": "282",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "penal-05",
+    "references": [
+      {
+        "source": "cp",
+        "article": "147",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cp",
+        "article": "148",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lecrim",
+        "article": "259",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lecrim",
+        "article": "282",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "penal-06",
+    "references": [
+      {
+        "source": "cp",
+        "article": "197",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "penal-07",
+    "references": [
+      {
+        "source": "cp",
+        "article": "248",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lecrim",
+        "article": "259",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "lecrim",
+        "article": "282",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "penal-08",
+    "references": [
+      {
+        "source": "cp",
+        "article": "253",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "penal-09",
+    "references": [
+      {
+        "source": "cp",
+        "article": "48",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cp",
+        "article": "468",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "penal-10",
+    "references": [
+      {
+        "source": "lecrim",
+        "article": "967",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "sucesiones-01",
+    "references": [
+      {
+        "source": "cc",
+        "article": "998",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "999",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1003",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1010",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1011",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1012",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1013",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1014",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1023",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "sucesiones-02",
+    "references": [
+      {
+        "source": "cc",
+        "article": "394",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1068",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "sucesiones-03",
+    "references": [
+      {
+        "source": "cc",
+        "article": "806",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "807",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "808",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "813",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "815",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "817",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "sucesiones-04",
+    "references": [
+      {
+        "source": "cc",
+        "article": "818",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1035",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1036",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1045",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "sucesiones-05",
+    "references": [
+      {
+        "source": "cc",
+        "article": "659",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "661",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1732",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "sucesiones-06",
+    "references": [
+      {
+        "source": "cc",
+        "article": "774",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "923",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "929",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1000",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1008",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "sucesiones-07",
+    "references": [
+      {
+        "source": "cc",
+        "article": "659",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1205",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1876",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "sucesiones-08",
+    "references": [
+      {
+        "source": "cc",
+        "article": "1006",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "999",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "sucesiones-09",
+    "references": [
+      {
+        "source": "cc",
+        "article": "1058",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1278",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1279",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1280",
+        "existsInOfficialText": true
+      }
+    ]
+  },
+  {
+    "case": "sucesiones-10",
+    "references": [
+      {
+        "source": "cc",
+        "article": "1079",
+        "existsInOfficialText": true
+      }
+    ]
+  }
+]

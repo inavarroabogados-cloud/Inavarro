@@ -1,0 +1,133 @@
+{
+  "flows": [
+    {
+      "width": 390,
+      "game": "sucesiones",
+      "questions": 10,
+      "score": 10,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "game": "inmobiliario",
+      "questions": 10,
+      "score": 10,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "game": "civil",
+      "questions": 10,
+      "score": 10,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "game": "mercantil",
+      "questions": 10,
+      "score": 10,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "game": "datos",
+      "questions": 10,
+      "score": 10,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "game": "penal",
+      "questions": 10,
+      "score": 10,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "game": "sucesiones",
+      "questions": 10,
+      "score": 0,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "game": "inmobiliario",
+      "questions": 10,
+      "score": 0,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "game": "civil",
+      "questions": 10,
+      "score": 0,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "game": "mercantil",
+      "questions": 10,
+      "score": 0,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "game": "datos",
+      "questions": 10,
+      "score": 0,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "game": "penal",
+      "questions": 10,
+      "score": 0,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "accessibility": [
+    {
+      "width": 390,
+      "label": "collection",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "label": "question-feedback",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "label": "result",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "label": "collection",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "label": "question-feedback",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "label": "result",
+      "violations": []
+    }
+  ],
+  "audio": {
+    "initial": 1.554843,
+    "after": 2.014918,
+    "progress": true,
+    "readyState": 4,
+    "elements": 1,
+    "resumed": true
+  },
+  "limitations": [
+    "Chromium emulado; no iPhone/Safari físico",
+    "El progreso del audio no verifica la salida física del altavoz"
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "slug": "mercantil",
+  "title": "Tu socio mueve ficha",
+  "area": "Mercantil y sociedades",
+  "hook": "Empezasteis juntos. Ahora tenéis que decidir.",
+  "intro": "Una sociedad limitada, dos formas de ver el futuro. Diez decisiones cambian el equilibrio: separa lo personal de lo social y lee las reglas antes de mover ficha.",
+  "cta": "Asesoramiento societario o conflicto entre socios",
+  "character": "elion",
+  "color": "#a17a30",
+  "scene": "socios",
+  "questions": [
+    {
+      "id": "mercantil-01",
+      "title": "Cincuenta contra cincuenta",
+      "situation": "Dos socios tienen el 50 % de una SL y votan de forma opuesta. El bloqueo es persistente e impide funcionar a los órganos. ¿Qué hay que valorar?",
+      "options": [
+        "Mecanismos de negociación, estatutos y pacto; si persiste la paralización, sus consecuencias legales.",
+        "Que el socio más antiguo decide siempre.",
+        "Que el administrador puede ignorar para siempre a la junta."
+      ],
+      "correct": 0,
+      "explanation": "El 50 % no da voto de calidad por antigüedad. La paralización de los órganos sociales que hace imposible funcionar puede ser causa de disolución.",
+      "nuance": "Un desacuerdo puntual no equivale a paralización. Hay que revisar mayorías, mecanismos de salida y deberes de los administradores ante una causa de disolución.",
+      "references": [
+        {
+          "source": "lsc",
+          "articles": "198–200, 363.1.d, 365"
+        }
+      ],
+      "consult": "Consultar sobre cincuenta contra cincuenta"
+    },
+    {
+      "id": "mercantil-02",
+      "title": "Vacaciones con la tarjeta social",
+      "situation": "La administradora paga vacaciones personales con la cuenta de la SL, sin autorización ni justificación empresarial. ¿Cómo debe abordarse?",
+      "options": [
+        "Compensarlo retirando tú la misma suma.",
+        "Revisar y documentar el uso, exigir regularización y valorar responsabilidades y acuerdos sociales.",
+        "Aceptar: administrar permite disponer del dinero como propio."
+      ],
+      "correct": 1,
+      "explanation": "El patrimonio social es distinto del personal. La diligencia y la lealtad obligan a emplear las facultades en interés de la sociedad.",
+      "nuance": "La calificación y las acciones dependen de hechos y prueba. No todo gasto irregular implica automáticamente un delito; «igualar» retiradas agrava el problema.",
+      "references": [
+        {
+          "source": "lsc",
+          "articles": "225, 227–228, 236"
+        }
+      ],
+      "consult": "Consultar sobre vacaciones con la tarjeta social"
+    },
+    {
+      "id": "mercantil-03",
+      "title": "La pregunta del minoritario",
+      "situation": "Una socia con el 10 % de una SL pide por escrito, antes de la junta, aclaraciones relacionadas con un punto del orden del día. Le dicen que por minoritaria no puede preguntar. ¿Es correcto?",
+      "options": [
+        "Sí: solo pregunta quien tiene más del 25 %.",
+        "No: puede exigir cualquier documento personal de todos los socios.",
+        "No: existe derecho de información en los términos legales, con límites que deben justificarse."
+      ],
+      "correct": 2,
+      "explanation": "La minoría no elimina el derecho a solicitar informes o aclaraciones sobre asuntos del orden del día. La ley regula cuándo puede denegarse por perjuicio al interés social.",
+      "nuance": "No es un acceso ilimitado a cualquier dato. El umbral del 25 % tiene relevancia para la excepción a la denegación, no para que nazca el derecho a preguntar.",
+      "references": [
+        {
+          "source": "lsc",
+          "articles": "196"
+        }
+      ],
+      "consult": "Consultar sobre la pregunta del minoritario"
+    },
+    {
+      "id": "mercantil-04",
+      "title": "La empresa de su pareja",
+      "situation": "El administrador quiere contratar por la SL a una empresa de su cónyuge, con una operación relevante que no es ordinaria ni de escasa relevancia. ¿Qué debe hacer?",
+      "options": [
+        "Revelar el conflicto, abstenerse donde corresponda y obtener la autorización legalmente exigible.",
+        "Firmar sin informar porque el precio le parece correcto.",
+        "Pedir permiso solo a su cónyuge."
+      ],
+      "correct": 0,
+      "explanation": "Los conflictos con personas vinculadas deben comunicarse y gestionarse. La dispensa de ciertas prohibiciones requiere autorización con las condiciones y competencia previstas por la ley.",
+      "nuance": "No todas las operaciones vinculadas están prohibidas, pero el precio por sí solo no elimina el conflicto ni sustituye los controles.",
+      "references": [
+        {
+          "source": "lsc",
+          "articles": "228.c, 229–231"
+        }
+      ],
+      "consult": "Consultar sobre la empresa de su pareja"
+    },
+    {
+      "id": "mercantil-05",
+      "title": "Dinero para arrancar",
+      "situation": "Un socio ingresa 15.000 € en la SL con el concepto «préstamo socio», pero no documentan devolución, intereses ni acuerdo. Ahora discrepan sobre si era capital. ¿Qué procede?",
+      "options": [
+        "Devolverlo unilateralmente sin revisar cuentas ni solvencia.",
+        "Reconstruir y documentar la naturaleza real de la aportación y sus condiciones.",
+        "Tratar cualquier ingreso como aumento automático del capital."
+      ],
+      "correct": 1,
+      "explanation": "Prestar dinero y aportar capital no son lo mismo. Un aumento de capital exige acuerdos y formalidades; la contabilidad y los documentos deben reflejar la operación real.",
+      "nuance": "En insolvencia puede cambiar la posición del crédito del socio. Deben revisarse también las obligaciones fiscales y los pagos a personas vinculadas.",
+      "references": [
+        {
+          "source": "lsc",
+          "articles": "58, 295, 314–315"
+        },
+        {
+          "source": "cc",
+          "articles": "1740"
+        }
+      ],
+      "consult": "Consultar sobre dinero para arrancar"
+    },
+    {
+      "id": "mercantil-06",
+      "title": "«Me voy: págame mi mitad»",
+      "situation": "Una socia quiere salir de una SL rentable. No concurre una causa de separación conocida ni hay acuerdo de compra. ¿Puede exigir sin más que la sociedad compre al precio que ella fija?",
+      "options": [
+        "Sí: toda SL debe recomprar al precio solicitado.",
+        "Sí: basta con dejar de acudir a las juntas.",
+        "No: debe revisar transmisión, estatutos, pacto y posibles causas de separación y valoración."
+      ],
+      "correct": 2,
+      "explanation": "La salida no es un derecho general a cobrar unilateralmente una cantidad. Transmitir participaciones y separarse por una causa legal o estatutaria son vías distintas.",
+      "nuance": "Si existe separación válida y no se acuerda el valor, hay mecanismos legales de valoración. No se aplican automáticamente a una venta voluntaria.",
+      "references": [
+        {
+          "source": "lsc",
+          "articles": "107, 346–347, 353"
+        }
+      ],
+      "consult": "Consultar sobre «me voy: págame mi mitad»"
+    },
+    {
+      "id": "mercantil-07",
+      "title": "El aval que se queda",
+      "situation": "Un socio vende todas sus participaciones, pero había avalado personalmente un préstamo de la SL. El banco no firma su liberación. ¿Desaparece el aval?",
+      "options": [
+        "No: la venta no lo extingue por sí sola; debe negociar y documentar la liberación con el acreedor.",
+        "Sí: el aval sigue siempre a quien compra las participaciones.",
+        "Sí: basta comunicar al banco que ya no es socio."
+      ],
+      "correct": 0,
+      "explanation": "La condición de socio y la obligación de garante son distintas. Un pacto con el comprador no impone al banco la liberación del avalista.",
+      "nuance": "Revisa el aval, vencimientos, novaciones y cualquier consentimiento del acreedor antes de dar por cerrado el riesgo.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "1205, 1822, 1847"
+        }
+      ],
+      "consult": "Consultar sobre el aval que se queda"
+    },
+    {
+      "id": "mercantil-08",
+      "title": "El socio que deja de trabajar",
+      "situation": "Una persona tiene el 30 % de una SL y deja de colaborar. No hay prestación accesoria estatutaria ni causa de exclusión aplicable conocida. ¿Pierde automáticamente sus participaciones?",
+      "options": [
+        "Sí: el administrador puede cancelarlas sin procedimiento.",
+        "No: separa la titularidad de los compromisos de trabajo y revisa los acuerdos existentes.",
+        "Sí: se reparten entre quienes siguen trabajando."
+      ],
+      "correct": 1,
+      "explanation": "Ser socio no impone por sí solo una obligación general de trabajar. Las prestaciones accesorias y las causas de exclusión requieren requisitos específicos.",
+      "nuance": "Puede haber otros incumplimientos contractuales que reclamar. La eventual remuneración o cese de una relación distinta no permite confiscar participaciones.",
+      "references": [
+        {
+          "source": "lsc",
+          "articles": "86–89, 350–352"
+        }
+      ],
+      "consult": "Consultar sobre el socio que deja de trabajar"
+    },
+    {
+      "id": "mercantil-09",
+      "title": "Beneficios no es dividendo",
+      "situation": "La SL tiene beneficio contable, pero también pérdidas anteriores y reservas pendientes de dotar. Un socio quiere transferirse ya «su porcentaje». ¿Puede?",
+      "options": [
+        "Sí: el beneficio contable pertenece directamente a cada socio.",
+        "Sí: basta que quede algo de dinero en el banco.",
+        "No: hay que aprobar cuentas, aplicación del resultado y comprobar límites de reparto."
+      ],
+      "correct": 2,
+      "explanation": "El dividendo requiere acuerdo y beneficios o reservas distribuibles respetando patrimonio neto y reservas legales. Tener saldo bancario no basta.",
+      "nuance": "La separación por falta de dividendos tiene condiciones y excepciones específicas; no se activa ante cualquier ejercicio sin reparto.",
+      "references": [
+        {
+          "source": "lsc",
+          "articles": "273–274, 348 bis"
+        }
+      ],
+      "consult": "Consultar sobre beneficios no es dividendo"
+    },
+    {
+      "id": "mercantil-10",
+      "title": "Lo firmado y lo inscrito",
+      "situation": "Dos socios pactan en privado una mayoría reforzada, pero no modifican estatutos. Un acuerdo social cumple estatutos y ley. ¿El pacto privado lo anula automáticamente?",
+      "options": [
+        "No: hay que distinguir efectos contractuales del pacto y reglas societarias; valorar su adecuada incorporación.",
+        "Sí: todo pacto privado modifica los estatutos sin más.",
+        "Sí: el Registro conoce automáticamente cualquier pacto firmado."
+      ],
+      "correct": 0,
+      "explanation": "Los pactos reservados entre socios no son oponibles a la sociedad por sí solos. Pueden generar obligaciones contractuales entre firmantes, pero no sustituyen automáticamente los estatutos.",
+      "nuance": "La impugnación y los remedios dependen de hechos, firmantes y contenido. No todos los pactos pueden trasladarse sin más a estatutos.",
+      "references": [
+        {
+          "source": "lsc",
+          "articles": "29, 204, 285"
+        },
+        {
+          "source": "cc",
+          "articles": "1091"
+        }
+      ],
+      "consult": "Consultar sobre lo firmado y lo inscrito"
+    }
+  ]
+}
