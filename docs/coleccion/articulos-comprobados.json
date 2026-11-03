@@ -1,9 +1,9 @@
 [
   {
     "case": "sucesiones-01",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -54,9 +54,9 @@
   },
   {
     "case": "sucesiones-02",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -72,9 +72,9 @@
   },
   {
     "case": "sucesiones-03",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -93,7 +93,7 @@
       },
       {
         "source": "cc",
-        "article": "813",
+        "article": "814",
         "existsInOfficialText": true
       },
       {
@@ -105,14 +105,19 @@
         "source": "cc",
         "article": "817",
         "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "818",
+        "existsInOfficialText": true
       }
     ]
   },
   {
     "case": "sucesiones-04",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -138,9 +143,9 @@
   },
   {
     "case": "sucesiones-05",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -161,9 +166,9 @@
   },
   {
     "case": "sucesiones-06",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -194,9 +199,9 @@
   },
   {
     "case": "sucesiones-07",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -217,31 +222,41 @@
   },
   {
     "case": "sucesiones-08",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
-        "article": "1006",
+        "article": "999",
         "existsInOfficialText": true
       },
       {
         "source": "cc",
-        "article": "999",
+        "article": "1006",
         "existsInOfficialText": true
       }
     ]
   },
   {
     "case": "sucesiones-09",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
+        "article": "1057",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
         "article": "1058",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "cc",
+        "article": "1059",
         "existsInOfficialText": true
       },
       {
@@ -258,14 +273,24 @@
         "source": "cc",
         "article": "1280",
         "existsInOfficialText": true
+      },
+      {
+        "source": "lec",
+        "article": "782",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "masc",
+        "article": "5",
+        "existsInOfficialText": true
       }
     ]
   },
   {
     "case": "sucesiones-10",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -276,9 +301,9 @@
   },
   {
     "case": "familia-01",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -299,9 +324,9 @@
   },
   {
     "case": "familia-02",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -312,9 +337,9 @@
   },
   {
     "case": "familia-03",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -340,9 +365,9 @@
   },
   {
     "case": "familia-04",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -353,9 +378,9 @@
   },
   {
     "case": "familia-05",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -366,9 +391,9 @@
   },
   {
     "case": "familia-06",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -379,9 +404,9 @@
   },
   {
     "case": "familia-07",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -397,9 +422,9 @@
   },
   {
     "case": "familia-08",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -420,9 +445,9 @@
   },
   {
     "case": "familia-09",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -443,9 +468,9 @@
   },
   {
     "case": "familia-10",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España, Derecho civil común",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -471,9 +496,9 @@
   },
   {
     "case": "vivienda-01",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "lau",
@@ -484,14 +509,19 @@
         "source": "lau",
         "article": "3",
         "existsInOfficialText": true
+      },
+      {
+        "source": "reforma_lau",
+        "article": "3",
+        "existsInOfficialText": true
       }
     ]
   },
   {
     "case": "vivienda-02",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "lau",
@@ -502,9 +532,9 @@
   },
   {
     "case": "vivienda-03",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "lau",
@@ -525,9 +555,9 @@
   },
   {
     "case": "vivienda-04",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "lau",
@@ -538,9 +568,9 @@
   },
   {
     "case": "vivienda-05",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "lau",
@@ -551,9 +581,9 @@
   },
   {
     "case": "vivienda-06",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "ce",
@@ -569,22 +599,27 @@
   },
   {
     "case": "vivienda-07",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "lau",
         "article": "11",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "reforma_lau",
+        "article": "3",
         "existsInOfficialText": true
       }
     ]
   },
   {
     "case": "vivienda-08",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "lau",
@@ -600,9 +635,9 @@
   },
   {
     "case": "vivienda-09",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "lau",
@@ -613,9 +648,9 @@
   },
   {
     "case": "vivienda-10",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "lau",
@@ -631,9 +666,9 @@
   },
   {
     "case": "consumo-01",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "consumo",
@@ -674,9 +709,9 @@
   },
   {
     "case": "consumo-02",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "consumo",
@@ -702,9 +737,9 @@
   },
   {
     "case": "consumo-03",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "consumo",
@@ -730,9 +765,9 @@
   },
   {
     "case": "consumo-04",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "consumo",
@@ -748,9 +783,9 @@
   },
   {
     "case": "consumo-05",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -766,9 +801,9 @@
   },
   {
     "case": "consumo-06",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "consumo",
@@ -794,9 +829,9 @@
   },
   {
     "case": "consumo-07",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -832,14 +867,24 @@
         "source": "cc",
         "article": "1490",
         "existsInOfficialText": true
+      },
+      {
+        "source": "masc",
+        "article": "5",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "masc",
+        "article": "7",
+        "existsInOfficialText": true
       }
     ]
   },
   {
     "case": "consumo-08",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -850,9 +895,9 @@
   },
   {
     "case": "consumo-09",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -863,9 +908,9 @@
   },
   {
     "case": "consumo-10",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cc",
@@ -881,14 +926,24 @@
         "source": "cc",
         "article": "1973",
         "existsInOfficialText": true
+      },
+      {
+        "source": "masc",
+        "article": "5",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "masc",
+        "article": "7",
+        "existsInOfficialText": true
       }
     ]
   },
   {
     "case": "penal-01",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "lecrim",
@@ -909,9 +964,9 @@
   },
   {
     "case": "penal-02",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "lecrim",
@@ -922,9 +977,9 @@
   },
   {
     "case": "penal-03",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "ce",
@@ -950,9 +1005,9 @@
   },
   {
     "case": "penal-04",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cp",
@@ -983,9 +1038,9 @@
   },
   {
     "case": "penal-05",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cp",
@@ -1011,9 +1066,9 @@
   },
   {
     "case": "penal-06",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cp",
@@ -1024,9 +1079,9 @@
   },
   {
     "case": "penal-07",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cp",
@@ -1047,9 +1102,9 @@
   },
   {
     "case": "penal-08",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cp",
@@ -1060,9 +1115,9 @@
   },
   {
     "case": "penal-09",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "cp",
@@ -1078,9 +1133,9 @@
   },
   {
     "case": "penal-10",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "lecrim",
@@ -1091,9 +1146,9 @@
   },
   {
     "case": "extranjeria-01",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "extranjeria",
@@ -1114,9 +1169,9 @@
   },
   {
     "case": "extranjeria-02",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "padron",
@@ -1132,9 +1187,9 @@
   },
   {
     "case": "extranjeria-03",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "extranjeria",
@@ -1150,9 +1205,9 @@
   },
   {
     "case": "extranjeria-04",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "extranjeria",
@@ -1163,14 +1218,54 @@
         "source": "extranjeria",
         "article": "38",
         "existsInOfficialText": true
+      },
+      {
+        "source": "regex",
+        "article": "72",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "regex",
+        "article": "73",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "regex",
+        "article": "74",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "regex",
+        "article": "75",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "regex",
+        "article": "76",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "regex",
+        "article": "77",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "regex",
+        "article": "78",
+        "existsInOfficialText": true
+      },
+      {
+        "source": "regex",
+        "article": "79",
+        "existsInOfficialText": true
       }
     ]
   },
   {
     "case": "extranjeria-05",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "regex",
@@ -1196,24 +1291,14 @@
         "source": "regex",
         "article": "97",
         "existsInOfficialText": true
-      },
-      {
-        "source": "regex",
-        "article": "98",
-        "existsInOfficialText": true
-      },
-      {
-        "source": "regex",
-        "article": "99",
-        "existsInOfficialText": true
       }
     ]
   },
   {
     "case": "extranjeria-06",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "procedimiento",
@@ -1234,9 +1319,9 @@
   },
   {
     "case": "extranjeria-07",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "procedimiento",
@@ -1267,18 +1352,18 @@
   },
   {
     "case": "extranjeria-08",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
-        "source": "extranjeria",
-        "article": "disposición adicional primera",
+        "source": "regex",
+        "article": "80",
         "existsInOfficialText": true
       },
       {
-        "source": "procedimiento",
-        "article": "21",
+        "source": "extranjeria",
+        "article": "disposición adicional primera",
         "existsInOfficialText": true
       },
       {
@@ -1290,9 +1375,9 @@
   },
   {
     "case": "extranjeria-09",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
         "source": "extranjeria",
@@ -1318,13 +1403,18 @@
   },
   {
     "case": "extranjeria-10",
-    "verifiedDate": "2026-11-02",
+    "verifiedDate": "2026-11-03",
     "territory": "España; aplicable en Canarias en los términos del supuesto",
-    "humanReview": "pending",
+    "humanReview": "not-recorded",
     "references": [
       {
+        "source": "regex",
+        "article": "80",
+        "existsInOfficialText": true
+      },
+      {
         "source": "extranjeria",
-        "article": "31",
+        "article": "38",
         "existsInOfficialText": true
       }
     ]

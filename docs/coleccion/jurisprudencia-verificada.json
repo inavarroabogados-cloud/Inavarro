@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://www.boe.es/biblioteca_juridica/comentarios_sentencias_unificacion_doctrina_civil_y_mercantil/abrir_pdf.php?id=COM-D-2013-45",
+    "date": "2026-11-03",
+    "httpStatus": 200,
+    "bytes": 709660,
+    "sha256": "f17e11f3ad13e1d6e69dfe982a86213637cdd5d6728e12dd9d89cd146a4122d0",
+    "verified": "Comentario BOE: doctrina e identificación de STS 539/2013, ECLI:ES:TS:2013:5269"
+  },
+  {
+    "url": "https://serviciostelematicosext.hacienda.gob.es/TEAC/DYCTEA/textoresolucion.aspx?id=12%2F00059%2F2020%2F00%2F0%2F1",
+    "date": "2026-11-03",
+    "httpStatus": 200,
+    "bytes": 107734,
+    "sha256": "05e27dec53d3e5bcec145af197c0d04a85d523c1f75da05c6c4dde1ccf7990c2",
+    "verified": "Resolución TEAC: reproducción de doctrina y cita judicial"
+  },
+  {
+    "url": "https://www.boe.es/biblioteca_juridica/anuarios_derecho/abrir_pdf.php?id=ANU-C-2002-10031700406_ANUARIO_DE_DERECHO_CIVIL_Sentencias",
+    "date": "2026-11-03",
+    "httpStatus": 200,
+    "bytes": 5663167,
+    "sha256": "8cd6b7e161485a741c9ee0ae3b9d2a8adc7be2fdb72353db8d33293d3220ee5c",
+    "verified": "Anuario BOE, página impresa 345 (29 del PDF): art.1490 y caducidad, leída visualmente"
+  },
+  {
+    "url": "https://www.poderjudicial.es/search/openDocument/d23798e31b2404fd",
+    "date": "2026-11-03",
+    "httpStatus": 403,
+    "readDirectly": false
+  }
+]

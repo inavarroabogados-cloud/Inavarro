@@ -1,8 +1,6 @@
 # Fuentes jurídicas de la colección
 
-Comprobación documental: 2 de noviembre de 2026. Once normas oficiales del BOE, incluyendo la normativa estatal de extranjería y procedimiento. Sin jurisprudencia ni revisiones de Vincent atribuidas.
-
-Los estados HTTP, tamaños y hashes están en `fuentes-verificadas.json`. `articulos-comprobados.json` localiza referencias; no acredita por sí solo una interpretación ni revisión jurídica humana. El dossier completo de los 60 casos y los puntos a revisar están en `DOSSIER-JURIDICO.md`.
+Verificación documental de Codex: 2026-11-03. No se atribuye aprobación profesional humana. Dossier íntegro: `DOSSIER-JURIDICO.md`.
 
 - [Código Civil](https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763)
 - [Ley de Arrendamientos Urbanos](https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003)
@@ -15,6 +13,8 @@ Los estados HTTP, tamaños y hashes están en `fuentes-verificadas.json`. `artic
 - [Ley 39/2015, procedimiento administrativo](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565)
 - [Ley 7/1985, bases del régimen local](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392)
 - [Ley de Enjuiciamiento Civil](https://www.boe.es/buscar/act.php?id=BOE-A-2000-323)
+- [Ley Orgánica 1/2025, medios adecuados de solución de controversias](https://www.boe.es/buscar/act.php?id=BOE-A-2025-76)
+- [Real Decreto-ley 29/2026, reforma de vivienda](https://www.boe.es/buscar/act.php?id=BOE-A-2026-20823)
 
 ## La herencia envenenada
 
@@ -22,13 +22,13 @@ Los estados HTTP, tamaños y hashes están en `fuentes-verificadas.json`. `artic
 | --- | --- |
 | 1. El sobre de las deudas | Código Civil, art. 998, 999, 1003, 1010–1014, 1023 |
 | 2. Las llaves de siempre | Código Civil, art. 394, 1068 |
-| 3. El testamento inesperado | Código Civil, art. 806–808, 813, 815, 817 |
+| 3. El testamento inesperado | Código Civil, art. 806–808, 814–815, 817–818 |
 | 4. El regalo que vuelve | Código Civil, art. 818, 1035–1036, 1045 |
 | 5. La cuenta del fallecido | Código Civil, art. 659, 661, 1732 |
 | 6. Renunciar no es elegir sustituto | Código Civil, art. 774, 923, 929, 1000, 1008 |
 | 7. La casa y el banco | Código Civil, art. 659, 1205, 1876 |
-| 8. Dos fallecimientos | Código Civil, art. 1006, 999 |
-| 9. El reparto de sobremesa | Código Civil, art. 1058, 1278–1280 |
+| 8. Dos fallecimientos | Código Civil, art. 999, 1006 |
+| 9. El reparto de sobremesa | Código Civil, art. 1057–1059, 1278–1280; Ley de Enjuiciamiento Civil, art. 782; Ley Orgánica 1/2025, medios adecuados de solución de controversias, art. 5 |
 | 10. El último sobre | Código Civil, art. 1079 |
 
 ## La familia cambia de guion
@@ -50,13 +50,13 @@ Los estados HTTP, tamaños y hashes están en `fuentes-verificadas.json`. `artic
 
 | Caso | Fundamento |
 | --- | --- |
-| 1. El nombre del contrato | Ley de Arrendamientos Urbanos, art. 2, 3 |
+| 1. El nombre del contrato | Ley de Arrendamientos Urbanos, art. 2, 3; Real Decreto-ley 29/2026, reforma de vivienda, art. 3 |
 | 2. La fianza de entrada | Ley de Arrendamientos Urbanos, art. 36 |
 | 3. El último mes | Ley de Arrendamientos Urbanos, art. 17, 27.2.a, 36 |
 | 4. La caldera que falla | Ley de Arrendamientos Urbanos, art. 21 |
 | 5. Pintar no es derribar | Ley de Arrendamientos Urbanos, art. 23 |
 | 6. La visita sorpresa | Constitución Española, art. 18.2; Ley de Arrendamientos Urbanos, art. 21.3 |
-| 7. Me voy antes | Ley de Arrendamientos Urbanos, art. 11 |
+| 7. Me voy antes | Ley de Arrendamientos Urbanos, art. 11; Real Decreto-ley 29/2026, reforma de vivienda, art. 3 |
 | 8. Un piso vendido | Ley de Arrendamientos Urbanos, art. 14, 25 |
 | 9. La mensualidad y el índice | Ley de Arrendamientos Urbanos, art. 18 |
 | 10. La cerradura ante el impago | Ley de Arrendamientos Urbanos, art. 27.2.a; Ley de Enjuiciamiento Civil, art. 250.1.1 |
@@ -68,13 +68,13 @@ Los estados HTTP, tamaños y hashes están en `fuentes-verificadas.json`. `artic
 | 1. El pedido desde el sofá | Ley General para la Defensa de los Consumidores y Usuarios, art. 102–108 |
 | 2. La compra en el mostrador | Ley General para la Defensa de los Consumidores y Usuarios, art. 61, 68, 102, 114 |
 | 3. El electrodoméstico nuevo | Ley General para la Defensa de los Consumidores y Usuarios, art. 118–120, 121 |
-| 4. El móvil hecho a tu medida | Ley General para la Defensa de los Consumidores y Usuarios, art. 103.c, 114 |
+| 4. El encargo a tu medida | Ley General para la Defensa de los Consumidores y Usuarios, art. 103.c, 114 |
 | 5. La reforma interrumpida | Código Civil, art. 1101, 1124 |
 | 6. La penalización oculta | Ley General para la Defensa de los Consumidores y Usuarios, art. 80, 82, 83, 85.6 |
-| 7. El coche entre particulares | Código Civil, art. 1484–1490 |
+| 7. El coche entre particulares | Código Civil, art. 1484–1490; Ley Orgánica 1/2025, medios adecuados de solución de controversias, art. 5, 7 |
 | 8. La caída y las pruebas | Código Civil, art. 1902 |
 | 9. El perro que se escapa | Código Civil, art. 1905 |
-| 10. La reclamación que no espera | Código Civil, art. 1968.2, 1969, 1973 |
+| 10. La reclamación que no espera | Código Civil, art. 1968.2, 1969, 1973; Ley Orgánica 1/2025, medios adecuados de solución de controversias, art. 5, 7 |
 
 ## En el banquillo
 
@@ -98,10 +98,10 @@ Los estados HTTP, tamaños y hashes están en `fuentes-verificadas.json`. `artic
 | 1. Un número no es un permiso | Ley Orgánica 4/2000, extranjería, art. 4, 31, 36 |
 | 2. Empadronarse en Tenerife | Ley 7/1985, bases del régimen local, art. 15, 18.2 |
 | 3. Entrar como visitante | Ley Orgánica 4/2000, extranjería, art. 30, 36 |
-| 4. La oferta que ayuda, pero no basta | Ley Orgánica 4/2000, extranjería, art. 36, 38 |
-| 5. Familia de una persona española | Reglamento de Extranjería, RD 1155/2024, art. 93–99 |
+| 4. La oferta que ayuda, pero no basta | Ley Orgánica 4/2000, extranjería, art. 36, 38; Reglamento de Extranjería, RD 1155/2024, art. 72–79 |
+| 5. Familia de una persona española | Reglamento de Extranjería, RD 1155/2024, art. 93–97 |
 | 6. La cita no es el registro | Ley 39/2015, procedimiento administrativo, art. 16, 66; Ley Orgánica 4/2000, extranjería, art. 31 |
 | 7. Falta un documento | Ley 39/2015, procedimiento administrativo, art. 40–43, 68 |
-| 8. El silencio no siempre concede | Ley Orgánica 4/2000, extranjería, disposición adicional primera; Ley 39/2015, procedimiento administrativo, art. 21, 24 |
+| 8. El silencio no siempre concede | Reglamento de Extranjería, RD 1155/2024, art. 80.9; Ley Orgánica 4/2000, extranjería, disposición adicional primera; Ley 39/2015, procedimiento administrativo, art. 24 |
 | 9. Una infracción no es una expulsión automática | Ley Orgánica 4/2000, extranjería, art. 53, 55, 57, 63 |
-| 10. Renovar exige mirar el permiso | Ley Orgánica 4/2000, extranjería, art. 31 |
+| 10. Renovar exige mirar el permiso | Reglamento de Extranjería, RD 1155/2024, art. 80.1–80.2; Ley Orgánica 4/2000, extranjería, art. 38.6 |

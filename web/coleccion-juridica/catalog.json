@@ -111,9 +111,18 @@
     "lec": {
       "name": "Ley de Enjuiciamiento Civil",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-323"
+    },
+    "masc": {
+      "name": "Ley Orgánica 1/2025, medios adecuados de solución de controversias",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-76"
+    },
+    "reforma_lau": {
+      "name": "Real Decreto-ley 29/2026, reforma de vivienda",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-20823"
     }
   },
-  "scope": "Información general. Casos ficticios en España; sucesiones y familia bajo Derecho civil común. No sustituye asesoramiento sobre un caso real. Contenido provisional pendiente de revisión jurídica humana.",
-  "verifiedDate": "2026-11-02",
-  "humanReview": "pending"
+  "scope": "Juego divulgativo. Casos ficticios en España; sucesiones y familia bajo Derecho civil común. No es asesoramiento sobre un asunto real.",
+  "verifiedDate": "2026-11-03",
+  "humanReview": "not-recorded",
+  "documentaryReview": "codex-verified"
 }
