@@ -148,6 +148,9 @@ await import('./portal-release.mjs');
 // Keep the tool in both supported Render build entrypoints.
 await import('./install-orientador.mjs');
 
+// Public collection has a separate mount; the beta installer above stays unchanged.
+await import('./install-collection.mjs');
+
 // Public, non-secret release marker for CDN/version verification.
 const releaseCommit=process.env.RENDER_GIT_COMMIT||execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();
 if(!/^[a-f0-9]{40}$/.test(releaseCommit))throw new Error('Invalid release commit');

@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "origin": "Original procedural composition for ¿ESTO ES LEGAL?; no third-party samples.",
+  "sampleRate": 44100,
+  "assets": {
+    "music": {
+      "wav": "music.wav",
+      "seconds": 15.238,
+      "peak": 0.53695,
+      "rms": 0.10326,
+      "sha256": "91dc8a2f0756522b3f01a359c6ebc77b3e6ae8232ffab1036d927e8ea377adf0",
+      "mp3": "music.mp3",
+      "mp3Sha256": "48ade6ff93a3b7c8ade873de478879a4674551a77b94e05a1cbc1ab75ee7714a"
+    },
+    "test": {
+      "wav": "test.wav",
+      "seconds": 1.19,
+      "peak": 0.57837,
+      "rms": 0.16131,
+      "sha256": "0aff334240829f60fc0ac95333e7537f670286d0b84b5ba681ae253e27a2dd48"
+    },
+    "correct": {
+      "wav": "correct.wav",
+      "seconds": 0.52,
+      "peak": 0.37753,
+      "rms": 0.10856,
+      "sha256": "41b64508e039a719d4bace640442bfe0af35c6a4810c19408d7abd1a34a20cee"
+    },
+    "wrong": {
+      "wav": "wrong.wav",
+      "seconds": 0.55,
+      "peak": 0.36377,
+      "rms": 0.10205,
+      "sha256": "c82c843f40c9c63a4898e76ff884f1e6bcd8978d6757c6c412f7bdd16e5a3e51"
+    },
+    "hint": {
+      "wav": "hint.wav",
+      "seconds": 0.5,
+      "peak": 0.38056,
+      "rms": 0.1029,
+      "sha256": "622444fee346ab0c896a54f422595d60d7732e34b5aceda731b302f4d7fe2031"
+    },
+    "victory": {
+      "wav": "victory.wav",
+      "seconds": 0.95,
+      "peak": 0.45953,
+      "rms": 0.12974,
+      "sha256": "1f4dd0c0e4fa0e847ed3be7ea4643e1dce66a5a9bd0ac6e37f8756e4f502abd4"
+    }
+  }
+}

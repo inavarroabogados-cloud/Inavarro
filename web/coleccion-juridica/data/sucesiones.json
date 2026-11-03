@@ -1,0 +1,278 @@
+{
+  "slug": "sucesiones",
+  "title": "La herencia envenenada",
+  "area": "Sucesiones",
+  "hook": "Te han dejado una herencia. ¿Dinero o problemas?",
+  "intro": "La casa familiar guarda diez sobres. Cada uno abre una decisión: antes de repartir recuerdos, conviene saber qué estás aceptando. Supuestos sujetos al Derecho civil común español, sin elementos internacionales.",
+  "cta": "Revisar o tramitar una herencia",
+  "character": "don-lex",
+  "color": "#806599",
+  "scene": "casa",
+  "questions": [
+    {
+      "id": "sucesiones-01",
+      "title": "El sobre de las deudas",
+      "situation": "Clara está llamada a heredar bajo Derecho civil común. Aún no ha aceptado ni dispuesto de bienes y desconoce si las deudas superan al patrimonio. ¿Qué paso protege mejor sus bienes propios?",
+      "options": [
+        "Aceptar a beneficio de inventario, cumpliendo sus requisitos.",
+        "Reservarlo verbalmente al aceptar.",
+        "Pagar alguna deuda con su dinero y decidir la aceptación al final."
+      ],
+      "correct": 0,
+      "explanation": "La aceptación pura y simple puede hacer responder con bienes propios. El beneficio de inventario permite limitar la responsabilidad a los bienes hereditarios si se cumplen sus requisitos.",
+      "nuance": "No basta escribir «acepto con reservas». Hay formalidades notariales y plazos que dependen, entre otros datos, de la posesión de bienes; no dispongas de ellos sin asesorarte.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "998, 999, 1003, 1010–1014, 1023"
+        }
+      ],
+      "consult": "Consultar sobre el sobre de las deudas",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 1,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "sucesiones-02",
+      "title": "Las llaves de siempre",
+      "situation": "Tras aceptar la herencia, tres hermanos siguen en comunidad hereditaria, sin reparto. Uno ocupa toda la vivienda y niega las llaves a los demás. No hay acuerdo de uso exclusivo. ¿Qué procede?",
+      "options": [
+        "Quien paga el IBI puede excluir.",
+        "Hasta repartir, manda el ocupante.",
+        "Puede oponerse al uso excluyente y pedir que se ordene el uso o se parta."
+      ],
+      "correct": 2,
+      "explanation": "Ser coheredero no atribuye el uso exclusivo de toda la casa. Conviene documentar la oposición y ordenar uso, gastos y partición.",
+      "nuance": "La compensación por ocupación no nace automáticamente en cualquier caso. Depende de la exclusión, los requerimientos y las circunstancias; no se debe practicar un desalojo por cuenta propia.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "394, 1068"
+        }
+      ],
+      "consult": "Consultar sobre las llaves de siempre",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 1,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "sucesiones-03",
+      "title": "El testamento inesperado",
+      "situation": "Daniel, viudo y con dos hijos, deja un testamento que menciona a ambos y lega 100 € a cada uno. Instituye heredera del resto a una amiga. El caudal neto es de 90.000 €, sin donaciones previas ni causa de desheredación. Bajo Derecho civil común, ¿quedan los hijos limitados a esos 100 €?",
+      "options": [
+        "Sí: mencionarles y legarles algo satisface necesariamente toda legítima.",
+        "No: pueden reclamar el complemento de su legítima.",
+        "No: toda la institución de la amiga se anula por preterición no intencional."
+      ],
+      "correct": 1,
+      "explanation": "No. Al haber sido mencionados y recibir una atribución, este caso plantea insuficiencia de legítima, no omisión de los hijos. Pueden pedir el complemento hasta cubrir su legítima y la reducción que corresponda.",
+      "nuance": "El artículo 814 regula la preterición y distingue, entre otros supuestos, la no intencional de descendientes. No se trasladan sus efectos anulatorios a este caso de atribución insuficiente; deben respetarse los tercios y demás reglas sucesorias.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "806–808, 814–815, 817–818"
+        }
+      ],
+      "consult": "Consultar sobre el testamento inesperado",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 1,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "sucesiones-04",
+      "title": "El regalo que vuelve",
+      "situation": "La madre de Irene donó dinero a su hermano. Ambos son ahora hijos legitimarios que concurren a la herencia y no consta dispensa de colación. ¿Se ignora aquella donación al repartir?",
+      "options": [
+        "Ignorarla si ya se gastó.",
+        "La donación debe considerarse para la colación y las legítimas.",
+        "Toda donación se devuelve físicamente antes de poder repartir la herencia."
+      ],
+      "correct": 1,
+      "explanation": "La colación busca tener en cuenta determinadas liberalidades recibidas por legitimarios que concurren a la sucesión. No implica necesariamente devolver el mismo dinero.",
+      "nuance": "Dispensar de colación y no lesionar legítimas son cuestiones distintas. Importan el título de la donación, su valoración y las demás liberalidades.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "818, 1035–1036, 1045"
+        }
+      ],
+      "consult": "Consultar sobre el regalo que vuelve",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 2,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "sucesiones-05",
+      "title": "La cuenta del fallecido",
+      "situation": "Álvaro tenía autorización bancaria para operar en la cuenta de su padre, que acaba de fallecer. Sin repartir la herencia, quiere transferirse el saldo para «guardarlo». ¿Qué debe hacer?",
+      "options": [
+        "Usar la autorización bancaria anterior.",
+        "Transferirlo primero como depósito.",
+        "Comunicar el fallecimiento y tramitar la disposición del saldo."
+      ],
+      "correct": 2,
+      "explanation": "La autorización no convierte al autorizado en dueño y el mandato se extingue, como regla, por la muerte. Hay que identificar los titulares reales del dinero y los derechos sucesorios.",
+      "nuance": "No confundas autorización con cotitularidad; ni siquiera esta demuestra por sí sola a quién pertenece todo el saldo. Los gastos urgentes deben documentarse y gestionarse con el banco.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "659, 661, 1732"
+        }
+      ],
+      "consult": "Consultar sobre la cuenta del fallecido",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 2,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "sucesiones-06",
+      "title": "Renunciar no es elegir sustituto",
+      "situation": "El testamento llama a Marta y, para el caso de que no quiera aceptar, la sustituye expresamente por sus dos hijos. Marta repudia válidamente ante notario, sin haber aceptado antes. ¿Por qué son llamados sus hijos?",
+      "options": [
+        "Por la sustitución testamentaria prevista para esa repudiación.",
+        "Por representación automática, igual que en cualquier renuncia.",
+        "Por una donación implícita de Marta que debe aceptarse por sus hijos."
+      ],
+      "correct": 0,
+      "explanation": "La sustitución prevista para el caso de que Marta no quiera aceptar permite llamar a sus hijos. No es una representación automática producida por cualquier renuncia.",
+      "nuance": "Sin esa sustitución habría que aplicar las reglas pertinentes de acrecimiento o sucesión intestada. La repudiación pura no equivale a aceptar y donar la cuota a una persona elegida.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "774, 923, 929, 1000, 1008"
+        }
+      ],
+      "consult": "Consultar sobre renunciar no es elegir sustituto",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 2,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "sucesiones-07",
+      "title": "La casa y el banco",
+      "situation": "Dos herederas reciben una vivienda hipotecada. Pactan que una se quedará la casa y la deuda. El banco no ha consentido liberar a la otra. ¿El pacto basta frente al banco?",
+      "options": [
+        "No: el pacto interno no libera a la otra deudora frente al banco.",
+        "Basta con avisar al banco.",
+        "Sí: la adjudicación de la casa sustituye el consentimiento del banco."
+      ],
+      "correct": 0,
+      "explanation": "La deuda y la garantía no desaparecen por el fallecimiento. El reparto interno no impone al banco una liberación de deudores.",
+      "nuance": "Antes de aceptar o adjudicar hay que revisar préstamo, seguros, saldo y modalidad de aceptación. Ser dueño hipotecado y ser deudor personal son posiciones diferentes.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "659, 1205, 1876"
+        }
+      ],
+      "consult": "Consultar sobre la casa y el banco",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 2,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "sucesiones-08",
+      "title": "Dos fallecimientos",
+      "situation": "Luis sobrevive a su madre y fallece sin aceptar ni repudiar su herencia, tampoco tácitamente. Su única heredera es Eva, que aún no ha decidido sobre la herencia de Luis. ¿Puede repudiar la de Luis y ejercer, por transmisión, el derecho de Luis sobre la herencia de su madre?",
+      "options": [
+        "Puede renunciar a Luis y ejercer el derecho.",
+        "No: debe aceptar la de Luis para ejercer el derecho transmitido.",
+        "Aceptar a Luis obliga a aceptar ambas."
+      ],
+      "correct": 1,
+      "explanation": "No. Eva debe aceptar la herencia de Luis, el transmitente, para adquirir y ejercer el derecho a aceptar o repudiar la de la primera causante. Aceptar la de Luis no obliga a aceptar también la de su madre.",
+      "nuance": "Si después acepta la herencia de la madre de Luis, sucede directamente a esa primera causante en el sentido de la STS 539/2013, de 11 de septiembre, ECLI:ES:TS:2013:5269. Se trata de dos decisiones sucesorias distintas.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "999, 1006"
+        }
+      ],
+      "consult": "Consultar sobre dos fallecimientos",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 3,
+      "jurisprudence": [
+        {
+          "name": "STS, Sala Primera, Pleno, 539/2013, 11-09-2013 · ECLI:ES:TS:2013:5269",
+          "url": "https://www.boe.es/biblioteca_juridica/comentarios_sentencias_unificacion_doctrina_civil_y_mercantil/articulo.php?id=COM-D-2013-45",
+          "note": "Doctrina e identificación contrastadas en publicación de la Biblioteca Jurídica del BOE; el enlace de CENDOJ que ofrece devuelve 403 en este entorno. No se presenta como lectura directa del original en CENDOJ."
+        }
+      ],
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "sucesiones-09",
+      "title": "El reparto de sobremesa",
+      "situation": "Tres coherederos adultos hablaron de repartir «la casa para ti y los ahorros para nosotros». No precisaron todos los bienes ni las deudas. Uno niega ahora que hubiera un acuerdo cerrado y rechaza firmar. ¿Pueden los otros dar por formalizado el reparto consensuado?",
+      "options": [
+        "Sí: dos de tres pueden formalizar el reparto por mayoría de coherederos.",
+        "No hay conflicto que resolver: un pacto verbal de partición carece siempre de efectos.",
+        "No: deben resolver la existencia del pacto y, si persiste el conflicto, acudir a la vía legal."
+      ],
+      "correct": 2,
+      "explanation": "No pueden suplir por sí solos el consentimiento discutido. Primero hay que aclarar y probar si existió un pacto vinculante y su alcance. Si no se alcanza acuerdo, existen vías legales para obtener la partición.",
+      "nuance": "Pueden valorarse cumplimiento del pacto probado, contador-partidor dativo cuando concurran sus requisitos o división judicial. No se afirma que todo pacto verbal sea nulo ni que pueda inscribirse la casa con la versión de un solo coheredero.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "1057–1059, 1278–1280"
+        },
+        {
+          "source": "lec",
+          "articles": "782"
+        },
+        {
+          "source": "masc",
+          "articles": "5"
+        }
+      ],
+      "consult": "Consultar sobre el reparto de sobremesa",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 3,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "sucesiones-10",
+      "title": "El último sobre",
+      "situation": "Tras una partición válida aparece una cuenta que nadie conocía. No hubo ocultación ni otros defectos. ¿Hay que deshacer por completo el reparto?",
+      "options": [
+        "Rescindir toda la partición aunque la omisión sea el único problema.",
+        "Completar la partición con la cuenta omitida.",
+        "Repartir la cuenta solo entre quienes la descubrieron y gestionaron."
+      ],
+      "correct": 1,
+      "explanation": "La omisión de bienes no da por sí sola lugar a rescindir la partición: se completa o adiciona con lo omitido.",
+      "nuance": "Si hay ocultación, lesión u otros vicios, pueden existir cuestiones adicionales. Conviene conservar el certificado bancario y revisar las obligaciones fiscales correspondientes.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "1079"
+        }
+      ],
+      "consult": "Consultar sobre el último sobre",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 3,
+      "documentaryReview": "codex-verified"
+    }
+  ]
+}

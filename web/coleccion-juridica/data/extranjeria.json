@@ -1,0 +1,283 @@
+{
+  "slug": "extranjeria",
+  "title": "El siguiente paso",
+  "area": "Extranjería",
+  "hook": "Un documento no siempre abre la misma puerta.",
+  "intro": "Llegas a una ventanilla con diez dudas. Aquí no hay atajos ni permisos prometidos: hay documentos, trámites y decisiones que conviene distinguir. Supuestos de personas extranjeras no comunitarias en España, incluidos trámites en Canarias; salvo indicación, sin régimen de ciudadanía de la Unión.",
+  "cta": "Revisar un trámite de extranjería",
+  "character": "lexi",
+  "color": "#39759b",
+  "scene": "mapa",
+  "questions": [
+    {
+      "id": "extranjeria-01",
+      "title": "Un número no es un permiso",
+      "situation": "Una persona no comunitaria tiene asignado NIE, pero no posee autorización de residencia ni otro título que le permita residir o trabajar. ¿El NIE cambia por sí solo esa situación?",
+      "options": [
+        "El NIE concede residencia.",
+        "Permite trabajar aunque no residir, por ser un identificador administrativo.",
+        "No: el NIE identifica; no concede por sí solo residencia ni trabajo."
+      ],
+      "correct": 2,
+      "explanation": "La documentación de identidad y las autorizaciones administrativas son cuestiones distintas. El número identificador no sustituye por sí solo un título habilitante.",
+      "nuance": "Hay documentos y regímenes diferentes. Deben revisarse nacionalidad, situación y autorización concreta, sin presumir un permiso por ver un número.",
+      "references": [
+        {
+          "source": "extranjeria",
+          "articles": "4, 31, 36"
+        }
+      ],
+      "consult": "Consultar sobre un número no es un permiso",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 1,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "extranjeria-02",
+      "title": "Empadronarse en Tenerife",
+      "situation": "Una persona extranjera se empadrona en el municipio canario donde vive. Le dicen que el alta municipal le concede automáticamente residencia legal. ¿Es así?",
+      "options": [
+        "No: el padrón no acredita por sí solo residencia legal.",
+        "El padrón regulariza la residencia.",
+        "Empadronarse autoriza a trabajar."
+      ],
+      "correct": 0,
+      "explanation": "La inscripción de extranjeros en el padrón no constituye prueba de residencia legal ni atribuye derechos no previstos en la legislación vigente.",
+      "nuance": "Eso no hace inútil el padrón: puede acreditar domicilio y ser relevante en otros trámites. Tampoco permite prometer que basta con empadronarse para obtener una autorización.",
+      "references": [
+        {
+          "source": "padron",
+          "articles": "15, 18.2"
+        }
+      ],
+      "consult": "Consultar sobre empadronarse en tenerife",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 1,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "extranjeria-03",
+      "title": "Entrar como visitante",
+      "situation": "Una persona no comunitaria entra para turismo y solo dispone de un título de corta duración que no autoriza a trabajar. Recibe una oferta de empleo. ¿Puede empezar por tener la oferta?",
+      "options": [
+        "Sí: toda estancia de turismo permite trabajar mientras no haya vencido.",
+        "No: la oferta no cambia por sí sola su habilitación para trabajar.",
+        "Basta con que el empleador comunique que va a solicitar una autorización."
+      ],
+      "correct": 1,
+      "explanation": "La estancia y la autorización para trabajar no son equivalentes. El régimen general exige habilitación administrativa en sus términos.",
+      "nuance": "Existen autorizaciones y excepciones distintas, que deben acreditarse. No se dan instrucciones para trabajar sin autorización ni se promete una vía de regularización.",
+      "references": [
+        {
+          "source": "extranjeria",
+          "articles": "30, 36"
+        }
+      ],
+      "consult": "Consultar sobre entrar como visitante",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 1,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "extranjeria-04",
+      "title": "La oferta que ayuda, pero no basta",
+      "situation": "Una persona no comunitaria solicita una autorización inicial ordinaria de residencia temporal y trabajo por cuenta ajena. Tiene un contrato firmado, pero aún no hay resolución favorable ni alta que active su eficacia. ¿El contrato basta para empezar?",
+      "options": [
+        "No: necesita la autorización y el alta que haga eficaz ese título inicial.",
+        "El contrato sustituye la autorización.",
+        "Basta presentar una solicitud, aunque todavía no exista habilitación aplicable."
+      ],
+      "correct": 0,
+      "explanation": "No. En este procedimiento el contrato no sustituye la autorización administrativa, y la eficacia de la autorización inicial se condiciona al alta correspondiente en la Seguridad Social. Debe completarse el procedimiento aplicable.",
+      "nuance": "Este supuesto es una autorización inicial ordinaria por cuenta ajena, no una autorización o situación distinta que ya habilite a trabajar ni una excepción legal.",
+      "references": [
+        {
+          "source": "extranjeria",
+          "articles": "36, 38"
+        },
+        {
+          "source": "regex",
+          "articles": "72–79"
+        }
+      ],
+      "consult": "Consultar sobre la oferta que ayuda, pero no basta",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 2,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "extranjeria-05",
+      "title": "Familia de una persona española",
+      "situation": "Una ciudadana peruana de 30 años está casada válidamente con un español y ambos conviven en Tenerife. Él no ha ejercido libre circulación en otro Estado miembro y ella no posee otro título de residencia. Solicita por primera vez en 2026 la residencia por ese vínculo. ¿Qué vía específica corresponde examinar?",
+      "options": [
+        "Reagrupación general de extranjeros.",
+        "Residencia automática por matrimonio.",
+        "La residencia temporal de familiar de español del capítulo VII del RD 1155/2024."
+      ],
+      "correct": 2,
+      "explanation": "El capítulo VII del RD 1155/2024 regula la residencia temporal de familiares de personas con nacionalidad española; incluye al cónyuge adulto con las condiciones legales. El matrimonio no dispensa de tramitar y acreditar los requisitos.",
+      "nuance": "Se distingue de la reagrupación del régimen general y de los supuestos vinculados al ejercicio de libre circulación. Aquí se han excluido estos últimos y los títulos previos para no mezclar regímenes. El reglamento entró en vigor el 20-5-2025.",
+      "references": [
+        {
+          "source": "regex",
+          "articles": "93–97"
+        }
+      ],
+      "consult": "Consultar sobre familia de una persona española",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 2,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "extranjeria-06",
+      "title": "La cita no es el registro",
+      "situation": "Tienes una cita reservada para después del vencimiento de un plazo de un trámite. No has presentado la solicitud. ¿Puedes dar por hecho que reservar cita equivale a haber presentado en plazo?",
+      "options": [
+        "Preparar y guardar el formulario sin remitirlo ya inicia el procedimiento.",
+        "No: reservar cita no equivale a registrar la solicitud.",
+        "Sí: cualquier justificante de cita prueba por sí solo presentación en plazo."
+      ],
+      "correct": 1,
+      "explanation": "La fecha y el cauce de presentación deben acreditarse conforme al procedimiento aplicable. Una cita no es necesariamente una solicitud presentada.",
+      "nuance": "No todos los trámites admiten las mismas formas ni el mismo presentador. Debe revisarse la vía específica, las opciones de registro y el justificante, sin inventar una prórroga automática.",
+      "references": [
+        {
+          "source": "procedimiento",
+          "articles": "16, 66"
+        },
+        {
+          "source": "extranjeria",
+          "articles": "31"
+        }
+      ],
+      "consult": "Consultar sobre la cita no es el registro",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 2,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "extranjeria-07",
+      "title": "Falta un documento",
+      "situation": "La Administración te notifica un requerimiento de subsanación con un plazo concreto e identifica lo que falta. No entiendes si ya han denegado la solicitud. ¿Qué haces?",
+      "options": [
+        "Esperar una segunda notificación.",
+        "Esperar una segunda notificación, porque la primera nunca produce efectos.",
+        "Subsanar lo requerido en plazo y conservar el justificante."
+      ],
+      "correct": 2,
+      "explanation": "Un requerimiento de subsanación permite corregir defectos en sus términos; no equivale por sí solo a una denegación definitiva. No atenderlo puede tener consecuencias legales.",
+      "nuance": "Comprueba notificación, cómputo y documentos exigidos. Este supuesto no amplía el plazo ni sustituye las reglas de cada procedimiento.",
+      "references": [
+        {
+          "source": "procedimiento",
+          "articles": "40–43, 68"
+        }
+      ],
+      "consult": "Consultar sobre falta un documento",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 2,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "extranjeria-08",
+      "title": "El silencio no siempre concede",
+      "situation": "Lucía solicita en plazo la renovación de su autorización ordinaria de residencia y trabajo por cuenta ajena. La solicitud completa entra en el registro competente el 1 de junio de 2026. Han pasado más de tres meses sin resolución ni notificación, sin suspensión o ampliación del plazo. ¿Qué sentido tiene aquí el silencio?",
+      "options": [
+        "Positivo: la renovación descrita se entiende estimada.",
+        "Siempre es negativo.",
+        "Sin certificado no hay silencio."
+      ],
+      "correct": 0,
+      "explanation": "La renovación descrita se entiende estimada por silencio positivo una vez transcurrido el plazo legal de tres meses para resolver y notificar. Es la regla concreta del artículo 80.9 del Reglamento y de la disposición adicional primera de la LO 4/2000.",
+      "nuance": "No se extrapola a toda autorización inicial. El certificado de silencio del artículo 24 Ley 39/2015 permite acreditar el acto presunto; tarjeta y demás documentación se tramitan por sus cauces. No se ha supuesto una suspensión del plazo.",
+      "references": [
+        {
+          "source": "regex",
+          "articles": "80.9"
+        },
+        {
+          "source": "extranjeria",
+          "articles": "disposición adicional primera"
+        },
+        {
+          "source": "procedimiento",
+          "articles": "24"
+        }
+      ],
+      "consult": "Consultar sobre el silencio no siempre concede",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 3,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "extranjeria-09",
+      "title": "Una infracción no es una expulsión automática",
+      "situation": "Una persona no comunitaria en situación irregular recibe una notificación de expediente sancionador. ¿Puede afirmarse que la expulsión ya es inevitable y firme?",
+      "options": [
+        "La apertura impide presentar alegaciones o aportar circunstancias personales.",
+        "No: la apertura del expediente no es una expulsión firme.",
+        "Sí: abrir el expediente ejecuta por sí solo la salida obligatoria."
+      ],
+      "correct": 1,
+      "explanation": "La apertura del expediente no equivale a una resolución firme. Las sanciones y, en su caso, expulsión están sujetas a presupuestos, procedimiento y garantías.",
+      "nuance": "La valoración puede requerir jurisprudencia y normas europeas según el caso. Aquí no se predice la sanción; se recomienda atender la notificación y obtener asesoramiento en plazo.",
+      "references": [
+        {
+          "source": "extranjeria",
+          "articles": "53, 55, 57, 63"
+        }
+      ],
+      "consult": "Consultar sobre una infracción no es una expulsión automática",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 3,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "extranjeria-10",
+      "title": "Renovar exige mirar el permiso",
+      "situation": "La autorización ordinaria de residencia temporal y trabajo por cuenta ajena de Karim caduca el 30 de noviembre de 2026. Presenta su renovación completa el 3 de noviembre, manteniendo la relación laboral y el alta, y cumple los demás requisitos. ¿Qué efecto tiene presentar en ese plazo?",
+      "options": [
+        "La solicitud presentada en plazo no evita que caduque la autorización anterior.",
+        "Prorroga la validez de la autorización anterior hasta la resolución.",
+        "La presentación concede ya una autorización definitiva sin comprobar requisitos."
+      ],
+      "correct": 1,
+      "explanation": "Se presenta dentro de los dos meses previos al vencimiento. El artículo 80.1 prorroga la validez de la autorización anterior hasta la resolución del procedimiento; no tiene que dejar de trabajar solo por alcanzar la fecha impresa mientras opera esa prórroga.",
+      "nuance": "La presentación no equivale a una concesión definitiva ni exime de los requisitos de renovación. La solicitud dentro de los tres meses posteriores tiene también un régimen previsto, con posible consecuencia sancionadora: no es el supuesto de Karim.",
+      "references": [
+        {
+          "source": "regex",
+          "articles": "80.1–80.2"
+        },
+        {
+          "source": "extranjeria",
+          "articles": "38.6"
+        }
+      ],
+      "consult": "Consultar sobre renovar exige mirar el permiso",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 3,
+      "documentaryReview": "codex-verified"
+    }
+  ]
+}

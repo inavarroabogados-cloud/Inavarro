@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-03",
+  "browser": "Playwright WebKit 27.2 / v2370",
+  "downloaded": true,
+  "executed": false,
+  "reason": "Missing system libraries: libgtk-4.so.1, libgraphene-1.0.so.0, libharfbuzz-icu.so.0, libmanette-0.2.so.0, libhyphen.so.0, libGLESv2.so.2",
+  "physicalIPhoneTested": false
+}

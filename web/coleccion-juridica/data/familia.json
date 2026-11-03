@@ -1,0 +1,271 @@
+{
+  "slug": "familia",
+  "title": "La familia cambia de guion",
+  "area": "Familia",
+  "hook": "Cuando cambia la vida, las decisiones también.",
+  "intro": "Una familia ficticia reorganiza su día a día. Entre acuerdos, cuidados y nuevas circunstancias, diez decisiones para poner las necesidades de los menores en el centro. Supuestos de Derecho civil común español, sin elementos internacionales.",
+  "cta": "Consultar sobre medidas familiares",
+  "character": "aura",
+  "color": "#527d73",
+  "scene": "familia",
+  "questions": [
+    {
+      "id": "familia-01",
+      "title": "Separarse sin borrar acuerdos",
+      "situation": "Marta y Joel, casados, se separan y tienen una hija menor. Han hablado sobre cuidados, vivienda y gastos, pero no existe resolución ni convenio aprobado. ¿Qué conviene hacer?",
+      "options": [
+        "Concretar las medidas y obtener el control judicial correspondiente.",
+        "Firmar solo un convenio privado.",
+        "Basta con un convenio privado firmado porque ambos están de acuerdo."
+      ],
+      "correct": 0,
+      "explanation": "Un convenio sobre hijos menores no se reduce a un pacto informal. Debe proteger su interés y someterse al control judicial correspondiente.",
+      "nuance": "Importan cuidados, alimentos, vivienda y relaciones familiares. Un acuerdo no debe convertir los derechos de la menor en una moneda de cambio.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "90, 91"
+        },
+        {
+          "source": "lec",
+          "articles": "777"
+        }
+      ],
+      "consult": "Consultar sobre separarse sin borrar acuerdos",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 1,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "familia-02",
+      "title": "Los cuidados no son un premio",
+      "situation": "Un padre pide custodia compartida y la otra progenitora se opone. Hay una hija de seis años. ¿Se decide por quién la solicita primero?",
+      "options": [
+        "Prima quien solicita primero.",
+        "La oposición veta la compartida.",
+        "No: debe decidirse según el interés de la menor y las circunstancias."
+      ],
+      "correct": 2,
+      "explanation": "El interés superior de la menor guía la decisión. La custodia compartida no es un premio ni una distribución matemática independiente de las circunstancias.",
+      "nuance": "Deben examinarse capacidad de cuidado, organización, relaciones familiares y eventuales límites legales. No puede prometerse una modalidad solo por pedirla.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "92"
+        }
+      ],
+      "consult": "Consultar sobre los cuidados no son un premio",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 1,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "familia-03",
+      "title": "Una pensión con destino",
+      "situation": "Una resolución fija alimentos para una hija. El progenitor obligado discrepa sobre cómo administra el dinero la otra parte. ¿Puede dejar de pagar unilateralmente?",
+      "options": [
+        "No: debe cumplir lo vigente y plantear la discrepancia por la vía legal.",
+        "Puede retener una parte como garantía de que se justifique cada gasto.",
+        "Puede sustituir la transferencia por compras de su elección sin acuerdo."
+      ],
+      "correct": 0,
+      "explanation": "La obligación fijada sigue vigente mientras no se modifique. Los alimentos atienden necesidades de la hija, no son un favor entre adultos.",
+      "nuance": "Si hay motivos para revisar medidas, deben acreditarse. No se debe confundir incumplimiento del régimen de relación con extinción de alimentos.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "93, 142, 146, 147"
+        }
+      ],
+      "consult": "Consultar sobre una pensión con destino",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 1,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "familia-04",
+      "title": "El colegio del próximo curso",
+      "situation": "Ambos progenitores ejercen la patria potestad. Uno quiere cambiar de colegio al menor y el otro discrepa; no hay urgencia ni resolución que permita decidir solo. ¿Qué procede?",
+      "options": [
+        "Buscar acuerdo y, si fracasa, pedir que se resuelva el desacuerdo.",
+        "Decide quien paga más.",
+        "Decide el progenitor que pague más gastos, aunque ambos ejerzan la patria potestad."
+      ],
+      "correct": 0,
+      "explanation": "Las decisiones relevantes comprendidas en la patria potestad requieren el ejercicio conjunto en los términos legales. El desacuerdo puede llevarse al juez para atribuir la facultad de decidir.",
+      "nuance": "No equivale a cada decisión cotidiana de cuidado. Una urgencia o una distribución judicial de facultades puede cambiar el análisis.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "156"
+        }
+      ],
+      "consult": "Consultar sobre el colegio del próximo curso",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 2,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "familia-05",
+      "title": "La casa después de separarse",
+      "situation": "Un matrimonio que se separa discute el uso de la vivienda familiar, propiedad exclusiva de uno. Hay una hija menor y no tienen acuerdo. ¿Basta con mirar quién aparece como dueño?",
+      "options": [
+        "La propiedad decide el uso familiar.",
+        "No: el uso familiar y la propiedad son cuestiones distintas.",
+        "La separación transmite media propiedad."
+      ],
+      "correct": 1,
+      "explanation": "La titularidad no resuelve por sí sola la atribución del uso familiar. El Código Civil establece reglas y el caso debe examinarse con las medidas de guarda y las circunstancias.",
+      "nuance": "Atribuir uso no transmite dominio. Tampoco libera por sí mismo de una hipoteca ni resuelve las obligaciones frente al banco.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "96"
+        }
+      ],
+      "consult": "Consultar sobre la casa después de separarse",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 2,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "familia-06",
+      "title": "Abuelos en medio del conflicto",
+      "situation": "Los progenitores discuten y uno impide todo contacto de su hijo con los abuelos, sin alegar hechos que lo justifiquen. ¿El enfado entre adultos basta?",
+      "options": [
+        "Los abuelos pueden fijar unilateralmente las estancias por su parentesco.",
+        "No: debe existir justa causa y atenderse al interés del menor.",
+        "Sí: el conflicto entre adultos basta para eliminar toda relación con los abuelos."
+      ],
+      "correct": 1,
+      "explanation": "No pueden impedirse sin justa causa las relaciones personales del menor con abuelos y otros allegados. Ante oposición puede decidir el juez atendiendo a las circunstancias.",
+      "nuance": "El contacto no es absoluto ni un calendario automático. La seguridad y el interés del menor prevalecen sobre las preferencias de los adultos.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "160"
+        }
+      ],
+      "consult": "Consultar sobre abuelos en medio del conflicto",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 2,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "familia-07",
+      "title": "La mudanza importante",
+      "situation": "Una progenitora quiere trasladar de Tenerife a la Península la residencia habitual de su hijo menor. Ambos ejercen la patria potestad y el otro no consiente. No hay urgencia. ¿Qué debe hacer?",
+      "options": [
+        "Avisar después del traslado.",
+        "Decide por sí sola si mantiene las mismas semanas de vacaciones.",
+        "Necesita consentimiento de ambos o autorización judicial."
+      ],
+      "correct": 2,
+      "explanation": "La residencia habitual del menor no se altera sin el consentimiento de ambos progenitores o, en su defecto, autorización judicial cuando ambos ejercen esa responsabilidad.",
+      "nuance": "No es lo mismo una salida temporal que un cambio de residencia. Deben valorarse cuidados, escolarización, vínculos y la resolución vigente.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "154, 156"
+        }
+      ],
+      "consult": "Consultar sobre la mudanza importante",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 2,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "familia-08",
+      "title": "Los ingresos han cambiado",
+      "situation": "Un progenitor acredita un cambio sustancial y duradero de circunstancias después de la sentencia de divorcio. Quiere revisar la pensión y no hay acuerdo. ¿Qué vía corresponde valorar?",
+      "options": [
+        "Reducir por cuenta propia el pago.",
+        "Solicitar una modificación de medidas con prueba del cambio.",
+        "Suspenderlo hasta nueva sentencia."
+      ],
+      "correct": 1,
+      "explanation": "La modificación exige examinar los cambios sobrevenidos y sus efectos. La resolución vigente no desaparece por la mera afirmación de menores ingresos.",
+      "nuance": "Debe revisarse la entidad, estabilidad y causa del cambio y las necesidades del hijo. No todo descenso de ingresos justifica la misma reducción.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "91, 147"
+        },
+        {
+          "source": "lec",
+          "articles": "775"
+        }
+      ],
+      "consult": "Consultar sobre los ingresos han cambiado",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 3,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "familia-09",
+      "title": "Cumplir dieciocho no lo borra todo",
+      "situation": "Una hija mayor de edad sigue conviviendo en el domicilio familiar, estudia de forma aprovechada y carece de ingresos propios. Hay alimentos fijados judicialmente. ¿Se extinguen automáticamente por cumplir 18 años?",
+      "options": [
+        "Sí: el día del cumpleaños deja de existir la obligación fijada.",
+        "No: cumplir 18 años no extingue por sí solo esos alimentos.",
+        "Debe mantenerse exactamente igual toda la vida, aunque cambien sus necesidades."
+      ],
+      "correct": 1,
+      "explanation": "La mayoría de edad no extingue por sí sola los alimentos. La ley contempla al hijo mayor que convive y carece de ingresos, y regula sus causas de extinción.",
+      "nuance": "Importan necesidad, aprovechamiento y posibilidades reales, entre otros datos. No se promete una pensión indefinida ni se avala dejar de pagar unilateralmente.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "93, 142, 152"
+        }
+      ],
+      "consult": "Consultar sobre cumplir dieciocho no lo borra todo",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 3,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "familia-10",
+      "title": "La nueva pareja y los bienes",
+      "situation": "Tras convivir sin casarse, Diego cree que todo lo adquirido por su pareja en nombre propio le pertenece por mitad. No pactaron una comunidad ni acredita aportaciones o un título a su favor. ¿Es automático?",
+      "options": [
+        "El padrón conjunto sustituye el título de adquisición de cada bien.",
+        "Sí: a partir de convivir, toda adquisición de cualquiera pertenece a ambos.",
+        "No: convivir no crea por sí solo una sociedad de gananciales."
+      ],
+      "correct": 2,
+      "explanation": "La titularidad y los posibles créditos o derechos deben acreditarse. No debe trasladarse sin más un régimen matrimonial a una convivencia no matrimonial.",
+      "nuance": "Pueden existir pactos, copropiedad u otras acciones según los hechos y la normativa aplicable. No es una respuesta sobre prestaciones o derechos administrativos de parejas de hecho en Canarias.",
+      "references": [
+        {
+          "source": "cc",
+          "articles": "392, 609, 1255, 1344"
+        }
+      ],
+      "consult": "Consultar sobre la nueva pareja y los bienes",
+      "territory": "España, Derecho civil común",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 3,
+      "documentaryReview": "codex-verified"
+    }
+  ]
+}

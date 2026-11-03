@@ -1,0 +1,283 @@
+{
+  "slug": "penal",
+  "title": "En el banquillo",
+  "area": "Penal",
+  "hook": "Una denuncia, un mensaje, una pelea… ¿sabrías qué hacer?",
+  "intro": "Un expediente se abre. No hay culpables predeterminados: hay hechos que documentar, derechos que conocer y decisiones que conviene tomar con asistencia.",
+  "cta": "Consulta sobre denuncia, citación o defensa",
+  "character": "lumina",
+  "color": "#696b92",
+  "scene": "expediente",
+  "questions": [
+    {
+      "id": "penal-01",
+      "title": "La llamada de comisaría",
+      "situation": "Te llaman para acudir a comisaría por unos hechos y no explican si te citan como testigo o investigado. ¿Cuál es el paso adecuado?",
+      "options": [
+        "Acudir siempre como testigo.",
+        "Considerarse ya testigo porque no se ha recibido una imputación por escrito.",
+        "Verificar la citación y conocer si acude como testigo o investigado."
+      ],
+      "correct": 2,
+      "explanation": "La condición en que se te cita determina derechos y obligaciones. Una persona investigada tiene derecho de defensa y asistencia letrada en los términos legales.",
+      "nuance": "No se recomienda desatender una citación. Ser testigo, investigado o detenido no es lo mismo; pide información y conserva la comunicación.",
+      "references": [
+        {
+          "source": "lecrim",
+          "articles": "118, 410, 486"
+        }
+      ],
+      "consult": "Consultar sobre la llamada de comisaría",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 1,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "penal-02",
+      "title": "Antes de declarar",
+      "situation": "Una persona detenida es informada de los hechos atribuidos. Está nerviosa y duda si puede esperar al abogado antes de declarar. ¿Qué derecho tiene?",
+      "options": [
+        "Debe declarar antes de pedir abogado.",
+        "Solicitar abogado admite los hechos.",
+        "Puede guardar silencio y contar con asistencia letrada."
+      ],
+      "correct": 2,
+      "explanation": "La persona detenida tiene derechos de información, silencio, no autoincriminación y asistencia letrada. Ejercerlos no es una confesión.",
+      "nuance": "Existen reglas sobre comunicaciones, intérprete, asistencia médica y acceso a elementos esenciales. La asistencia no se reduce a estar presente al firmar.",
+      "references": [
+        {
+          "source": "lecrim",
+          "articles": "520"
+        }
+      ],
+      "consult": "Consultar sobre antes de declarar",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 1,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "penal-03",
+      "title": "La denuncia recibida",
+      "situation": "A Marcos le comunican que alguien le ha denunciado. No hay juicio ni sentencia. Un conocido le dice que ya tiene antecedentes por esos hechos. ¿Es correcto?",
+      "options": [
+        "Sí: la recepción de la denuncia equivale a una condena provisional.",
+        "No: una denuncia no es una condena ni genera por sí sola antecedentes penales.",
+        "Si aún no hay sentencia, ninguna citación del procedimiento requiere atención."
+      ],
+      "correct": 1,
+      "explanation": "Denunciar pone hechos en conocimiento de la autoridad; deben investigarse o tramitarse y acreditarse según corresponda. Existe presunción de inocencia.",
+      "nuance": "La ausencia de condena no elimina la necesidad de atender citaciones y plazos. Antecedentes penales y existencia de una investigación son conceptos diferentes.",
+      "references": [
+        {
+          "source": "ce",
+          "articles": "24.2"
+        },
+        {
+          "source": "lecrim",
+          "articles": "118, 741"
+        },
+        {
+          "source": "cp",
+          "articles": "136"
+        }
+      ],
+      "consult": "Consultar sobre la denuncia recibida",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 1,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "penal-04",
+      "title": "Los mensajes que asustan",
+      "situation": "Una expareja envía mensajes con amenazas concretas. La persona receptora teme por su seguridad. ¿Qué es prioritario?",
+      "options": [
+        "Priorizar la seguridad y conservar mensajes originales y contexto.",
+        "Solo conservar frases aisladas.",
+        "Esperar a recibir una amenaza presencial porque los mensajes nunca sirven de prueba."
+      ],
+      "correct": 0,
+      "explanation": "La seguridad es prioritaria; ante una emergencia se puede acudir al 112. Conservar mensajes originales, fechas y contexto ayuda a la investigación, sin garantizar una condena.",
+      "nuance": "Una captura puede ser útil, pero no sustituye siempre al original ni su comprobación. La calificación depende del contenido y contexto; no se exige responder o exponerse para obtener más pruebas.",
+      "references": [
+        {
+          "source": "cp",
+          "articles": "169–171"
+        },
+        {
+          "source": "lecrim",
+          "articles": "259, 282"
+        }
+      ],
+      "consult": "Consultar sobre los mensajes que asustan",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 2,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "penal-05",
+      "title": "Después de la agresión",
+      "situation": "Tras una agresión, Lucía tiene dolor y lesiones visibles. Está en un lugar seguro y quiere saber qué hacer. ¿Cuál es una respuesta adecuada?",
+      "options": [
+        "El parte garantiza indemnización.",
+        "Buscar asistencia sanitaria y documentar los hechos y lesiones.",
+        "Solo denuncia tras acabar tratamiento."
+      ],
+      "correct": 1,
+      "explanation": "La asistencia protege la salud y permite documentar lesiones. Conviene conservar informes y datos de testigos y comunicar los hechos por los cauces adecuados.",
+      "nuance": "La calificación depende, entre otros elementos, del tratamiento y circunstancias. Para ciertos delitos leves se exige denuncia de la persona agraviada; no todas las lesiones se tramitan igual.",
+      "references": [
+        {
+          "source": "cp",
+          "articles": "147–148"
+        },
+        {
+          "source": "lecrim",
+          "articles": "259, 282"
+        }
+      ],
+      "consult": "Consultar sobre después de la agresión",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 2,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "penal-06",
+      "title": "La imagen íntima",
+      "situation": "Una persona comparte sin autorización una imagen íntima de su expareja. La obtuvo con consentimiento en un ámbito privado, y difundirla menoscaba gravemente su intimidad. ¿Qué puede hacer la afectada?",
+      "options": [
+        "Puede pedir retirada y protección y denunciar, conservando evidencia sin difundirla.",
+        "Solo puede pedir retirada si nunca mantuvo una relación con quien la difundió.",
+        "El consentimiento a obtener la imagen incluye su difusión posterior sin límites."
+      ],
+      "correct": 0,
+      "explanation": "Consentir la obtención no equivale a autorizar difusión. El Código Penal contempla este supuesto con requisitos concretos.",
+      "nuance": "Pueden coexistir vías penales y de retirada de contenido. No se debe ampliar la difusión ni prometer una eliminación total de todas las copias.",
+      "references": [
+        {
+          "source": "cp",
+          "articles": "197.7"
+        }
+      ],
+      "consult": "Consultar sobre la imagen íntima",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 2,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "penal-07",
+      "title": "La transferencia de la estafa",
+      "situation": "Óscar ha transferido dinero por una falsa venta y descubre enseguida indicios de engaño. ¿Qué hace primero?",
+      "options": [
+        "Avisar inmediatamente al banco y conservar pruebas para denunciar.",
+        "Esperar a la resolución judicial.",
+        "Una vez enviada la transferencia, los justificantes ya no aportan nada a la investigación."
+      ],
+      "correct": 0,
+      "explanation": "La rapidez en avisar al banco puede ayudar a intentar frenar o recuperar la operación, sin garantía. Los justificantes, datos de la operación y comunicaciones son relevantes para investigar.",
+      "nuance": "No todo incumplimiento es estafa: hacen falta elementos de engaño y los demás requisitos penales. La denuncia no garantiza reintegro ni condena.",
+      "references": [
+        {
+          "source": "cp",
+          "articles": "248"
+        },
+        {
+          "source": "lecrim",
+          "articles": "259, 282"
+        }
+      ],
+      "consult": "Consultar sobre la transferencia de la estafa",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 2,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "penal-08",
+      "title": "El dinero confiado",
+      "situation": "Sara recibe dinero de un conocido exclusivamente para pagar una reserva en su nombre. En vez de hacerlo, se lo queda y niega haberlo recibido pese al justificante. ¿Debe descartarse un problema penal porque la entrega fue voluntaria?",
+      "options": [
+        "Toda entrega voluntaria excluye delito.",
+        "No: recibir legítimamente el dinero no excluye una apropiación posterior.",
+        "Todo préstamo vencido es apropiación."
+      ],
+      "correct": 1,
+      "explanation": "La apropiación indebida puede recaer sobre dinero o bienes recibidos legítimamente con obligación de entregarlos o devolverlos. No equivale a cualquier préstamo o deuda civil.",
+      "nuance": "La naturaleza del encargo, el destino y la conducta importan. Debe revisarse el caso antes de asignar una calificación o prometer una condena.",
+      "references": [
+        {
+          "source": "cp",
+          "articles": "253"
+        }
+      ],
+      "consult": "Consultar sobre el dinero confiado",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 3,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "penal-09",
+      "title": "«Puedes escribirme»",
+      "situation": "Existe una prohibición judicial de comunicación vigente y notificada. La persona protegida escribe e invita a responder. ¿Puede hacerlo quien tiene la prohibición?",
+      "options": [
+        "Sí: la persona protegida puede levantar la prohibición con un mensaje.",
+        "Puede responder una vez si conserva prueba de que le escribieron primero.",
+        "No: la prohibición sigue vigente hasta que se modifique judicialmente."
+      ],
+      "correct": 2,
+      "explanation": "La prohibición judicial sigue vigente mientras no se modifique por el órgano competente. El consentimiento o iniciativa de la persona protegida no autoriza por sí solo el contacto.",
+      "nuance": "Conserva el mensaje y consulta a tu defensa sin contestar. Cualquier necesidad debe canalizarse de forma legal; no se trata de buscar modos indirectos de contactar.",
+      "references": [
+        {
+          "source": "cp",
+          "articles": "48, 468"
+        }
+      ],
+      "consult": "Consultar sobre «puedes escribirme»",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 3,
+      "documentaryReview": "codex-verified"
+    },
+    {
+      "id": "penal-10",
+      "title": "Juicio por delito leve",
+      "situation": "Te citan como denunciado a un juicio por un delito leve que puede llevar multa cuyo límite máximo es de seis meses. ¿Puedes asumir que nunca necesitas abogado por ser leve?",
+      "options": [
+        "No: con un máximo de al menos seis meses rigen las reglas generales de defensa.",
+        "La excepción solo opera si el máximo supera seis meses; seis exactos no cuenta.",
+        "En todo delito leve la asistencia es opcional sin atender a la pena legal prevista."
+      ],
+      "correct": 0,
+      "explanation": "La Ley de Enjuiciamiento Criminal introduce esa excepción para delitos leves con multa de máximo al menos seis meses. Debe comprobarse el delito y la citación.",
+      "nuance": "En otros delitos leves puede no ser obligatoria la asistencia, pero resultar conveniente. No ignores la citación ni deduzcas la pena aplicable sin revisar el supuesto.",
+      "references": [
+        {
+          "source": "lecrim",
+          "articles": "967.1"
+        }
+      ],
+      "consult": "Consultar sobre juicio por delito leve",
+      "territory": "España; aplicable en Canarias en los términos del supuesto",
+      "verifiedDate": "2026-11-03",
+      "humanReview": "not-recorded",
+      "difficulty": 3,
+      "documentaryReview": "codex-verified"
+    }
+  ]
+}

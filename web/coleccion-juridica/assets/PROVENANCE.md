@@ -1,0 +1,1 @@
+Personajes y audio originales del proyecto iNavarro, copiados sin alterar la beta desde 603962045625c88fb25b1f9a8733e46d7313a96e. Motor media-files-v4. Música procedural original sin muestras de terceros; documentación de procedencia: docs/game/MUSIC-HOOK.md de esa rama. Escenarios SVG nuevos creados para la colección, sin recursos externos.

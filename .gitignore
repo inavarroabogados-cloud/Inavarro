@@ -1,3 +1,9 @@
 __pycache__/
 .env
 .env.*
+
+collection-preview-dist/
+
+# Generated portal output and extracted public assets
+dist/
+assets/

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "cc",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+    "checkedAt": "2026-11-03",
+    "status": 200,
+    "bytes": 3883476,
+    "sha256": "fe86ab6eca61de741f9cf1f3205697fb8373263975dbf935e1b22c1488024532"
+  },
+  {
+    "id": "lau",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003",
+    "checkedAt": "2026-11-03",
+    "status": 200,
+    "bytes": 535292,
+    "sha256": "c87fc9f97a640a31a414c10d0bff1d63bc1c6800e82cd177046a017bb6a2fcfc"
+  },
+  {
+    "id": "cp",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+    "checkedAt": "2026-11-03",
+    "status": 200,
+    "bytes": 2926564,
+    "sha256": "51dce466474ded08fc13244aced9ad2b8494b7e18f557ba26f3cb4127ff57ce1"
+  },
+  {
+    "id": "lecrim",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+    "checkedAt": "2026-11-03",
+    "status": 200,
+    "bytes": 2274925,
+    "sha256": "9826e6da3bad37a9839833e5eb1949a83a58d2ad7f9c58849b5b54460d0f1740"
+  },
+  {
+    "id": "consumo",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555",
+    "checkedAt": "2026-11-03",
+    "status": 200,
+    "bytes": 992658,
+    "sha256": "d1ce7a9ab3b4fd2f16015f7bb31d7ee7ee9b1017b102072ba439da7e4417d8e6"
+  },
+  {
+    "id": "ce",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+    "checkedAt": "2026-11-03",
+    "status": 200,
+    "bytes": 294958,
+    "sha256": "eccffb21575433c8ff16fffbe57ac9a2a2012da79364f15d19264a8e4c189ee5"
+  },
+  {
+    "id": "extranjeria",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544",
+    "checkedAt": "2026-11-03",
+    "status": 200,
+    "bytes": 729507,
+    "sha256": "6508271ec82c1ccc52731c3f4050a6b35426d098979872de094d7a51aa87555a"
+  },
+  {
+    "id": "regex",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099",
+    "checkedAt": "2026-11-03",
+    "status": 200,
+    "bytes": 1040895,
+    "sha256": "503afc50af547e0d5964b252190550a86bfab05f99950dac79d43396907b8d5f"
+  },
+  {
+    "id": "procedimiento",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+    "checkedAt": "2026-11-03",
+    "status": 200,
+    "bytes": 570929,
+    "sha256": "0861ca4bbbac9383419b8a918b72410e34f04a8c38365f4e44127a6c09190edd"
+  },
+  {
+    "id": "padron",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+    "checkedAt": "2026-11-03",
+    "status": 200,
+    "bytes": 1298747,
+    "sha256": "bd6b5989276f777cad8afc9b9c477ca0e273253cd48e50b5d708a4c223db23ee"
+  },
+  {
+    "id": "lec",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-323",
+    "checkedAt": "2026-11-03",
+    "status": 200,
+    "bytes": 4481132,
+    "sha256": "b44a7688d4ff07e4e1494de36f667346ee627694508088b5dff4aafa1a33a689"
+  },
+  {
+    "id": "masc",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-76",
+    "checkedAt": "2026-11-03",
+    "status": 200,
+    "bytes": 1758785,
+    "sha256": "d1a1e09bbf3c1cc2c43e31ce5b8a34aa0105f5140c42afe9f211aab992e0284f"
+  },
+  {
+    "id": "reforma_lau",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-20823",
+    "checkedAt": "2026-11-03",
+    "status": 200,
+    "bytes": 488166,
+    "sha256": "99df00b3c1d076dad12f61d0997fa52aa1efb2b9d77bba6b8208b1e3b9cd5af5"
+  }
+]

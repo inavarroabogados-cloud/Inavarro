@@ -1,0 +1,137 @@
+{
+  "checkedAt": "2026-11-01T23:33:37.267951+00:00",
+  "commit": "603962045625c88fb25b1f9a8733e46d7313a96e",
+  "files": [
+    {
+      "path": "esto-es-legal/index.html",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/game.js",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio.js",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/correct-low.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/correct-medium.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/correct.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/hint-low.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/hint-medium.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/hint.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/manifest.json",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/music-low.mp3",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/music-low.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/music-medium.mp3",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/music-medium.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/music.mp3",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/music.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/test-low.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/test-medium.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/test.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/victory-low.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/victory-medium.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/victory.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/wrong-low.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/wrong-medium.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    },
+    {
+      "path": "esto-es-legal/audio/wrong.wav",
+      "status": 200,
+      "matchesPublishedHash": true
+    }
+  ],
+  "unchanged": true,
+  "localBrowserSmoke": {
+    "decisions": 5,
+    "result": true,
+    "errors": []
+  }
+}

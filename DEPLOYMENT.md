@@ -1,13 +1,14 @@
 # Publicación verificable en Render
 
-## Estado real
+## Estado real — comprobado el 3 de noviembre de 2026
 
-- Servicio indicado por el titular: `inavarro-abogados`.
-- URL confirmada: https://inavarro-abogados.onrender.com.
-- Repositorio esperado según instrucciones y archivos: `inavarroabogados-cloud/Inavarro`, rama `main`.
-- `904d355c725c4b5e7068838c4e48fff1f0b1ad4f` verificado mediante Git en `origin/main`.
-- **La vinculación, los comandos y el autodespliegue configurados realmente en Render todavía no están verificados**: esta sesión no tiene integración Render ni `RENDER_API_KEY`, y su red actual no permite acceder al proveedor. No confundir el repositorio esperado con una lectura de la configuración del servicio.
-- No se ha iniciado ni confirmado un despliegue mediante API. Los anteriores pushes están confirmados como cambios en Git, no como despliegues terminados.
+Render MCP confirma el workspace autorizado `tea-db6a7t942hec73bg85jg` y el servicio de producción `srv-db6araad0e5s73a2524g` (`inavarro-abogados`): repositorio `inavarroabogados-cloud/Inavarro`, rama `main`, Static Site, raíz vacía, build `node deploy.mjs`, salida `dist`, autoDeploy activado por commit. La beta permanece en un servicio y rama distintos. La colección se instala en su montaje propio al final del build.
+
+El runner local `python3 ops/render.py inspect` requiere `RENDER_API_KEY`; su intento en esta sesión informó de que falta. Esto no bloquea el acceso: la integración MCP ya dispone de autorización suficiente. Se usa su lectura estructurada del servicio, despliegues y registros; no se solicita otra clave ni se presume una inspección local satisfactoria.
+
+Cuando un push autorizado a `main` inicia autoDeploy, se obtiene el ID de ese despliegue y se sigue hasta estado terminal, sin solicitar un segundo despliegue. Se revisan logs, `/deployment.json`, `/coleccion-juridica/version.json`, seis rutas y recursos, y las páginas existentes. El estado `live` por sí solo no se considera verificación.
+
+La sección siguiente documenta la alternativa con runner/API para otras sesiones que no dispongan de MCP; no es una petición de credenciales ni un requisito para usar la conexión ya disponible.
 
 ## Configuración segura, una sola vez
 
